@@ -37,14 +37,21 @@ class GemDownloads
 
   def update(store)
     timestamp = datetime
-    my_gems_by('name').each do |gem_name|
+    my_gems.each do |gem|
+      gem_name = gem['name']
+      dependencies = gem['dependencies']
+      info = gem['info']
+      url = gem['homepage_uri'] || gem['source_code_uri'] || gem['project_uri']
       store.transaction do
         store[gem_name] ||= {}
+        store[gem_name]['info'] = info
+        store[gem_name]['url'] = url
         gem_releases(gem_name).each do |gem_release|
           version, count = gem_release_attributes(gem_release, ['number', 'downloads_count'])
           store[gem_name][version] ||= {}
           store[gem_name][version][count] = timestamp
         end
+        store[gem_name]['dependencies'] = dependencies
       end
     end
   end

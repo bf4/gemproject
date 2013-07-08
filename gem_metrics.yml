@@ -1,112 +1,304 @@
 ---
 code_metrics:
   0.0.2:
-    64: '2013-07-08T15:04:50-05:00'
+    64: '2013-07-08T15:26:45-05:00'
   0.0.1:
-    74: '2013-07-08T15:04:50-05:00'
+    74: '2013-07-08T15:26:45-05:00'
+  info: rake stats is great for looking at statistics on your code, displaying things
+    like KLOCs (thousands of lines of code) and your code to test ratio.
+  https://github.com/bf4/code_metrics: https://github.com/bf4/code_metrics
+  dependencies:
+    development:
+    - name: rails
+      requirements: < 5.0, > 3.0
+    - name: sqlite3
+      requirements: ! '>= 0'
+    runtime: []
+  url: https://github.com/bf4/code_metrics
 metric_fu-Saikuro:
   1.1.1.0:
-    198: '2013-07-08T15:04:50-05:00'
+    198: '2013-07-08T15:26:45-05:00'
+  info: ! "When given Ruby\n  source code Saikuro will generate a report listing the
+    cyclomatic\n  complexity of each method found.  In addition, Saikuro counts the\n
+    \ number of lines per method and can generate a listing of the number of\n  tokens
+    on each line of code."
+  https://github.com/metricfu/Saikuro: https://github.com/metricfu/Saikuro
+  dependencies:
+    development: []
+    runtime: []
+  url: https://github.com/metricfu/Saikuro
 yui-rails:
   0.5.2:
-    169: '2013-07-08T15:04:50-05:00'
+    169: '2013-07-08T15:26:45-05:00'
   0.5.1:
-    136: '2013-07-08T15:04:50-05:00'
+    136: '2013-07-08T15:26:45-05:00'
   0.5.0:
-    154: '2013-07-08T15:04:50-05:00'
+    154: '2013-07-08T15:26:45-05:00'
   0.4.0:
-    273: '2013-07-08T15:04:50-05:00'
+    273: '2013-07-08T15:26:45-05:00'
   0.3.0:
-    337: '2013-07-08T15:04:50-05:00'
+    337: '2013-07-08T15:26:45-05:00'
   0.2.0:
-    252: '2013-07-08T15:04:50-05:00'
+    252: '2013-07-08T15:26:45-05:00'
   0.1.0:
-    1034: '2013-07-08T15:04:50-05:00'
+    1034: '2013-07-08T15:26:45-05:00'
+  info: ! 'Easy integration of YUI #{YUI::Rails::YUI_VERSION} with the Rails asset
+    pipeline.'
+  https://github.com/nextmat/yui-rails: https://github.com/nextmat/yui-rails
+  dependencies:
+    development: []
+    runtime:
+    - name: rails
+      requirements: ! '>= 3.1'
+  url: https://github.com/nextmat/yui-rails
 bf4-yui-rails:
   0.1.2:
-    280: '2013-07-08T15:04:50-05:00'
+    280: '2013-07-08T15:26:45-05:00'
+  info: Easy integration of YUI with the Rails asset pipeline.
+  https://github.com/nextmat/yui-rails: https://github.com/nextmat/yui-rails
+  dependencies:
+    development:
+    - name: rails
+      requirements: ~> 3.1
+    runtime: []
+  url: https://github.com/nextmat/yui-rails
 bf4-browsercms:
   3.1.0:
-    1306: '2013-07-08T15:04:50-05:00'
+    1306: '2013-07-08T15:26:45-05:00'
+  info: A fork that can be used as a gem with Bundler as the model Task has been changed
+    to Task_Item to remove a reserved word namespace issue in Rails. There is also
+    a corresponding bf4-bcms_news. You'll likely want to require active_support and
+    cms/init in your rails initializer.
+  http://www.browsercms.org: http://www.browsercms.org
+  dependencies:
+    development: []
+    runtime: []
+  url: http://www.browsercms.org
 bf4-bcms_news:
   1.1.0:
-    1355: '2013-07-08T15:04:50-05:00'
+    1355: '2013-07-08T15:26:45-05:00'
+  info: The News Module for BrowserCMS. Fork along with bf4-browsercms to use better
+    namespace for Task model, now Task Item.  When using as a gem, require 'bcms_news/routes'
+  http://browsercms.org: http://browsercms.org
+  dependencies:
+    development: []
+    runtime: []
+  url: http://browsercms.org
 bf4-metric_fu:
   2.1.3.4:
-    684: '2013-07-08T15:04:50-05:00'
+    684: '2013-07-08T15:26:45-05:00'
   2.1.3.3:
-    603: '2013-07-08T15:04:50-05:00'
+    603: '2013-07-08T15:26:45-05:00'
   2.1.3.2:
-    545: '2013-07-08T15:04:50-05:00'
+    545: '2013-07-08T15:26:45-05:00'
   2.1.3.1:
-    585: '2013-07-08T15:04:50-05:00'
+    585: '2013-07-08T15:26:45-05:00'
+  info: Code metrics from Flog, Flay, Simplecov-RCov, Saikuro, Churn, Reek, Roodi,
+    Rails' stats task and Rails Best Practices
+  http://github.com/bf4/metric_fu: http://github.com/bf4/metric_fu
+  dependencies:
+    development:
+    - name: googlecharts
+      requirements: ! '>= 0'
+    - name: rake
+      requirements: ! '>= 0'
+    - name: rspec
+      requirements: = 1.3.0
+    - name: test-construct
+      requirements: ! '>= 1.2.0'
+    runtime:
+    - name: activesupport
+      requirements: ! '>= 2.0.0'
+    - name: arrayfields
+      requirements: = 4.7.4
+    - name: bluff
+      requirements: ! '>= 0'
+    - name: chronic
+      requirements: = 0.2.3
+    - name: churn
+      requirements: = 0.0.7
+    - name: coderay
+      requirements: ! '>= 0'
+    - name: fattr
+      requirements: = 2.2.1
+    - name: flay
+      requirements: = 1.2.1
+    - name: flog
+      requirements: = 2.3.0
+    - name: googlecharts
+      requirements: ! '>= 0'
+    - name: main
+      requirements: = 4.7.1
+    - name: map
+      requirements: = 6.2.0
+    - name: rails_best_practices
+      requirements: ~> 0.6
+    - name: rcov
+      requirements: ~> 0.8
+    - name: reek
+      requirements: = 1.2.12
+    - name: ripper
+      requirements: = 1.0.5
+    - name: roodi
+      requirements: = 2.1.0
+    - name: Saikuro
+      requirements: = 1.1.0
+    - name: sexp_processor
+      requirements: ~> 3.0.3
+  url: http://github.com/bf4/metric_fu
 bf4-metrical:
   0.1.1:
-    595: '2013-07-08T15:04:50-05:00'
+    595: '2013-07-08T15:26:45-05:00'
+  info: MetricFu is awesome! The only problem is that it's kinda obtrusive. Metrical
+    provides a executable so you can run metric fu on any project without making changes
+    to the project.
+  https://github.com/iain/metrical: https://github.com/iain/metrical
+  dependencies:
+    development:
+    - name: rspec
+      requirements: ~> 2.8
+    runtime:
+    - name: bf4-metric_fu
+      requirements: ~> 2.1.3.1
+    - name: rcov
+      requirements: ~> 0.9
+  url: https://github.com/iain/metrical
 metric_fu:
   4.2.1:
     2207: '2013-07-08T15:04:50-05:00'
+    2208: '2013-07-08T15:26:45-05:00'
   4.2.0:
-    278: '2013-07-08T15:04:50-05:00'
+    278: '2013-07-08T15:26:45-05:00'
   4.1.3:
-    416: '2013-07-08T15:04:50-05:00'
+    416: '2013-07-08T15:26:45-05:00'
   4.1.2:
-    2006: '2013-07-08T15:04:50-05:00'
+    2006: '2013-07-08T15:26:45-05:00'
   4.1.1:
-    214: '2013-07-08T15:04:50-05:00'
+    214: '2013-07-08T15:26:45-05:00'
   4.1.0:
-    1667: '2013-07-08T15:04:50-05:00'
+    1667: '2013-07-08T15:26:45-05:00'
   4.0.0:
-    309: '2013-07-08T15:04:50-05:00'
+    309: '2013-07-08T15:26:45-05:00'
   3.0.1:
     887: '2013-07-08T15:04:50-05:00'
+    890: '2013-07-08T15:26:45-05:00'
   3.0.0:
-    1784: '2013-07-08T15:04:50-05:00'
+    1784: '2013-07-08T15:26:45-05:00'
   2.1.4.pre5:
-    93: '2013-07-08T15:04:50-05:00'
+    93: '2013-07-08T15:26:45-05:00'
   2.1.4.pre4:
-    83: '2013-07-08T15:04:50-05:00'
+    83: '2013-07-08T15:26:45-05:00'
   2.1.4.pre2:
-    79: '2013-07-08T15:04:50-05:00'
+    79: '2013-07-08T15:26:45-05:00'
   2.1.4.pre:
-    77: '2013-07-08T15:04:50-05:00'
+    77: '2013-07-08T15:26:45-05:00'
   2.1.3.7.18.1:
-    329: '2013-07-08T15:04:50-05:00'
+    329: '2013-07-08T15:26:45-05:00'
   2.1.3.7.19:
     4791: '2013-07-08T15:04:50-05:00'
+    4795: '2013-07-08T15:26:45-05:00'
   2.1.3.6:
-    348: '2013-07-08T15:04:50-05:00'
+    348: '2013-07-08T15:26:45-05:00'
   2.1.3.5:
-    327: '2013-07-08T15:04:50-05:00'
+    327: '2013-07-08T15:26:45-05:00'
   2.1.3.4:
-    697: '2013-07-08T15:04:50-05:00'
+    697: '2013-07-08T15:26:45-05:00'
   2.1.1:
     95459: '2013-07-08T15:04:50-05:00'
+    95460: '2013-07-08T15:26:45-05:00'
   2.1.0:
-    1757: '2013-07-08T15:04:50-05:00'
+    1757: '2013-07-08T15:26:45-05:00'
   2.0.1:
-    24603: '2013-07-08T15:04:50-05:00'
+    24603: '2013-07-08T15:26:45-05:00'
   2.0.0:
-    1948: '2013-07-08T15:04:50-05:00'
+    1948: '2013-07-08T15:26:45-05:00'
   1.5.1:
-    24824: '2013-07-08T15:04:50-05:00'
+    24824: '2013-07-08T15:26:45-05:00'
   1.5.0:
-    1252: '2013-07-08T15:04:50-05:00'
+    1252: '2013-07-08T15:26:45-05:00'
   1.4.0:
-    4490: '2013-07-08T15:04:50-05:00'
+    4490: '2013-07-08T15:26:45-05:00'
   1.3.0:
-    17603: '2013-07-08T15:04:50-05:00'
+    17603: '2013-07-08T15:26:45-05:00'
   1.2.0:
-    3632: '2013-07-08T15:04:50-05:00'
+    3632: '2013-07-08T15:26:45-05:00'
   1.1.6:
-    2989: '2013-07-08T15:04:50-05:00'
+    2989: '2013-07-08T15:26:45-05:00'
   1.1.5:
-    3222: '2013-07-08T15:04:50-05:00'
+    3222: '2013-07-08T15:26:45-05:00'
+  info: Code metrics from Flog, Flay, Saikuro, Churn, Reek, Roodi, Rails' stats task
+    and Rails Best Practices, and optionally RCov
+  https://github.com/metricfu/metric_fu: https://github.com/metricfu/metric_fu
+  dependencies:
+    development: []
+    runtime:
+    - name: arrayfields
+      requirements: = 4.7.4
+    - name: bluff
+      requirements: ! '>= 0'
+    - name: cane
+      requirements: = 2.5.2
+    - name: churn
+      requirements: = 0.0.28
+    - name: coderay
+      requirements: ! '>= 0'
+    - name: fattr
+      requirements: = 2.2.1
+    - name: flay
+      requirements: = 2.0.1
+    - name: flog
+      requirements: = 3.2.2
+    - name: japgolly-Saikuro
+      requirements: ! '>= 1.1.1.0'
+    - name: map
+      requirements: = 6.2.0
+    - name: metric_fu-roodi
+      requirements: ! '>= 2.2.1'
+    - name: multi_json
+      requirements: ! '>= 0'
+    - name: parallel
+      requirements: = 0.6.2
+    - name: rails_best_practices
+      requirements: = 1.13.2
+    - name: redcard
+      requirements: ! '>= 0'
+    - name: reek
+      requirements: = 1.3.1
+    - name: ruby2ruby
+      requirements: ! '>= 2.0.2, ~> 2.0'
+    - name: ruby_parser
+      requirements: ! '>= 3.1.1, ~> 3.0'
+    - name: sexp_processor
+      requirements: ~> 4.0
+  url: https://github.com/metricfu/metric_fu
 metric_fu-roodi:
   2.2.1:
     17228: '2013-07-08T15:04:50-05:00'
+    17236: '2013-07-08T15:26:45-05:00'
   2.2.0:
-    2425: '2013-07-08T15:04:50-05:00'
+    2425: '2013-07-08T15:26:45-05:00'
+  info: Roodi stands for Ruby Object Oriented Design Inferometer
+  http://github.com/metricfu/roodi: http://github.com/metricfu/roodi
+  dependencies:
+    development: []
+    runtime:
+    - name: ruby_parser
+      requirements: ! '>= 0'
+  url: http://github.com/metricfu/roodi
 metric_fu-metrical:
   0.1.1:
-    374: '2013-07-08T15:04:50-05:00'
+    374: '2013-07-08T15:26:45-05:00'
+  info: MetricFu is awesome! The only problem is that it's kinda obtrusive. Metrical
+    provides a executable so you can run metric fu on any project without making changes
+    to the project.
+  https://github.com/iain/metrical: https://github.com/iain/metrical
+  dependencies:
+    development:
+    - name: rspec
+      requirements: ~> 2.8
+    runtime:
+    - name: metric_fu
+      requirements: ! '> 2.1.3.6'
+    - name: rcov
+      requirements: ~> 0.9
+  url: https://github.com/iain/metrical
