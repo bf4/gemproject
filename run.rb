@@ -32,7 +32,7 @@ class GemDownloads
   end
 
   def datetime
-    p Time.now.xmlschema
+    p Time.now.utc.xmlschema
   end
 
   def update(store)
@@ -47,9 +47,13 @@ class GemDownloads
         store[gem_name]['info'] = info
         store[gem_name]['url'] = url
         gem_releases(gem_name).each do |gem_release|
-          version, count = gem_release_attributes(gem_release, ['number', 'downloads_count'])
+          version =  gem_release['number']
+          count =       gem_release['downloads_count']
+          build_date =  gem_release['built_at']
           store[gem_name][version] ||= {}
-          store[gem_name][version][count] = timestamp
+          store[gem_name][version]['build_date'] = build_date
+          store[gem_name][version]['downloads'] ||= {}
+          store[gem_name][version]['downloads'][count] = timestamp
         end
         store[gem_name]['dependencies'] = dependencies
       end
