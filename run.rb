@@ -11,20 +11,32 @@ class GemDownloads
   # Gems.dependencies ['metric_fu']
   # TypeError: incompatible marshal file format (can't be read)
   # Gems.total_downloads 'metric_fu'
-  def my_gems
-    gems ||= Gems.gems
-  end
-
+  #
   # ["name", "downloads", "version", "version_downloads", "platform", "authors", "info", "project_uri", "gem_uri", "homepage_uri", "wiki_uri", "documentation_uri", "mailing_list_uri", "source_code_uri", "bug_tracker_uri", "dependencies"]
-  def my_gems_by(key)
-    my_gems.map {|gem| gem[key.to_s] }
+  def my_gems
+    @gems ||= Gems.gems # implicit is my credentials
   end
+  #see Gems.search, yank, unyank, owners
+  # .total_downlods, name, version
+  # Gems.downloads name, version, [daterange] # number of downloads by day
+
+  def gems
+    my_gems.concat(extra_gems).
+      reject {|gem| rejected_gems.include?(gem['name']) }
+  end
+  # ["authors", "built_at", "description", "downloads_count", "number", "summary", "platform", "prerelease", "licenses"]
   def gem_releases(gem_name)
     Gems.versions(gem_name)
   end
-  # ["authors", "built_at", "description", "downloads_count", "number", "summary", "platform", "prerelease", "licenses"]
-  def gem_release_attributes(gem_release, args)
-    args.map {|arg| gem_release[arg.to_s] }
+
+  def extra_gems
+    %w(reek ruby_parser rails_best_practices flog flay cane churn turbulence).map do |gem_name|
+      Gems.info(gem_name)
+    end
+  end
+
+  def rejected_gems
+    @rejected_gems ||= %w(bf4-metrical bf4-metric_fu bf4-yui-rails bf4-browsercms bf4-bcms_news)
   end
 
   def store(name = 'gem_metrics.yml')
@@ -37,7 +49,7 @@ class GemDownloads
 
   def update(store)
     timestamp = datetime
-    my_gems.each do |gem|
+    gems.each do |gem|
       gem_name = gem['name']
       dependencies = gem['dependencies']
       info = gem['info']
