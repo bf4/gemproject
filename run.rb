@@ -71,7 +71,7 @@ class GemDownloads
   end
   def gems
     my_gems.concat(extra_gems).
-      reject {|gem| rejected_gems.include?(gem['name']) }
+      reject! {|gem| rejected_gems.include?(gem['name']) }
   end
   # ["authors", "built_at", "description", "downloads_count", "number", "summary", "platform", "prerelease", "licenses"]
   def gem_releases(gem_name)
@@ -109,7 +109,9 @@ class GemDownloads
   def update(store)
     timestamp = datetime
     gems.each do |gem|
+      puts
       gem_name = gem['name']
+      print gem_name
       dependencies = gem['dependencies']
       info = gem['info']
       url = gem['homepage_uri'] || gem['source_code_uri'] || gem['project_uri']
@@ -119,8 +121,10 @@ class GemDownloads
         store[gem_name]['url'] = url
         gem_releases(gem_name).each do |gem_release|
           version =  gem_release['number']
+          print " #{version}"
           count =       gem_release['downloads_count']
           build_date =  gem_release['built_at']
+          @logger.info "Updating downloads for #{gem_name} version #{version} built at #{build_date} to #{count} on #{timestamp}"
           store[gem_name][version] ||= {}
           store[gem_name][version]['build_date'] = build_date
           store[gem_name][version]['downloads'] ||= {}
