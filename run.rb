@@ -31,10 +31,12 @@ class GemDownloads
     @result = {}
     puts
     print gem_name
+    gem  = Gems.info(gem_name)
+    @result['urls'] = [gem['homepage_uri'], gem['source_code_uri'], gem['project_uri']]
+    @result['authors'] ||= gem['authors']
      gem_releases(gem_name).map do |release|
        # let's see which updated gems don't have licenses
        @result['license'] ||= release['licenses']
-       @result['authors'] ||= release['authors']
        version = release['number']
        print " #{version}"
        @result[version] ||= {}
