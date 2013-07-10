@@ -1,14 +1,21 @@
 ---
 ! '': {}
 quandl_operation:
+  urls:
+  - http://blake.hilscher.ca/
+  - 
+  - http://rubygems.org/gems/quandl_operation
+  authors: Blkae Hilscher
+  license:
+  - MIT
   0.0.11:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 4
+      '2013-07-10': 18
   0.0.10:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 8
+      '2013-07-10': 16
   0.0.8:
     built_at: '2013-06-20T00:00:00Z'
     downloads:
@@ -186,19 +193,31 @@ quandl_operation:
       '2013-07-09': 1
       '2013-07-10': 2
 quandl_logger:
+  urls:
+  - http://blake.hilscher.ca/
+  - 
+  - http://rubygems.org/gems/quandl_logger
+  authors: Blkae Hilscher
+  license:
+  - MIT
   0.0.3:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 5
+      '2013-07-10': 20
   0.0.2:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 8
+      '2013-07-10': 16
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 7
+      '2013-07-10': 16
 axlsx-rails2:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/axlsx-rails2
+  authors: Vasiliy Yorkin
   license:
   - MIT
   0.0.1:
@@ -206,6 +225,11 @@ axlsx-rails2:
     downloads:
       '2013-07-10': 14
 framingham:
+  urls:
+  - 
+  - https://github.com/3poundhealth/framingham
+  - http://rubygems.org/gems/framingham
+  authors: ''
   license:
   - MIT
   '0':
@@ -213,6 +237,11 @@ framingham:
     downloads:
       '2013-07-10': 16
 my_enginery:
+  urls:
+  - https://github.com/espresso/enginery
+  - 
+  - http://rubygems.org/gems/my_enginery
+  authors: Walter Smith
   license:
   - MIT
   0.2.8:
@@ -220,18 +249,33 @@ my_enginery:
     downloads:
       '2013-07-10': 20
 merging-queue:
+  urls:
+  - https://github.com/digitalplaywright/merging-queue
+  - 
+  - http://rubygems.org/gems/merging-queue
+  authors: Andreas Saebjoernsen
   license: []
   0.1.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 17
 csv-machine:
+  urls:
+  - https://github.com/drfeelngood/csv-machine
+  - 
+  - http://rubygems.org/gems/csv-machine
+  authors: Daniel Johnston
   license: []
   1.0.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 19
 treasuryio:
+  urls:
+  - http://treasury.io
+  - 
+  - http://rubygems.org/gems/treasuryio
+  authors: Thomas Levine
   license:
   - MIT
   0.0.1:
@@ -239,6 +283,11 @@ treasuryio:
     downloads:
       '2013-07-10': 19
 title:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/title
+  authors: Caleb Thompson
   license:
   - MIT
   0.0.1:
@@ -246,204 +295,467 @@ title:
     downloads:
       '2013-07-10': 20
 flash_rails_messages:
+  urls:
+  - https://github.com/alejandrogutierrez/flash_rails_messages
+  - 
+  - http://rubygems.org/gems/flash_rails_messages
+  authors: Alejandro Gutiérrez
+  license:
+  - MIT
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 17
+      '2013-07-10': 18
 form_slider:
+  urls:
+  - https://github.com/Yud/form_slider
+  - 
+  - http://rubygems.org/gems/form_slider
+  authors: Izhar Gavish
+  license: []
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 17
+      '2013-07-10': 18
 rails_responsive_rater:
+  urls:
+  - https://github.com/swalke16/rails_responsive_rater
+  - 
+  - http://rubygems.org/gems/rails_responsive_rater
+  authors: Scott Walker, Derek Briggs
+  license: []
   0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 19
-vagrant-shell-commander:
-  0.1.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 21
-bmrace:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 19
-social_poster:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 24
-salad-conf:
+vagrant-shell-commander:
+  urls:
+  - https://github.com/fgimenez/vagrant-shell-commander
+  - 
+  - http://rubygems.org/gems/vagrant-shell-commander
+  authors: Federico Gimenez Nieto
+  license:
+  - MIT
   0.1.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 22
-after_do:
-  0.1.0:
+bmrace:
+  urls:
+  - https://github.com/myokoym/bmrace
+  - ''
+  - http://rubygems.org/gems/bmrace
+  authors: Masafumi Yokoyama
+  license:
+  - MIT
+  0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 27
-leo-model:
+      '2013-07-10': 21
+social_poster:
+  urls:
+  - https://github.com/HeeL/social_poster
+  - 
+  - http://rubygems.org/gems/social_poster
+  authors: HeeL
+  license: []
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 26
-leo:
+salad-conf:
+  urls:
+  - 
+  - 
+  - http://rubygems.org/gems/salad-conf
+  authors: Jody Salt
+  license: []
+  0.1.0:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 24
+after_do:
+  urls:
+  - https://github.com/PragTob/after_do
+  - 
+  - http://rubygems.org/gems/after_do
+  authors: Tobias Pfeiffer
+  license:
+  - MIT
+  0.1.0:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 29
+leo-model:
+  urls:
+  - https://github.com/laMarciana/leo-model
+  - 
+  - http://rubygems.org/gems/leo-model
+  authors: marc
+  license:
+  - GPL3
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 28
+leo:
+  urls:
+  - https://github.com/laMarciana/leo
+  - 
+  - http://rubygems.org/gems/leo
+  authors: marc
+  license:
+  - GPL3
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 30
 botemon:
+  urls:
+  - http://www.giovannicapuano.net
+  - https://github.com/RoxasShadow/Botemon
+  - http://rubygems.org/gems/botemon
+  authors: Giovanni Capuano
+  license: []
   0.2.3:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 24
+      '2013-07-10': 25
 cinch-login:
+  urls:
+  - http://www.giovannicapuano.net
+  - https://github.com/RoxasShadow/cinch-login
+  - http://rubygems.org/gems/cinch-login
+  authors: Giovanni Capuano
+  license: []
   '0.1':
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 26
+      '2013-07-10': 27
 salad-web_interface_generators:
+  urls:
+  - 
+  - 
+  - http://rubygems.org/gems/salad-web_interface_generators
+  authors: Jody Salt
+  license: []
   0.1.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 24
+      '2013-07-10': 25
 energizer_bunny:
+  urls:
+  - http://github.com/trunkclub/energizer_bunny
+  - 
+  - http://rubygems.org/gems/energizer_bunny
+  authors: Joel Friedman
+  license:
+  - MIT
   0.3.0:
     built_at: '2013-05-14T00:00:00Z'
     downloads:
       error: This rubygem could not be found.
 hideable:
+  urls:
+  - http://rubygems.org/gems/hideable
+  - https://github.com/joecorcoran/hideable
+  - http://rubygems.org/gems/hideable
+  authors: Joe Corcoran
+  license: []
   0.1.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 25
+      '2013-07-10': 27
 ascii-tracker:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/ascii-tracker
+  authors: dirk lüsebrink
+  license:
+  - MIT
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 26
+      '2013-07-10': 27
 sassy_list:
+  urls:
+  - http://simon-davies.name
+  - 
+  - http://rubygems.org/gems/sassy_list
+  authors: Simon Davies
+  license: []
   0.0.1:
     built_at: '2013-07-09T23:00:00Z'
     downloads:
-      '2013-07-10': 32
+      '2013-07-10': 33
 either:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 31
-write_xlsx_rails:
+  urls:
+  - http://github.com/rsslldnphy/either
+  - 
+  - http://rubygems.org/gems/either
+  authors: Russell Dunphy
+  license: []
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 33
+write_xlsx_rails:
+  urls:
+  - https://github.com/maxd/write_xlsx_rails
+  - https://github.com/maxd/write_xlsx_rails
+  - http://rubygems.org/gems/write_xlsx_rails
+  authors: Maxim Dobryakov
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 35
 stardust_zhublik:
+  urls:
+  - 
+  - 
+  - http://rubygems.org/gems/stardust_zhublik
+  authors: Dima Mescheryakov
+  license: []
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 29
-resolve-dns-cached: {}
+      '2013-07-10': 30
+resolve-dns-cached:
+  urls:
+  - 
+  - 
+  - 
+  authors: 
 statlysis:
+  urls:
+  - https://github.com/eoecn/statlysis
+  - 
+  - http://rubygems.org/gems/statlysis
+  authors: David Chen
+  license: []
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 31
+      '2013-07-10': 33
 api_doc_generation:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/api_doc_generation
+  authors: jiangzhi.xie
+  license:
+  - MIT
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 44
+      '2013-07-10': 46
 uploadr:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/uploadr
+  authors: Dan Ryan
+  license:
+  - MIT
   0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 44
-backgridjs-rails:
-  0.2.6:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 45
+backgridjs-rails:
+  urls:
+  - https://github.com/btrepp/backgridjs-rails
+  - 
+  - http://rubygems.org/gems/backgridjs-rails
+  authors: Beau Trepp
+  license: []
+  0.2.6:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 46
 nie_easy_table:
+  urls:
+  - http://github.com/niedhui/easy_table
+  - 
+  - http://rubygems.org/gems/nie_easy_table
+  authors: Dianhui Nie
+  license:
+  - MIT
   0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 46
-simple_images:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 44
-number_grid:
-  0.0.1:
-    built_at: '2010-04-28T00:00:00Z'
-    downloads:
-      '2013-07-10': 50
-backbone-filtered-collection:
-  1.0.0:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 47
-varys:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 49
-whiches:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 46
-backbone-rails-pageable:
-  1.3.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 48
+simple_images:
+  urls:
+  - https://github.com/kainage/simple_images
+  - 
+  - http://rubygems.org/gems/simple_images
+  authors: Kainage
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 47
+number_grid:
+  urls:
+  - http://rubygems.org/gems/number_grid
+  - https://github.com/adamgibbons/number_grid
+  - http://rubygems.org/gems/number_grid
+  authors: Adam Gibbons
+  license: []
+  0.0.1:
+    built_at: '2010-04-28T00:00:00Z'
+    downloads:
+      '2013-07-10': 52
+backbone-filtered-collection:
+  urls:
+  - http://github.com/dlikhten/filtered-collection
+  - 
+  - http://rubygems.org/gems/backbone-filtered-collection
+  authors: Dmitriy Likhten
+  license:
+  - MIT
+  1.0.0:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 48
+varys:
+  urls:
+  - https://github.com/forresty/varys
+  - 
+  - http://rubygems.org/gems/varys
+  authors: Forrest Ye
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 50
+whiches:
+  urls:
+  - https://github.com/simplytech/whiches
+  - https://github.com/simplytech/whiches
+  - http://rubygems.org/gems/whiches
+  authors: Alain Achkar
+  license: []
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 47
+backbone-rails-pageable:
+  urls:
+  - https://github.com/btrepp/backbone-rails-pageable
+  - 
+  - http://rubygems.org/gems/backbone-rails-pageable
+  authors: Beau Trepp
+  license: []
+  1.3.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 49
 tagsinput-rails:
+  urls:
+  - http://github.com/greshny/tagsinput-rails/
+  - 
+  - http://rubygems.org/gems/tagsinput-rails
+  authors: Roman Greshny
+  license:
+  - MIT
   1.3.3.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 52
+      '2013-07-10': 53
 minispec-given:
+  urls:
+  - http://github.com/jimweirich/rspec-given
+  - 
+  - http://rubygems.org/gems/minispec-given
+  authors: Jim Weirich
+  license:
+  - MIT
   3.0.0.beta.2:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 2
       '2013-07-10': 23
 vowelremoval:
+  urls:
+  - 
+  - https://github.com/fluorine/vowelremoval-gem
+  - http://rubygems.org/gems/vowelremoval
+  authors: Joseph (fluorine@GitHub)
+  license: []
   0.0.1:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 9
-      '2013-07-10': 50
+      '2013-07-10': 51
 next:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/next
+  authors: ! '...'
+  license:
+  - MIT
   0.0.0:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 20
-      '2013-07-10': 41
+      '2013-07-10': 42
 aero:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/aero
+  authors: ! '...'
+  license:
+  - MIT
   0.0.0:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 14
-      '2013-07-10': 40
+      '2013-07-10': 42
 computering:
+  urls:
+  - https://github.com/phoet/computering
+  - 
+  - http://rubygems.org/gems/computering
+  authors: Peter Schröder
+  license: []
   0.0.1:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 19
-      '2013-07-10': 41
-cericksen_foo: {}
-atti-ipauth: {}
+      '2013-07-10': 43
+cericksen_foo:
+  urls:
+  - 
+  - 
+  - 
+  authors: 
+atti-ipauth:
+  urls:
+  - 
+  - 
+  - 
+  authors: 
 vector:
+  urls:
+  - http://github.com/instructure/vector
+  - 
+  - http://rubygems.org/gems/vector
+  authors: Zach Wily
+  license:
+  - MIT
   0.0.1:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 25
-      '2013-07-10': 38
+      '2013-07-10': 39
 lionel_richie:
   0.0.1:
     built_at: '2013-07-09T00:00:00Z'
@@ -457,10 +769,16 @@ hola_pszals:
       '2013-07-09': 26
       '2013-07-10': 39
 ruby-resty:
+  urls:
+  - ''
+  - https://github.com/austenito/ruby-resty
+  - http://rubygems.org/gems/ruby-resty
+  authors: Austen Ito
+  license: []
   0.2.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 3
+      '2013-07-10': 16
   0.1.0:
     built_at: '2013-07-04T00:00:00Z'
     downloads:
@@ -470,7 +788,7 @@ ruby-resty:
       '2013-07-07': 3
       '2013-07-08': 4
       '2013-07-09': 2
-      '2013-07-10': 3
+      '2013-07-10': 4
   0.0.1.pre:
     built_at: '2013-07-01T00:00:00Z'
     downloads:
@@ -479,11 +797,18 @@ ruby-resty:
       '2013-07-03': 3
       '2013-07-04': 2
       '2013-07-09': 1
+      '2013-07-10': 1
 occi-core:
+  urls:
+  - https://github.com/gwdg/rOCCI-core
+  - 
+  - http://rubygems.org/gems/occi-core
+  authors: Florian Feldhaus, Piotr Kasprzak, Boris Parak
+  license: []
   4.0.0.alpha.2:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 2
+      '2013-07-10': 16
   4.0.0.alpha.1:
     built_at: '2013-07-05T00:00:00Z'
     downloads:
@@ -491,20 +816,31 @@ occi-core:
       '2013-07-06': 13
       '2013-07-07': 2
       '2013-07-09': 29
-      '2013-07-10': 9
+      '2013-07-10': 10
 errplane:
+  urls:
+  - http://errplane.com
+  - 
+  - http://rubygems.org/gems/errplane
+  authors: Todd Persen
+  license:
+  - MIT
+  1.0.5:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 4
   1.0.4:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 8
+      '2013-07-10': 18
   1.0.3:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 10
+      '2013-07-10': 18
   1.0.2:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 52
+      '2013-07-10': 53
   1.0.1:
     built_at: '2013-07-05T00:00:00Z'
     downloads:
@@ -708,7 +1044,7 @@ errplane:
       '2013-07-06': 3
       '2013-07-08': 21
       '2013-07-09': 9
-      '2013-07-10': 2
+      '2013-07-10': 6
   0.6.6:
     built_at: '2013-03-20T00:00:00Z'
     downloads:
@@ -4202,10 +4538,17 @@ errplane:
       '2013-07-08': 1
       '2013-07-09': 1
 dogstatsd-ruby:
+  urls:
+  - http://github.com/datadog/dogstatsd-ruby
+  - 
+  - http://rubygems.org/gems/dogstatsd-ruby
+  authors: Rein Henrichs
+  license:
+  - MIT
   1.2.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 6
+      '2013-07-10': 15
   1.1.0:
     built_at: '2012-09-21T00:00:00Z'
     downloads:
@@ -4296,7 +4639,7 @@ dogstatsd-ruby:
       '2013-07-07': 40
       '2013-07-08': 76
       '2013-07-09': 46
-      '2013-07-10': 29
+      '2013-07-10': 31
   0.4.0:
     built_at: '2012-06-14T00:00:00Z'
     downloads:
@@ -4351,11 +4694,19 @@ dogstatsd-ruby:
       '2013-07-06': 2
       '2013-07-08': 1
       '2013-07-09': 2
+      '2013-07-10': 1
 uploadbox:
+  urls:
+  - https://github.com/startae/uploadbox
+  - 
+  - http://rubygems.org/gems/uploadbox
+  authors: Julio Protzek, Renato Carvalho
+  license:
+  - MIT
   0.0.3:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 10
+      '2013-07-10': 21
   0.0.2:
     built_at: '2013-06-29T00:00:00Z'
     downloads:
@@ -4383,20 +4734,33 @@ uploadbox:
       '2013-07-09': 2
       '2013-07-10': 2
 junos-space-api:
+  urls:
+  - https://github.com/scottdware/junos-ruby-space-api
+  - 
+  - http://rubygems.org/gems/junos-space-api
+  authors: Scott Ware
+  license:
+  - MIT
   0.2.2:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 7
+      '2013-07-10': 17
   0.2.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 28
+      '2013-07-10': 29
   0.2.0:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 25
-      '2013-07-10': 40
+      '2013-07-10': 41
 cross_platform_csproj:
+  urls:
+  - http://github.com/markslwong/CrossPlatformCSProj
+  - 
+  - http://rubygems.org/gems/cross_platform_csproj
+  authors: Tyler Hamilton, Mark Wong
+  license: []
   0.1.0:
     built_at: '2013-03-01T08:00:00Z'
     downloads:
@@ -4846,20 +5210,30 @@ cross_platform_csproj:
       '2013-07-09': 2
       '2013-07-10': 1
 chronic_cron:
-  0.2.11:
+  urls:
+  - 
+  - 
+  - http://rubygems.org/gems/chronic_cron
+  authors: James Robertson
+  license: []
+  0.2.12:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 9
+  0.2.11:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 16
   0.2.10:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 24
-      '2013-07-10': 39
+      '2013-07-10': 40
   0.2.9:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 20
-      '2013-07-10': 41
+      '2013-07-10': 42
   0.2.8:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
@@ -5086,10 +5460,17 @@ chronic_cron:
       '2013-07-09': 2
       '2013-07-10': 1
 spout:
+  urls:
+  - https://github.com/sleepepi
+  - 
+  - http://rubygems.org/gems/spout
+  authors: Remo Mueller
+  license:
+  - CC BY-NC-SA 3.0
   0.3.0.rc4:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 6
+      '2013-07-10': 10
   0.3.0.rc3:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
@@ -5253,10 +5634,16 @@ spout:
       '2013-07-02': 1
       '2013-07-04': 1
 minimalist_authentication:
+  urls:
+  - https://github.com/wwidea/minimalist_authentication
+  - 
+  - http://rubygems.org/gems/minimalist_authentication
+  authors: Aaron Baldwin, Jonathan S. Garvin, WWIDEA, Inc
+  license: []
   0.6.5:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 8
+      '2013-07-10': 17
   0.6.4:
     built_at: '2012-09-17T00:00:00Z'
     downloads:
@@ -5523,10 +5910,20 @@ minimalist_authentication:
       '2013-07-08': 1
       '2013-07-09': 2
 games_dice:
+  urls:
+  - https://github.com/neilslater/games_dice
+  - https://github.com/neilslater/games_dice
+  - http://rubygems.org/gems/games_dice
+  authors: Neil Slater
+  license: []
+  0.3.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 6
   0.3.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 7
+      '2013-07-10': 16
   0.2.4:
     built_at: '2013-06-18T00:00:00Z'
     downloads:
@@ -6045,10 +6442,16 @@ games_dice:
       '2013-07-08': 2
       '2013-07-09': 1
 cloud66_agent:
+  urls:
+  - https://www.cloud66.com
+  - 
+  - http://rubygems.org/gems/cloud66_agent
+  authors: Cloud 66
+  license: []
   1.0.10:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 9
+      '2013-07-10': 16
   1.0.9:
     built_at: '2013-05-07T00:00:00Z'
     downloads:
@@ -6755,10 +7158,16 @@ cloud66_agent:
       '2013-06-10': 2
       '2013-07-04': 1
 formal_wear:
+  urls:
+  - https://github.com/wideopenspaces/formal_wear
+  - 
+  - http://rubygems.org/gems/formal_wear
+  authors: Jake Stetser
+  license: []
   1.0.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 8
+      '2013-07-10': 19
   0.3.0:
     built_at: '2013-07-05T00:00:00Z'
     downloads:
@@ -6791,19 +7200,29 @@ formal_wear:
       '2013-07-09': 4
       '2013-07-10': 2
 gd_bam:
+  urls:
+  - http://your.website.com
+  - 
+  - http://rubygems.org/gems/gd_bam
+  authors: Tomas Svarovsky
+  license: []
+  0.1.8:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 5
   0.1.7:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 9
+      '2013-07-10': 18
   0.1.6:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 56
+      '2013-07-10': 58
   0.1.5:
     built_at: '2013-07-09T00:00:00Z'
     downloads:
       '2013-07-09': 23
-      '2013-07-10': 37
+      '2013-07-10': 38
   0.1.3:
     built_at: '2013-07-02T00:00:00Z'
     downloads:
@@ -7575,14 +7994,20 @@ gd_bam:
       '2013-07-08': 2
       '2013-07-09': 2
 active-fedora:
+  urls:
+  - https://github.com/projecthydra/active_fedora
+  - http://github.com/projecthydra/active_fedora
+  - http://rubygems.org/gems/active-fedora
+  authors: Matt Zumwalt, McClain Looney, Justin Coyne
+  license: []
   6.4.2:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 7
+      '2013-07-10': 15
   6.4.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 15
+      '2013-07-10': 17
   6.4.0:
     built_at: '2013-07-01T00:00:00Z'
     downloads:
@@ -14743,10 +15168,16 @@ active-fedora:
       '2013-07-09': 3
       '2013-07-10': 4
 kapify:
+  urls:
+  - https://github.com/ivalkeen/kapify
+  - 
+  - http://rubygems.org/gems/kapify
+  authors: Ivan Tkalin
+  license: []
   0.0.15:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 17
+      '2013-07-10': 24
   0.0.14:
     built_at: '2013-07-04T00:00:00Z'
     downloads:
@@ -15330,10 +15761,16 @@ kapify:
       '2013-07-08': 2
       '2013-07-09': 1
 dumon:
+  urls:
+  - http://github.com/veny/dumon
+  - 
+  - http://rubygems.org/gems/dumon
+  authors: Vaclav Sykora
+  license: []
   0.2.8:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 12
+      '2013-07-10': 16
   0.2.7:
     built_at: '2013-05-08T00:00:00Z'
     downloads:
@@ -15384,6 +15821,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 2
       '2013-07-09': 2
+      '2013-07-10': 1
   0.2.6:
     built_at: '2013-04-23T00:00:00Z'
     downloads:
@@ -15439,6 +15877,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 1
       '2013-07-09': 1
+      '2013-07-10': 2
   0.2.5:
     built_at: '2013-04-02T00:00:00Z'
     downloads:
@@ -15496,6 +15935,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 1
       '2013-07-09': 2
+      '2013-07-10': 1
   0.2.4:
     built_at: '2013-03-29T00:00:00Z'
     downloads:
@@ -15553,6 +15993,7 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 2
       '2013-07-09': 1
+      '2013-07-10': 1
   0.2.3:
     built_at: '2013-03-17T00:00:00Z'
     downloads:
@@ -15608,6 +16049,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 1
       '2013-07-09': 1
+      '2013-07-10': 2
   0.2.2:
     built_at: '2013-03-15T00:00:00Z'
     downloads:
@@ -15663,6 +16105,7 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 1
       '2013-07-09': 1
+      '2013-07-10': 2
   0.2.1:
     built_at: '2013-03-13T00:00:00Z'
     downloads:
@@ -15718,6 +16161,7 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 2
       '2013-07-09': 1
+      '2013-07-10': 1
   0.2.0:
     built_at: '2013-03-12T00:00:00Z'
     downloads:
@@ -15773,6 +16217,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 2
       '2013-07-09': 2
+      '2013-07-10': 1
   0.1.7:
     built_at: '2013-02-13T00:00:00Z'
     downloads:
@@ -15826,6 +16271,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 1
       '2013-07-09': 1
+      '2013-07-10': 2
   0.1.6:
     built_at: '2013-02-11T00:00:00Z'
     downloads:
@@ -15878,6 +16324,7 @@ dumon:
       '2013-07-06': 2
       '2013-07-08': 1
       '2013-07-09': 2
+      '2013-07-10': 1
   0.1.5:
     built_at: '2013-02-08T00:00:00Z'
     downloads:
@@ -15930,6 +16377,7 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 2
       '2013-07-09': 2
+      '2013-07-10': 2
   0.1.4:
     built_at: '2013-02-07T00:00:00Z'
     downloads:
@@ -15981,6 +16429,7 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 2
       '2013-07-09': 2
+      '2013-07-10': 2
   0.1.3:
     built_at: '2013-02-03T00:00:00Z'
     downloads:
@@ -16032,6 +16481,7 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 2
       '2013-07-09': 2
+      '2013-07-10': 1
   0.1.2:
     built_at: '2013-02-01T00:00:00Z'
     downloads:
@@ -16083,15 +16533,22 @@ dumon:
       '2013-07-06': 1
       '2013-07-08': 1
       '2013-07-09': 1
+      '2013-07-10': 1
 stachio:
+  urls:
+  - https://github.com/bwthomas/stachio
+  - 
+  - http://rubygems.org/gems/stachio
+  authors: Blake Thomas, Enova Financial
+  license: []
   0.0.6:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 24
+      '2013-07-10': 26
   0.0.5:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 27
+      '2013-07-10': 29
   0.0.4:
     built_at: '2013-06-30T00:00:00Z'
     downloads:
@@ -16230,14 +16687,21 @@ stachio:
       '2013-07-08': 2
       '2013-07-10': 2
 hushed:
+  urls:
+  - http://github.com/csaunders/hushed
+  - 
+  - http://rubygems.org/gems/hushed
+  authors: Chris Saunders
+  license:
+  - MIT
   0.0.8:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 17
+      '2013-07-10': 18
   0.0.7:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 17
+      '2013-07-10': 18
   0.0.6:
     built_at: '2013-06-24T00:00:00Z'
     downloads:
@@ -16386,10 +16850,17 @@ hushed:
       '2013-07-08': 1
       '2013-07-09': 2
 capybara-accessible:
+  urls:
+  - https://github.com/Casecommons/capybara-accessible
+  - https://github.com/Casecommons/capybara-accessible
+  - http://rubygems.org/gems/capybara-accessible
+  authors: Case Commons
+  license:
+  - MIT
   0.1.3:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 16
+      '2013-07-10': 17
   0.1.2:
     built_at: '2013-07-05T00:00:00Z'
     downloads:
@@ -16398,7 +16869,7 @@ capybara-accessible:
       '2013-07-07': 1
       '2013-07-08': 6
       '2013-07-09': 15
-      '2013-07-10': 4
+      '2013-07-10': 5
   0.1.1:
     built_at: '2013-07-03T00:00:00Z'
     downloads:
@@ -20415,6 +20886,17 @@ restful_controller:
       '2013-07-09': 34
       '2013-07-10': 33
 bosh-cloudfoundry:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/bosh-cloudfoundry
+  authors: Dr Nic Williams
+  license:
+  - MIT
+  0.7.0.alpha.3:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 4
   0.7.0.alpha.2:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
@@ -33673,9 +34155,4612 @@ comfortable_mexican_sofa:
       '2013-07-09': 2
       '2013-07-10': 1
 docxtor2-rails:
+  urls:
+  - http://github.com/vyorkin/docxtor2-rails
+  - 
+  - http://rubygems.org/gems/docxtor2-rails
+  authors: Vasiliy Yorkin
   license:
   - MIT
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 15
+ulam_spiral:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/ulam_spiral
+  authors: Michał szyma
+  license:
+  - MIT
+  0.0.2:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 1
+scms:
+  urls:
+  - http://cprobert.github.io/Static-CMS/
+  - https://github.com/cprobert/Static-CMS
+  - http://rubygems.org/gems/scms
+  authors: Courtenay Probert
+  license:
+  - MIT
+  1.9.6:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 4
+  1.9.5:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 39
+  1.9.4:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 45
+  1.9.3:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 29
+      '2013-07-10': 37
+  1.9.2:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 26
+      '2013-07-10': 33
+  1.9.0:
+    built_at: '2013-07-08T00:00:00Z'
+    downloads:
+      '2013-07-08': 39
+      '2013-07-09': 28
+      '2013-07-10': 4
+  1.8.8:
+    built_at: '2013-06-29T00:00:00Z'
+    downloads:
+      '2013-07-05': 24
+      '2013-07-06': 36
+      '2013-07-07': 3
+      '2013-07-08': 3
+      '2013-07-09': 2
+      '2013-07-10': 3
+  1.8.7:
+    built_at: '2013-06-29T00:00:00Z'
+    downloads:
+      '2013-07-05': 30
+      '2013-07-06': 29
+      '2013-07-07': 4
+      '2013-07-08': 5
+      '2013-07-09': 3
+      '2013-07-10': 2
+  1.8.6:
+    built_at: '2013-06-29T00:00:00Z'
+    downloads:
+      '2013-07-05': 30
+      '2013-07-06': 28
+      '2013-07-07': 3
+      '2013-07-08': 5
+      '2013-07-09': 3
+      '2013-07-10': 4
+  1.7.9:
+    built_at: '2013-06-29T00:00:00Z'
+    downloads:
+      '2013-07-03': 30
+      '2013-07-04': 38
+      '2013-07-05': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 3
+      '2013-07-09': 2
+      '2013-07-10': 2
+  1.7.8:
+    built_at: '2013-06-29T00:00:00Z'
+    downloads:
+      '2013-07-01': 33
+      '2013-07-02': 28
+      '2013-07-03': 6
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 4
+superpay:
+  urls:
+  - https://github.com/qw3/superpay
+  - 
+  - http://rubygems.org/gems/superpay
+  authors: QW3 Software & Marketing
+  license:
+  - MIT
+  1.0.2:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 3
+  1.0.1:
+    built_at: '2013-07-08T00:00:00Z'
+    downloads:
+      '2013-07-08': 8
+      '2013-07-09': 53
+      '2013-07-10': 5
+decent_ham:
+  urls:
+  - 
+  - 
+  - http://rubygems.org/gems/decent_ham
+  authors: Vic Ramon
+  license: []
+  0.0.4:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 7
+  0.0.3:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 6
+  0.0.2:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 7
+efo_nelfo:
+  urls:
+  - http://efo.no
+  - 
+  - http://rubygems.org/gems/efo_nelfo
+  authors: Gudleik Rasch
+  license:
+  - MIT
+  1.4.0:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 7
+  1.3.2:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 31
+      '2013-07-10': 32
+  1.3.1:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 28
+      '2013-07-10': 36
+  1.3.0:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 24
+      '2013-07-03': 42
+      '2013-07-04': 3
+      '2013-07-05': 2
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 4
+      '2013-07-10': 4
+  1.2.0:
+    built_at: '2013-06-21T00:00:00Z'
+    downloads:
+      '2013-06-21': 25
+      '2013-06-22': 27
+      '2013-06-23': 2
+      '2013-06-25': 8
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-01': 2
+      '2013-07-02': 8
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-05': 2
+      '2013-07-06': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 4
+  1.1.0:
+    built_at: '2013-06-21T00:00:00Z'
+    downloads:
+      '2013-06-21': 25
+      '2013-06-22': 28
+      '2013-06-23': 2
+      '2013-06-25': 7
+      '2013-06-26': 3
+      '2013-06-27': 3
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-01': 1
+      '2013-07-02': 9
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-05': 2
+      '2013-07-06': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 6
+  1.0.0:
+    built_at: '2013-06-21T00:00:00Z'
+    downloads:
+      '2013-06-21': 25
+      '2013-06-22': 23
+      '2013-06-23': 1
+      '2013-06-25': 4
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-07-01': 2
+      '2013-07-02': 9
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 3
+  0.0.7:
+    built_at: '2013-03-18T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-13': 3
+      '2013-04-14': 2
+      '2013-04-15': 1
+      '2013-04-16': 2
+      '2013-04-17': 1
+      '2013-04-18': 1
+      '2013-04-19': 2
+      '2013-04-21': 1
+      '2013-04-22': 2
+      '2013-04-26': 4
+      '2013-04-28': 1
+      '2013-04-29': 3
+      '2013-04-30': 5
+      '2013-05-01': 2
+      '2013-05-02': 7
+      '2013-05-04': 1
+      '2013-05-06': 1
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-11': 2
+      '2013-05-14': 1
+      '2013-05-15': 2
+      '2013-05-16': 3
+      '2013-05-18': 2
+      '2013-05-20': 1
+      '2013-05-21': 1
+      '2013-05-22': 2
+      '2013-05-23': 1
+      '2013-05-24': 4
+      '2013-05-25': 1
+      '2013-05-26': 2
+      '2013-05-28': 4
+      '2013-05-29': 2
+      '2013-05-30': 3
+      '2013-06-01': 5
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-10': 4
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-14': 2
+      '2013-06-16': 4
+      '2013-06-17': 1
+      '2013-06-20': 1
+      '2013-06-21': 1
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-07-01': 2
+      '2013-07-02': 4
+      '2013-07-03': 2
+      '2013-07-05': 2
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.6:
+    built_at: '2013-03-12T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-13': 4
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-16': 1
+      '2013-04-18': 2
+      '2013-04-19': 1
+      '2013-04-22': 1
+      '2013-04-26': 3
+      '2013-04-28': 2
+      '2013-04-29': 3
+      '2013-04-30': 3
+      '2013-05-01': 2
+      '2013-05-02': 7
+      '2013-05-04': 2
+      '2013-05-06': 1
+      '2013-05-07': 1
+      '2013-05-08': 1
+      '2013-05-11': 1
+      '2013-05-15': 1
+      '2013-05-16': 2
+      '2013-05-18': 2
+      '2013-05-20': 2
+      '2013-05-22': 2
+      '2013-05-23': 2
+      '2013-05-24': 2
+      '2013-05-26': 1
+      '2013-05-28': 4
+      '2013-05-29': 1
+      '2013-05-30': 5
+      '2013-06-01': 5
+      '2013-06-03': 1
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-14': 2
+      '2013-06-16': 4
+      '2013-06-17': 2
+      '2013-06-20': 1
+      '2013-06-21': 1
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 1
+      '2013-07-02': 6
+      '2013-07-03': 3
+      '2013-07-05': 2
+      '2013-07-06': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.5:
+    built_at: '2013-03-08T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-13': 1
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-16': 2
+      '2013-04-18': 2
+      '2013-04-19': 2
+      '2013-04-22': 2
+      '2013-04-26': 3
+      '2013-04-28': 2
+      '2013-04-29': 4
+      '2013-04-30': 3
+      '2013-05-01': 3
+      '2013-05-02': 8
+      '2013-05-04': 2
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-11': 2
+      '2013-05-15': 2
+      '2013-05-16': 4
+      '2013-05-18': 2
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 1
+      '2013-05-24': 3
+      '2013-05-26': 1
+      '2013-05-28': 4
+      '2013-05-29': 1
+      '2013-05-30': 5
+      '2013-06-01': 6
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 3
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-14': 1
+      '2013-06-16': 6
+      '2013-06-17': 1
+      '2013-06-21': 1
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-07-02': 3
+      '2013-07-03': 3
+      '2013-07-05': 2
+      '2013-07-06': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.4:
+    built_at: '2013-02-27T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-13': 2
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-16': 2
+      '2013-04-18': 2
+      '2013-04-19': 1
+      '2013-04-22': 2
+      '2013-04-26': 2
+      '2013-04-28': 2
+      '2013-04-29': 4
+      '2013-04-30': 4
+      '2013-05-01': 3
+      '2013-05-02': 8
+      '2013-05-04': 1
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-11': 2
+      '2013-05-15': 1
+      '2013-05-16': 3
+      '2013-05-18': 2
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 2
+      '2013-05-24': 3
+      '2013-05-26': 2
+      '2013-05-28': 1
+      '2013-05-29': 2
+      '2013-05-30': 4
+      '2013-06-01': 4
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 1
+      '2013-06-12': 2
+      '2013-06-16': 5
+      '2013-06-17': 2
+      '2013-06-21': 1
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 1
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.3:
+    built_at: '2013-02-25T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-13': 2
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-16': 2
+      '2013-04-18': 1
+      '2013-04-19': 2
+      '2013-04-22': 1
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-29': 4
+      '2013-04-30': 2
+      '2013-05-01': 3
+      '2013-05-02': 8
+      '2013-05-04': 2
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-11': 2
+      '2013-05-15': 2
+      '2013-05-16': 4
+      '2013-05-18': 1
+      '2013-05-20': 1
+      '2013-05-22': 1
+      '2013-05-23': 2
+      '2013-05-24': 4
+      '2013-05-26': 1
+      '2013-05-28': 1
+      '2013-05-29': 1
+      '2013-05-30': 4
+      '2013-06-01': 4
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-10': 4
+      '2013-06-11': 1
+      '2013-06-12': 2
+      '2013-06-16': 4
+      '2013-06-17': 1
+      '2013-06-21': 1
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 1
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.2:
+    built_at: '2013-02-25T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-13': 2
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-16': 1
+      '2013-04-18': 2
+      '2013-04-19': 2
+      '2013-04-22': 2
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-29': 3
+      '2013-04-30': 3
+      '2013-05-01': 3
+      '2013-05-02': 8
+      '2013-05-04': 1
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-11': 2
+      '2013-05-15': 2
+      '2013-05-16': 4
+      '2013-05-18': 2
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 2
+      '2013-05-24': 4
+      '2013-05-26': 2
+      '2013-05-28': 2
+      '2013-05-29': 2
+      '2013-05-30': 5
+      '2013-06-01': 4
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 3
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-16': 4
+      '2013-06-17': 2
+      '2013-06-21': 2
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 1
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.1:
+    built_at: '2013-02-25T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-13': 1
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-16': 2
+      '2013-04-18': 1
+      '2013-04-19': 2
+      '2013-04-22': 1
+      '2013-04-26': 3
+      '2013-04-28': 2
+      '2013-04-29': 2
+      '2013-04-30': 4
+      '2013-05-01': 2
+      '2013-05-02': 7
+      '2013-05-04': 1
+      '2013-05-07': 1
+      '2013-05-08': 1
+      '2013-05-11': 1
+      '2013-05-15': 2
+      '2013-05-16': 4
+      '2013-05-18': 2
+      '2013-05-20': 1
+      '2013-05-22': 2
+      '2013-05-23': 2
+      '2013-05-24': 3
+      '2013-05-26': 1
+      '2013-05-28': 1
+      '2013-05-29': 2
+      '2013-05-30': 6
+      '2013-06-01': 5
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-10': 4
+      '2013-06-11': 1
+      '2013-06-12': 2
+      '2013-06-16': 6
+      '2013-06-17': 2
+      '2013-06-21': 1
+      '2013-06-23': 1
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 1
+      '2013-07-02': 6
+      '2013-07-03': 4
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 1
+lapse:
+  urls:
+  - https://github.com/seesawco/lapse-rb
+  - 
+  - http://rubygems.org/gems/lapse
+  authors: Sam Soffes, Aaron Gotwalt, Adam Ryan
+  license:
+  - MIT
+  0.1.0:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 4
+  0.0.23:
+    built_at: '2013-07-01T00:00:00Z'
+    downloads:
+      '2013-07-01': 28
+      '2013-07-02': 41
+      '2013-07-03': 7
+      '2013-07-04': 5
+      '2013-07-06': 4
+      '2013-07-07': 3
+      '2013-07-08': 3
+      '2013-07-09': 3
+      '2013-07-10': 1
+  0.0.22:
+    built_at: '2013-06-28T00:00:00Z'
+    downloads:
+      '2013-06-28': 30
+      '2013-06-29': 32
+      '2013-06-30': 1
+      '2013-07-01': 5
+      '2013-07-02': 9
+      '2013-07-03': 6
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.21:
+    built_at: '2013-06-27T00:00:00Z'
+    downloads:
+      '2013-06-27': 10
+      '2013-06-28': 45
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 3
+      '2013-07-02': 8
+      '2013-07-03': 5
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 4
+      '2013-07-10': 2
+  0.0.20:
+    built_at: '2013-06-26T00:00:00Z'
+    downloads:
+      '2013-06-26': 18
+      '2013-06-27': 41
+      '2013-06-28': 2
+      '2013-06-29': 3
+      '2013-06-30': 1
+      '2013-07-01': 3
+      '2013-07-02': 6
+      '2013-07-03': 5
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 3
+      '2013-07-10': 2
+  0.0.19:
+    built_at: '2013-06-26T00:00:00Z'
+    downloads:
+      '2013-06-26': 17
+      '2013-06-27': 39
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 7
+      '2013-07-03': 5
+      '2013-07-04': 4
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 3
+      '2013-07-10': 2
+  0.0.18:
+    built_at: '2013-06-25T00:00:00Z'
+    downloads:
+      '2013-06-25': 15
+      '2013-06-26': 41
+      '2013-06-27': 5
+      '2013-06-28': 2
+      '2013-06-29': 3
+      '2013-06-30': 1
+      '2013-07-01': 3
+      '2013-07-02': 4
+      '2013-07-03': 5
+      '2013-07-04': 3
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 3
+      '2013-07-10': 1
+  0.0.17:
+    built_at: '2013-06-25T00:00:00Z'
+    downloads:
+      '2013-06-25': 16
+      '2013-06-26': 42
+      '2013-06-27': 5
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 3
+      '2013-07-10': 2
+  0.0.16:
+    built_at: '2013-06-25T00:00:00Z'
+    downloads:
+      '2013-06-25': 26
+      '2013-06-26': 31
+      '2013-06-27': 6
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 4
+      '2013-07-03': 6
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 4
+      '2013-07-10': 2
+  0.0.15:
+    built_at: '2013-06-25T00:00:00Z'
+    downloads:
+      '2013-06-25': 47
+      '2013-06-26': 10
+      '2013-06-27': 5
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-06-30': 2
+      '2013-07-01': 2
+      '2013-07-02': 5
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.14:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 40
+      '2013-06-25': 21
+      '2013-06-26': 3
+      '2013-06-27': 4
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 7
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 3
+      '2013-07-10': 1
+  0.0.13:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 47
+      '2013-06-25': 8
+      '2013-06-26': 4
+      '2013-06-27': 5
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 6
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.12:
+    built_at: '2013-06-20T00:00:00Z'
+    downloads:
+      '2013-06-20': 18
+      '2013-06-21': 30
+      '2013-06-22': 5
+      '2013-06-23': 1
+      '2013-06-25': 4
+      '2013-06-26': 1
+      '2013-06-27': 4
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-07-01': 1
+      '2013-07-02': 6
+      '2013-07-03': 5
+      '2013-07-04': 3
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.11:
+    built_at: '2013-06-18T00:00:00Z'
+    downloads:
+      '2013-06-18': 13
+      '2013-06-19': 43
+      '2013-06-20': 4
+      '2013-06-22': 3
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 1
+      '2013-06-27': 5
+      '2013-06-29': 2
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 1
+  0.0.10:
+    built_at: '2013-06-14T00:00:00Z'
+    downloads:
+      '2013-06-14': 26
+      '2013-06-15': 35
+      '2013-06-16': 3
+      '2013-06-17': 10
+      '2013-06-18': 3
+      '2013-06-19': 1
+      '2013-06-20': 4
+      '2013-06-22': 3
+      '2013-06-23': 1
+      '2013-06-25': 3
+      '2013-06-26': 2
+      '2013-06-27': 3
+      '2013-07-02': 3
+      '2013-07-03': 6
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.9:
+    built_at: '2013-06-14T00:00:00Z'
+    downloads:
+      '2013-06-14': 27
+      '2013-06-15': 26
+      '2013-06-16': 2
+      '2013-06-17': 5
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 5
+      '2013-06-26': 1
+      '2013-06-27': 5
+      '2013-07-02': 3
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.8:
+    built_at: '2013-06-13T00:00:00Z'
+    downloads:
+      '2013-06-13': 23
+      '2013-06-14': 36
+      '2013-06-15': 2
+      '2013-06-16': 3
+      '2013-06-17': 4
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 3
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-07-02': 4
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.7:
+    built_at: '2013-06-13T00:00:00Z'
+    downloads:
+      '2013-06-13': 25
+      '2013-06-14': 29
+      '2013-06-15': 2
+      '2013-06-16': 4
+      '2013-06-17': 7
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 5
+      '2013-06-26': 1
+      '2013-06-27': 6
+      '2013-07-02': 4
+      '2013-07-03': 6
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.6:
+    built_at: '2013-06-13T00:00:00Z'
+    downloads:
+      '2013-06-13': 28
+      '2013-06-14': 28
+      '2013-06-15': 1
+      '2013-06-16': 3
+      '2013-06-17': 6
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 5
+      '2013-06-26': 1
+      '2013-06-27': 5
+      '2013-07-02': 4
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.5:
+    built_at: '2013-06-11T00:00:00Z'
+    downloads:
+      '2013-06-11': 10
+      '2013-06-12': 48
+      '2013-06-13': 8
+      '2013-06-14': 1
+      '2013-06-15': 2
+      '2013-06-16': 2
+      '2013-06-17': 7
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 3
+      '2013-06-25': 4
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-07-02': 4
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 1
+  0.0.4:
+    built_at: '2013-06-11T00:00:00Z'
+    downloads:
+      '2013-06-11': 29
+      '2013-06-12': 28
+      '2013-06-13': 7
+      '2013-06-14': 2
+      '2013-06-15': 1
+      '2013-06-16': 3
+      '2013-06-17': 8
+      '2013-06-18': 2
+      '2013-06-19': 2
+      '2013-06-20': 1
+      '2013-06-22': 3
+      '2013-06-25': 5
+      '2013-06-26': 2
+      '2013-06-27': 5
+      '2013-07-02': 6
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.3:
+    built_at: '2013-06-09T00:00:00Z'
+    downloads:
+      '2013-06-09': 49
+      '2013-06-10': 18
+      '2013-06-11': 9
+      '2013-06-12': 1
+      '2013-06-13': 4
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 5
+      '2013-06-26': 2
+      '2013-06-27': 3
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.0.1:
+    built_at: '2013-06-05T00:00:00Z'
+    downloads:
+      '2013-06-05': 21
+      '2013-06-06': 35
+      '2013-06-07': 7
+      '2013-06-08': 2
+      '2013-06-09': 2
+      '2013-06-10': 8
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-13': 2
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 2
+      '2013-06-18': 2
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 4
+      '2013-06-26': 1
+      '2013-06-27': 5
+      '2013-07-02': 4
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+canvas_connect:
+  urls:
+  - http://instructure.com
+  - 
+  - http://rubygems.org/gems/canvas_connect
+  authors: Zach Pendleton
+  license: []
+  0.1.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 9
+  0.1.0:
+    built_at: '2013-05-09T00:00:00Z'
+    downloads:
+      '2013-05-09': 20
+      '2013-05-10': 69
+      '2013-05-11': 112
+      '2013-05-12': 10
+      '2013-05-13': 70
+      '2013-05-14': 87
+      '2013-05-15': 45
+      '2013-05-16': 44
+      '2013-05-17': 25
+      '2013-05-18': 8
+      '2013-05-19': 1
+      '2013-05-20': 13
+      '2013-05-21': 19
+      '2013-05-22': 29
+      '2013-05-23': 20
+      '2013-05-24': 23
+      '2013-05-25': 22
+      '2013-05-26': 8
+      '2013-05-27': 11
+      '2013-05-28': 31
+      '2013-05-29': 24
+      '2013-05-30': 21
+      '2013-05-31': 14
+      '2013-06-01': 6
+      '2013-06-02': 4
+      '2013-06-03': 23
+      '2013-06-04': 26
+      '2013-06-05': 27
+      '2013-06-06': 15
+      '2013-06-07': 16
+      '2013-06-08': 8
+      '2013-06-09': 5
+      '2013-06-10': 17
+      '2013-06-11': 14
+      '2013-06-12': 22
+      '2013-06-13': 16
+      '2013-06-14': 11
+      '2013-06-15': 9
+      '2013-06-16': 9
+      '2013-06-17': 20
+      '2013-06-18': 27
+      '2013-06-19': 18
+      '2013-06-20': 19
+      '2013-06-21': 29
+      '2013-06-22': 5
+      '2013-06-23': 7
+      '2013-06-24': 16
+      '2013-06-25': 21
+      '2013-06-26': 21
+      '2013-06-27': 18
+      '2013-06-28': 28
+      '2013-06-29': 15
+      '2013-06-30': 8
+      '2013-07-01': 10
+      '2013-07-02': 30
+      '2013-07-03': 20
+      '2013-07-04': 8
+      '2013-07-05': 26
+      '2013-07-06': 13
+      '2013-07-07': 11
+      '2013-07-08': 28
+      '2013-07-09': 35
+      '2013-07-10': 31
+  0.0.9:
+    built_at: '2013-05-09T00:00:00Z'
+    downloads:
+      '2013-05-09': 32
+      '2013-05-10': 24
+      '2013-05-11': 5
+      '2013-05-12': 1
+      '2013-05-13': 5
+      '2013-05-14': 4
+      '2013-05-15': 2
+      '2013-05-16': 3
+      '2013-05-17': 1
+      '2013-05-18': 4
+      '2013-05-20': 1
+      '2013-05-21': 2
+      '2013-05-22': 5
+      '2013-05-24': 3
+      '2013-05-26': 1
+      '2013-05-28': 6
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-01': 4
+      '2013-06-03': 3
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 3
+      '2013-06-07': 2
+      '2013-06-10': 3
+      '2013-06-11': 1
+      '2013-06-12': 2
+      '2013-06-14': 2
+      '2013-06-15': 3
+      '2013-06-16': 2
+      '2013-06-17': 1
+      '2013-06-20': 3
+      '2013-06-21': 2
+      '2013-06-25': 2
+      '2013-06-27': 1
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-05': 2
+      '2013-07-06': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.8:
+    built_at: '2013-02-20T00:00:00Z'
+    downloads:
+      '2013-04-12': 35
+      '2013-04-13': 16
+      '2013-04-14': 15
+      '2013-04-15': 59
+      '2013-04-16': 57
+      '2013-04-17': 66
+      '2013-04-18': 138
+      '2013-04-19': 111
+      '2013-04-20': 43
+      '2013-04-21': 23
+      '2013-04-22': 82
+      '2013-04-23': 81
+      '2013-04-24': 124
+      '2013-04-25': 96
+      '2013-04-26': 91
+      '2013-04-27': 39
+      '2013-04-28': 65
+      '2013-04-29': 219
+      '2013-04-30': 131
+      '2013-05-01': 126
+      '2013-05-02': 29
+      '2013-05-03': 21
+      '2013-05-04': 16
+      '2013-05-05': 11
+      '2013-05-06': 25
+      '2013-05-07': 16
+      '2013-05-08': 41
+      '2013-05-09': 48
+      '2013-05-10': 31
+      '2013-05-11': 16
+      '2013-05-12': 3
+      '2013-05-13': 16
+      '2013-05-14': 13
+      '2013-05-15': 8
+      '2013-05-16': 8
+      '2013-05-17': 14
+      '2013-05-18': 4
+      '2013-05-20': 3
+      '2013-05-21': 13
+      '2013-05-22': 10
+      '2013-05-23': 4
+      '2013-05-24': 7
+      '2013-05-25': 2
+      '2013-05-26': 1
+      '2013-05-27': 6
+      '2013-05-28': 9
+      '2013-05-29': 7
+      '2013-05-30': 11
+      '2013-05-31': 2
+      '2013-06-01': 7
+      '2013-06-03': 12
+      '2013-06-04': 3
+      '2013-06-05': 2
+      '2013-06-06': 8
+      '2013-06-07': 2
+      '2013-06-10': 5
+      '2013-06-11': 5
+      '2013-06-12': 4
+      '2013-06-14': 1
+      '2013-06-15': 4
+      '2013-06-16': 1
+      '2013-06-17': 5
+      '2013-06-18': 3
+      '2013-06-19': 1
+      '2013-06-20': 7
+      '2013-06-21': 2
+      '2013-06-24': 3
+      '2013-06-25': 2
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-01': 1
+      '2013-07-02': 4
+      '2013-07-03': 4
+      '2013-07-05': 4
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 5
+      '2013-07-10': 3
+  0.0.7:
+    built_at: '2013-02-18T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-14': 2
+      '2013-04-15': 1
+      '2013-04-16': 1
+      '2013-04-17': 1
+      '2013-04-18': 2
+      '2013-04-19': 2
+      '2013-04-21': 2
+      '2013-04-22': 1
+      '2013-04-25': 1
+      '2013-04-26': 2
+      '2013-04-28': 5
+      '2013-04-29': 2
+      '2013-04-30': 2
+      '2013-05-01': 2
+      '2013-05-02': 6
+      '2013-05-04': 1
+      '2013-05-07': 1
+      '2013-05-08': 1
+      '2013-05-11': 1
+      '2013-05-14': 1
+      '2013-05-15': 1
+      '2013-05-16': 2
+      '2013-05-18': 1
+      '2013-05-20': 2
+      '2013-05-21': 1
+      '2013-05-22': 2
+      '2013-05-24': 1
+      '2013-05-26': 1
+      '2013-05-28': 6
+      '2013-05-29': 4
+      '2013-05-30': 1
+      '2013-06-01': 2
+      '2013-06-03': 4
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-10': 4
+      '2013-06-11': 1
+      '2013-06-12': 2
+      '2013-06-15': 2
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 1
+      '2013-06-21': 2
+      '2013-06-25': 3
+      '2013-06-27': 2
+      '2013-07-02': 4
+      '2013-07-03': 3
+      '2013-07-05': 2
+      '2013-07-06': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 1
+  0.0.6:
+    built_at: '2013-02-14T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-16': 1
+      '2013-04-18': 2
+      '2013-04-19': 1
+      '2013-04-21': 2
+      '2013-04-22': 2
+      '2013-04-25': 1
+      '2013-04-26': 1
+      '2013-04-28': 3
+      '2013-04-29': 2
+      '2013-04-30': 1
+      '2013-05-01': 2
+      '2013-05-02': 7
+      '2013-05-04': 2
+      '2013-05-07': 1
+      '2013-05-08': 1
+      '2013-05-11': 2
+      '2013-05-14': 1
+      '2013-05-15': 2
+      '2013-05-16': 3
+      '2013-05-18': 1
+      '2013-05-20': 2
+      '2013-05-21': 1
+      '2013-05-22': 2
+      '2013-05-24': 1
+      '2013-05-26': 1
+      '2013-05-28': 5
+      '2013-05-29': 3
+      '2013-05-30': 1
+      '2013-06-01': 3
+      '2013-06-03': 4
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 3
+      '2013-06-11': 1
+      '2013-06-12': 1
+      '2013-06-15': 3
+      '2013-06-16': 2
+      '2013-06-17': 1
+      '2013-06-20': 1
+      '2013-06-21': 1
+      '2013-06-25': 3
+      '2013-06-27': 1
+      '2013-07-02': 5
+      '2013-07-03': 2
+      '2013-07-05': 2
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 1
+  0.0.5:
+    built_at: '2013-02-13T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-16': 1
+      '2013-04-18': 1
+      '2013-04-19': 1
+      '2013-04-21': 2
+      '2013-04-22': 2
+      '2013-04-25': 2
+      '2013-04-26': 1
+      '2013-04-28': 4
+      '2013-04-29': 1
+      '2013-04-30': 2
+      '2013-05-01': 3
+      '2013-05-02': 7
+      '2013-05-04': 2
+      '2013-05-07': 1
+      '2013-05-08': 1
+      '2013-05-11': 2
+      '2013-05-14': 2
+      '2013-05-15': 1
+      '2013-05-16': 4
+      '2013-05-18': 1
+      '2013-05-20': 2
+      '2013-05-21': 1
+      '2013-05-22': 1
+      '2013-05-24': 1
+      '2013-05-26': 1
+      '2013-05-28': 3
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-06-01': 3
+      '2013-06-03': 3
+      '2013-06-04': 2
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-15': 4
+      '2013-06-16': 2
+      '2013-06-17': 1
+      '2013-06-20': 2
+      '2013-06-21': 2
+      '2013-06-25': 2
+      '2013-06-27': 1
+      '2013-07-02': 4
+      '2013-07-03': 4
+      '2013-07-05': 2
+      '2013-07-06': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 1
+  0.0.2:
+    built_at: '2013-01-21T00:00:00Z'
+    downloads:
+      '2013-04-12': 1
+      '2013-04-14': 2
+      '2013-04-15': 1
+      '2013-04-16': 2
+      '2013-04-19': 1
+      '2013-04-21': 2
+      '2013-04-22': 1
+      '2013-04-25': 4
+      '2013-04-26': 2
+      '2013-04-28': 4
+      '2013-04-29': 1
+      '2013-04-30': 1
+      '2013-05-01': 3
+      '2013-05-02': 6
+      '2013-05-04': 2
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-11': 1
+      '2013-05-12': 1
+      '2013-05-14': 2
+      '2013-05-15': 2
+      '2013-05-16': 3
+      '2013-05-18': 2
+      '2013-05-20': 1
+      '2013-05-21': 1
+      '2013-05-22': 2
+      '2013-05-26': 1
+      '2013-05-28': 5
+      '2013-05-29': 4
+      '2013-05-30': 2
+      '2013-06-01': 2
+      '2013-06-03': 4
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-10': 3
+      '2013-06-11': 1
+      '2013-06-12': 2
+      '2013-06-15': 3
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 2
+      '2013-06-21': 1
+      '2013-06-25': 3
+      '2013-06-27': 2
+      '2013-07-02': 3
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.1:
+    built_at: '2013-01-10T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-16': 2
+      '2013-04-19': 1
+      '2013-04-21': 1
+      '2013-04-25': 2
+      '2013-04-26': 1
+      '2013-04-28': 4
+      '2013-04-29': 2
+      '2013-04-30': 1
+      '2013-05-01': 2
+      '2013-05-02': 6
+      '2013-05-04': 1
+      '2013-05-07': 1
+      '2013-05-08': 1
+      '2013-05-11': 2
+      '2013-05-14': 1
+      '2013-05-15': 1
+      '2013-05-16': 2
+      '2013-05-18': 2
+      '2013-05-21': 1
+      '2013-05-22': 1
+      '2013-05-26': 1
+      '2013-05-28': 6
+      '2013-05-29': 3
+      '2013-05-30': 2
+      '2013-06-01': 4
+      '2013-06-03': 3
+      '2013-06-04': 2
+      '2013-06-05': 2
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-10': 4
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-15': 2
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 1
+      '2013-06-21': 1
+      '2013-06-25': 3
+      '2013-06-27': 2
+      '2013-07-02': 3
+      '2013-07-03': 2
+      '2013-07-05': 1
+      '2013-07-06': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+user_mgmt:
+  urls:
+  - https://github.com/Methos2013/user_mgmt_gem
+  - 
+  - http://rubygems.org/gems/user_mgmt
+  authors: Danilo Faria, Fernando Gorodscy, Josh Leslie
+  license:
+  - MIT
+  0.0.42:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads: {}
+  0.0.41:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 7
+  0.0.40:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 6
+  0.0.39:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 25
+  0.0.38:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 26
+  0.0.37:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 22
+  0.0.36:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 22
+  0.0.35:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 23
+  0.0.34:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 22
+  0.0.33:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 21
+  0.0.32:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 9
+      '2013-07-10': 50
+  0.0.31:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 17
+      '2013-07-10': 42
+  0.0.3:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 17
+      '2013-07-10': 40
+  0.0.2:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 17
+      '2013-07-10': 44
+  0.0.1:
+    built_at: '2013-07-08T00:00:00Z'
+    downloads:
+      '2013-07-08': 28
+      '2013-07-09': 37
+      '2013-07-10': 2
+quandl_cassinatra:
+  urls:
+  - http://blake.hilscher.ca/
+  - 
+  - http://rubygems.org/gems/quandl_cassinatra
+  authors: Blkae Hilscher
+  license:
+  - MIT
+  0.0.8:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 6
+  0.0.7:
+    built_at: '2013-07-08T00:00:00Z'
+    downloads:
+      '2013-07-08': 31
+      '2013-07-09': 43
+      '2013-07-10': 7
+  0.0.6:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 25
+      '2013-07-03': 44
+      '2013-07-04': 8
+      '2013-07-06': 3
+      '2013-07-07': 3
+      '2013-07-08': 3
+      '2013-07-09': 3
+      '2013-07-10': 6
+  0.0.5:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 26
+      '2013-07-03': 38
+      '2013-07-04': 6
+      '2013-07-06': 3
+      '2013-07-07': 2
+      '2013-07-08': 4
+      '2013-07-09': 5
+      '2013-07-10': 2
+  0.0.4:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 26
+      '2013-07-03': 39
+      '2013-07-04': 5
+      '2013-07-06': 4
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 4
+      '2013-07-10': 2
+  0.0.3:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 23
+      '2013-06-25': 32
+      '2013-06-26': 7
+      '2013-06-27': 8
+      '2013-06-28': 6
+      '2013-06-29': 3
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 4
+      '2013-07-03': 5
+      '2013-07-04': 3
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 3
+      '2013-07-10': 1
+  0.0.2:
+    built_at: '2013-06-18T00:00:00Z'
+    downloads:
+      '2013-06-18': 21
+      '2013-06-19': 32
+      '2013-06-20': 5
+      '2013-06-21': 2
+      '2013-06-22': 6
+      '2013-06-23': 2
+      '2013-06-25': 7
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 6
+      '2013-07-03': 2
+      '2013-07-04': 4
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.1:
+    built_at: '2013-06-18T00:00:00Z'
+    downloads:
+      '2013-06-18': 22
+      '2013-06-19': 34
+      '2013-06-20': 3
+      '2013-06-22': 3
+      '2013-06-23': 1
+      '2013-06-25': 8
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-06-29': 2
+      '2013-07-01': 2
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+quandl_client:
+  urls:
+  - http://blake.hilscher.ca/
+  - 
+  - http://rubygems.org/gems/quandl_client
+  authors: Blkae Hilscher
+  license:
+  - MIT
+  0.0.13:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 5
+  0.0.12:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 20
+      '2013-07-03': 39
+      '2013-07-04': 6
+      '2013-07-06': 4
+      '2013-07-07': 3
+      '2013-07-08': 2
+      '2013-07-09': 3
+      '2013-07-10': 1
+  0.0.11:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 26
+      '2013-07-03': 35
+      '2013-07-04': 7
+      '2013-07-06': 2
+      '2013-07-07': 3
+      '2013-07-08': 3
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.10:
+    built_at: '2013-06-26T00:00:00Z'
+    downloads:
+      '2013-06-26': 21
+      '2013-06-27': 33
+      '2013-06-28': 2
+      '2013-06-29': 3
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 5
+      '2013-07-03': 6
+      '2013-07-04': 4
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 4
+      '2013-07-10': 2
+  0.0.9:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 19
+      '2013-06-25': 41
+      '2013-06-26': 4
+      '2013-06-27': 4
+      '2013-06-28': 3
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 3
+      '2013-07-10': 2
+  0.0.8:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 21
+      '2013-06-25': 35
+      '2013-06-26': 3
+      '2013-06-27': 2
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 4
+      '2013-07-03': 3
+      '2013-07-04': 3
+      '2013-07-06': 3
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.7:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 22
+      '2013-06-25': 32
+      '2013-06-26': 4
+      '2013-06-27': 3
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 5
+      '2013-07-04': 4
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 3
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.6:
+    built_at: '2013-06-21T00:00:00Z'
+    downloads:
+      '2013-06-21': 21
+      '2013-06-22': 37
+      '2013-06-23': 1
+      '2013-06-24': 1
+      '2013-06-25': 5
+      '2013-06-26': 1
+      '2013-06-27': 4
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 7
+      '2013-07-03': 4
+      '2013-07-04': 3
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.5:
+    built_at: '2013-06-21T00:00:00Z'
+    downloads:
+      '2013-06-21': 21
+      '2013-06-22': 32
+      '2013-06-23': 1
+      '2013-06-25': 7
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 4
+      '2013-07-03': 3
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.4:
+    built_at: '2013-06-20T00:00:00Z'
+    downloads:
+      '2013-06-20': 6
+      '2013-06-21': 44
+      '2013-06-22': 6
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 1
+      '2013-06-27': 4
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 7
+      '2013-07-03': 4
+      '2013-07-04': 4
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.3:
+    built_at: '2013-06-20T00:00:00Z'
+    downloads:
+      '2013-06-20': 24
+      '2013-06-21': 27
+      '2013-06-22': 4
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 2
+      '2013-06-27': 3
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.2:
+    built_at: '2013-06-20T00:00:00Z'
+    downloads:
+      '2013-06-20': 23
+      '2013-06-21': 28
+      '2013-06-22': 5
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-06-29': 2
+      '2013-07-01': 1
+      '2013-07-02': 4
+      '2013-07-03': 4
+      '2013-07-04': 3
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.1:
+    built_at: '2013-06-19T00:00:00Z'
+    downloads:
+      '2013-06-19': 11
+      '2013-06-20': 38
+      '2013-06-22': 4
+      '2013-06-23': 1
+      '2013-06-25': 5
+      '2013-06-26': 2
+      '2013-06-27': 3
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 6
+      '2013-07-03': 4
+      '2013-07-04': 4
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+klepto:
+  urls:
+  - http://github.com/coryodaniel/klepto
+  - 
+  - http://rubygems.org/gems/klepto
+  authors: Cory O'Daniel
+  license: []
+  0.6.8:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 7
+  0.6.7:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 63
+  0.6.6:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 48
+  0.6.5:
+    built_at: '2013-07-08T00:00:00Z'
+    downloads:
+      '2013-07-09': 99
+      '2013-07-10': 6
+  0.6.4:
+    built_at: '2013-07-02T00:00:00Z'
+    downloads:
+      '2013-07-02': 51
+      '2013-07-03': 55
+      '2013-07-04': 5
+      '2013-07-06': 5
+      '2013-07-07': 1
+      '2013-07-08': 7
+      '2013-07-09': 4
+      '2013-07-10': 1
+  0.6.3:
+    built_at: '2013-06-28T00:00:00Z'
+    downloads:
+      '2013-06-28': 31
+      '2013-06-29': 42
+      '2013-06-30': 9
+      '2013-07-01': 6
+      '2013-07-02': 26
+      '2013-07-03': 7
+      '2013-07-04': 4
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 5
+      '2013-07-10': 1
+  0.6.2:
+    built_at: '2013-06-24T00:00:00Z'
+    downloads:
+      '2013-06-24': 22
+      '2013-06-25': 61
+      '2013-06-26': 17
+      '2013-06-27': 5
+      '2013-06-28': 15
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 6
+      '2013-07-04': 4
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 4
+      '2013-07-10': 1
+  0.6.1:
+    built_at: '2013-06-01T00:00:00Z'
+    downloads:
+      '2013-06-01': 57
+      '2013-06-02': 30
+      '2013-06-03': 7
+      '2013-06-04': 4
+      '2013-06-05': 1
+      '2013-06-06': 3
+      '2013-06-07': 4
+      '2013-06-08': 1
+      '2013-06-10': 4
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-13': 3
+      '2013-06-14': 4
+      '2013-06-15': 1
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-18': 4
+      '2013-06-19': 1
+      '2013-06-20': 5
+      '2013-06-21': 6
+      '2013-06-22': 2
+      '2013-06-24': 3
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-07-02': 5
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.6.0:
+    built_at: '2013-06-01T00:00:00Z'
+    downloads:
+      '2013-06-01': 45
+      '2013-06-02': 13
+      '2013-06-03': 9
+      '2013-06-04': 4
+      '2013-06-05': 2
+      '2013-06-06': 2
+      '2013-06-07': 3
+      '2013-06-08': 2
+      '2013-06-10': 3
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-13': 2
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 4
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-07-02': 5
+      '2013-07-03': 6
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.5.9:
+    built_at: '2013-06-01T00:00:00Z'
+    downloads:
+      '2013-06-01': 49
+      '2013-06-02': 11
+      '2013-06-03': 9
+      '2013-06-04': 3
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 3
+      '2013-06-08': 1
+      '2013-06-10': 5
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 2
+  0.5.8:
+    built_at: '2013-06-01T00:00:00Z'
+    downloads:
+      '2013-06-01': 48
+      '2013-06-02': 11
+      '2013-06-03': 7
+      '2013-06-04': 3
+      '2013-06-05': 2
+      '2013-06-06': 2
+      '2013-06-07': 3
+      '2013-06-08': 1
+      '2013-06-10': 4
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 4
+      '2013-07-02': 3
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 4
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.5.7:
+    built_at: '2013-06-01T00:00:00Z'
+    downloads:
+      '2013-06-01': 56
+      '2013-06-02': 4
+      '2013-06-03': 9
+      '2013-06-04': 3
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 3
+      '2013-06-08': 1
+      '2013-06-10': 4
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.5.6:
+    built_at: '2013-06-01T00:00:00Z'
+    downloads:
+      '2013-06-01': 52
+      '2013-06-02': 6
+      '2013-06-03': 6
+      '2013-06-04': 3
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-08': 1
+      '2013-06-10': 5
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-13': 2
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-07-02': 3
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.5.5:
+    built_at: '2013-05-31T00:00:00Z'
+    downloads:
+      '2013-05-31': 7
+      '2013-06-01': 41
+      '2013-06-02': 4
+      '2013-06-03': 10
+      '2013-06-04': 2
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-08': 2
+      '2013-06-10': 6
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-07-02': 3
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.5.3:
+    built_at: '2013-05-31T00:00:00Z'
+    downloads:
+      '2013-05-31': 21
+      '2013-06-01': 33
+      '2013-06-02': 5
+      '2013-06-03': 8
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 4
+      '2013-06-08': 2
+      '2013-06-10': 4
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-07-02': 5
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 4
+      '2013-07-08': 2
+      '2013-07-09': 1
+  0.5.1:
+    built_at: '2013-05-31T00:00:00Z'
+    downloads:
+      '2013-05-31': 48
+      '2013-06-01': 7
+      '2013-06-02': 4
+      '2013-06-03': 10
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 3
+      '2013-06-08': 2
+      '2013-06-10': 5
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.4.9:
+    built_at: '2013-05-30T00:00:00Z'
+    downloads:
+      '2013-05-30': 11
+      '2013-05-31': 55
+      '2013-06-01': 4
+      '2013-06-02': 4
+      '2013-06-03': 8
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 3
+      '2013-06-08': 2
+      '2013-06-10': 4
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-13': 2
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-19': 1
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-07-02': 4
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 1
+  0.4.8:
+    built_at: '2013-05-30T00:00:00Z'
+    downloads:
+      '2013-05-30': 32
+      '2013-05-31': 28
+      '2013-06-01': 3
+      '2013-06-02': 4
+      '2013-06-03': 6
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-08': 2
+      '2013-06-10': 6
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-07-02': 5
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+  0.4.7:
+    built_at: '2013-05-29T00:00:00Z'
+    downloads:
+      '2013-05-29': 5
+      '2013-05-30': 63
+      '2013-05-31': 1
+      '2013-06-01': 5
+      '2013-06-02': 3
+      '2013-06-03': 6
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-08': 1
+      '2013-06-10': 3
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 2
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-07-02': 5
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.4.6:
+    built_at: '2013-05-29T00:00:00Z'
+    downloads:
+      '2013-05-29': 8
+      '2013-05-30': 50
+      '2013-05-31': 1
+      '2013-06-01': 4
+      '2013-06-02': 2
+      '2013-06-03': 6
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-08': 1
+      '2013-06-10': 5
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 4
+      '2013-07-02': 6
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 2
+  0.4.5:
+    built_at: '2013-05-29T00:00:00Z'
+    downloads:
+      '2013-05-29': 6
+      '2013-05-30': 48
+      '2013-05-31': 1
+      '2013-06-01': 3
+      '2013-06-02': 2
+      '2013-06-03': 8
+      '2013-06-04': 2
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 2
+      '2013-06-08': 1
+      '2013-06-10': 5
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-13': 2
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-07-02': 3
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.4.2:
+    built_at: '2013-05-29T00:00:00Z'
+    downloads:
+      '2013-05-29': 62
+      '2013-05-30': 6
+      '2013-06-01': 3
+      '2013-06-02': 2
+      '2013-06-03': 6
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-08': 2
+      '2013-06-10': 4
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 4
+      '2013-07-02': 6
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.4.1:
+    built_at: '2013-05-29T00:00:00Z'
+    downloads:
+      '2013-05-29': 56
+      '2013-05-30': 6
+      '2013-06-01': 4
+      '2013-06-02': 2
+      '2013-06-03': 4
+      '2013-06-04': 2
+      '2013-06-05': 2
+      '2013-06-06': 2
+      '2013-06-07': 2
+      '2013-06-08': 1
+      '2013-06-10': 3
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-07-02': 5
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.4.0:
+    built_at: '2013-05-28T00:00:00Z'
+    downloads:
+      '2013-05-28': 7
+      '2013-05-29': 51
+      '2013-05-30': 5
+      '2013-06-01': 4
+      '2013-06-02': 3
+      '2013-06-03': 6
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 2
+      '2013-06-08': 2
+      '2013-06-10': 4
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-07-02': 3
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 4
+      '2013-07-08': 2
+      '2013-07-09': 1
+  0.3.4:
+    built_at: '2013-05-28T00:00:00Z'
+    downloads:
+      '2013-05-28': 24
+      '2013-05-29': 37
+      '2013-05-30': 4
+      '2013-06-01': 4
+      '2013-06-02': 3
+      '2013-06-03': 5
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-08': 1
+      '2013-06-10': 5
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-07-02': 4
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.3.3:
+    built_at: '2013-05-28T00:00:00Z'
+    downloads:
+      '2013-05-28': 30
+      '2013-05-29': 39
+      '2013-05-30': 5
+      '2013-06-01': 4
+      '2013-06-02': 3
+      '2013-06-03': 6
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-08': 1
+      '2013-06-10': 4
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-13': 1
+      '2013-06-14': 1
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-07-02': 6
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 4
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.3.2:
+    built_at: '2013-05-28T00:00:00Z'
+    downloads:
+      '2013-05-28': 24
+      '2013-05-29': 41
+      '2013-05-30': 5
+      '2013-06-01': 2
+      '2013-06-02': 3
+      '2013-06-03': 3
+      '2013-06-04': 2
+      '2013-06-05': 2
+      '2013-06-06': 2
+      '2013-06-07': 2
+      '2013-06-08': 2
+      '2013-06-10': 5
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-13': 2
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 4
+      '2013-07-02': 4
+      '2013-07-03': 5
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.3.1:
+    built_at: '2013-05-28T00:00:00Z'
+    downloads:
+      '2013-05-28': 25
+      '2013-05-29': 38
+      '2013-05-30': 4
+      '2013-06-01': 2
+      '2013-06-02': 3
+      '2013-06-03': 4
+      '2013-06-04': 1
+      '2013-06-05': 2
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-08': 2
+      '2013-06-10': 5
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-07-02': 3
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-06': 4
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.3.0:
+    built_at: '2013-04-30T00:00:00Z'
+    downloads:
+      '2013-04-30': 18
+      '2013-05-01': 36
+      '2013-05-02': 4
+      '2013-05-03': 2
+      '2013-05-05': 5
+      '2013-05-06': 4
+      '2013-05-07': 1
+      '2013-05-09': 5
+      '2013-05-11': 1
+      '2013-05-14': 1
+      '2013-05-15': 2
+      '2013-05-16': 3
+      '2013-05-19': 2
+      '2013-05-20': 1
+      '2013-05-21': 3
+      '2013-05-22': 18
+      '2013-05-23': 14
+      '2013-05-24': 23
+      '2013-05-25': 25
+      '2013-05-26': 1
+      '2013-05-27': 4
+      '2013-05-28': 8
+      '2013-05-29': 4
+      '2013-05-30': 2
+      '2013-06-01': 3
+      '2013-06-02': 1
+      '2013-06-03': 1
+      '2013-06-04': 2
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-27': 3
+      '2013-07-02': 1
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.2.9:
+    built_at: '2013-04-30T00:00:00Z'
+    downloads:
+      '2013-04-30': 27
+      '2013-05-01': 38
+      '2013-05-02': 4
+      '2013-05-03': 1
+      '2013-05-05': 5
+      '2013-05-06': 4
+      '2013-05-07': 1
+      '2013-05-09': 5
+      '2013-05-11': 1
+      '2013-05-15': 3
+      '2013-05-16': 2
+      '2013-05-19': 3
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 1
+      '2013-05-24': 1
+      '2013-05-26': 1
+      '2013-05-27': 3
+      '2013-05-28': 3
+      '2013-05-29': 3
+      '2013-05-30': 1
+      '2013-06-01': 3
+      '2013-06-02': 1
+      '2013-06-03': 1
+      '2013-06-04': 1
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-27': 3
+      '2013-07-02': 1
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 4
+      '2013-07-08': 1
+      '2013-07-09': 2
+  0.2.8:
+    built_at: '2013-04-30T00:00:00Z'
+    downloads:
+      '2013-04-30': 27
+      '2013-05-01': 34
+      '2013-05-02': 6
+      '2013-05-03': 1
+      '2013-05-05': 3
+      '2013-05-06': 4
+      '2013-05-07': 2
+      '2013-05-09': 6
+      '2013-05-11': 1
+      '2013-05-15': 3
+      '2013-05-16': 4
+      '2013-05-19': 4
+      '2013-05-20': 1
+      '2013-05-22': 1
+      '2013-05-23': 1
+      '2013-05-24': 2
+      '2013-05-27': 2
+      '2013-05-28': 3
+      '2013-05-29': 4
+      '2013-05-30': 2
+      '2013-06-01': 3
+      '2013-06-02': 1
+      '2013-06-03': 1
+      '2013-06-04': 1
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-27': 4
+      '2013-07-02': 2
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 4
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.2.7:
+    built_at: '2013-04-19T00:00:00Z'
+    downloads:
+      '2013-04-19': 22
+      '2013-04-20': 29
+      '2013-04-21': 1
+      '2013-04-22': 4
+      '2013-04-23': 1
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 4
+      '2013-04-28': 1
+      '2013-04-29': 1
+      '2013-04-30': 10
+      '2013-05-01': 3
+      '2013-05-02': 5
+      '2013-05-03': 2
+      '2013-05-05': 2
+      '2013-05-06': 2
+      '2013-05-07': 2
+      '2013-05-09': 2
+      '2013-05-11': 2
+      '2013-05-15': 1
+      '2013-05-16': 3
+      '2013-05-19': 4
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 2
+      '2013-05-24': 1
+      '2013-05-27': 2
+      '2013-05-28': 3
+      '2013-05-29': 2
+      '2013-05-30': 1
+      '2013-06-01': 2
+      '2013-06-02': 1
+      '2013-06-03': 1
+      '2013-06-04': 1
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 2
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-27': 4
+      '2013-07-02': 2
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.2.6:
+    built_at: '2013-04-19T00:00:00Z'
+    downloads:
+      '2013-04-19': 14
+      '2013-04-20': 31
+      '2013-04-21': 1
+      '2013-04-22': 4
+      '2013-04-23': 2
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 3
+      '2013-04-28': 2
+      '2013-04-29': 1
+      '2013-04-30': 7
+      '2013-05-01': 2
+      '2013-05-02': 5
+      '2013-05-03': 2
+      '2013-05-05': 2
+      '2013-05-06': 3
+      '2013-05-07': 2
+      '2013-05-09': 3
+      '2013-05-11': 2
+      '2013-05-15': 2
+      '2013-05-16': 4
+      '2013-05-19': 3
+      '2013-05-20': 1
+      '2013-05-22': 1
+      '2013-05-23': 2
+      '2013-05-24': 3
+      '2013-05-27': 4
+      '2013-05-28': 2
+      '2013-05-29': 3
+      '2013-05-30': 1
+      '2013-06-01': 2
+      '2013-06-02': 2
+      '2013-06-03': 1
+      '2013-06-04': 1
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 3
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-27': 3
+      '2013-07-02': 2
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 1
+  0.2.5:
+    built_at: '2013-04-19T00:00:00Z'
+    downloads:
+      '2013-04-19': 14
+      '2013-04-20': 31
+      '2013-04-21': 1
+      '2013-04-22': 5
+      '2013-04-23': 2
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 3
+      '2013-04-28': 2
+      '2013-04-29': 2
+      '2013-04-30': 8
+      '2013-05-01': 2
+      '2013-05-02': 4
+      '2013-05-03': 1
+      '2013-05-05': 3
+      '2013-05-06': 3
+      '2013-05-07': 1
+      '2013-05-09': 4
+      '2013-05-11': 2
+      '2013-05-15': 1
+      '2013-05-16': 3
+      '2013-05-19': 3
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 1
+      '2013-05-24': 2
+      '2013-05-27': 3
+      '2013-05-28': 3
+      '2013-05-29': 3
+      '2013-05-30': 1
+      '2013-06-01': 4
+      '2013-06-02': 1
+      '2013-06-03': 1
+      '2013-06-04': 1
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 4
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-27': 2
+      '2013-07-02': 1
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.2.3:
+    built_at: '2013-04-19T00:00:00Z'
+    downloads:
+      '2013-04-19': 37
+      '2013-04-20': 12
+      '2013-04-21': 1
+      '2013-04-22': 3
+      '2013-04-23': 2
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 4
+      '2013-04-28': 2
+      '2013-04-29': 1
+      '2013-04-30': 6
+      '2013-05-01': 3
+      '2013-05-02': 4
+      '2013-05-03': 1
+      '2013-05-05': 3
+      '2013-05-06': 2
+      '2013-05-07': 1
+      '2013-05-09': 3
+      '2013-05-11': 2
+      '2013-05-15': 1
+      '2013-05-16': 3
+      '2013-05-19': 4
+      '2013-05-20': 1
+      '2013-05-22': 2
+      '2013-05-23': 1
+      '2013-05-24': 2
+      '2013-05-27': 4
+      '2013-05-28': 3
+      '2013-05-29': 3
+      '2013-05-30': 2
+      '2013-06-01': 2
+      '2013-06-02': 2
+      '2013-06-03': 2
+      '2013-06-04': 2
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-27': 2
+      '2013-07-02': 1
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.2.2:
+    built_at: '2013-04-19T00:00:00Z'
+    downloads:
+      '2013-04-19': 37
+      '2013-04-20': 12
+      '2013-04-21': 1
+      '2013-04-22': 2
+      '2013-04-23': 2
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 3
+      '2013-04-28': 1
+      '2013-04-29': 2
+      '2013-04-30': 8
+      '2013-05-01': 2
+      '2013-05-02': 3
+      '2013-05-03': 1
+      '2013-05-05': 3
+      '2013-05-06': 2
+      '2013-05-07': 2
+      '2013-05-09': 2
+      '2013-05-11': 1
+      '2013-05-15': 1
+      '2013-05-16': 4
+      '2013-05-19': 4
+      '2013-05-20': 1
+      '2013-05-22': 2
+      '2013-05-23': 2
+      '2013-05-24': 2
+      '2013-05-27': 3
+      '2013-05-28': 4
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-06-01': 4
+      '2013-06-02': 2
+      '2013-06-03': 1
+      '2013-06-04': 2
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 4
+      '2013-06-20': 1
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-27': 3
+      '2013-07-02': 1
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.2.1:
+    built_at: '2013-04-18T00:00:00Z'
+    downloads:
+      '2013-04-18': 49
+      '2013-04-19': 4
+      '2013-04-21': 1
+      '2013-04-22': 4
+      '2013-04-23': 1
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 4
+      '2013-04-28': 1
+      '2013-04-29': 1
+      '2013-04-30': 10
+      '2013-05-01': 2
+      '2013-05-02': 5
+      '2013-05-03': 2
+      '2013-05-05': 3
+      '2013-05-06': 2
+      '2013-05-07': 1
+      '2013-05-09': 4
+      '2013-05-11': 1
+      '2013-05-15': 2
+      '2013-05-16': 2
+      '2013-05-19': 2
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 2
+      '2013-05-24': 2
+      '2013-05-27': 2
+      '2013-05-28': 3
+      '2013-05-29': 3
+      '2013-05-30': 1
+      '2013-06-01': 4
+      '2013-06-02': 2
+      '2013-06-03': 2
+      '2013-06-04': 1
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-14': 2
+      '2013-06-16': 1
+      '2013-06-17': 2
+      '2013-06-20': 2
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-27': 3
+      '2013-07-02': 2
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.2.0:
+    built_at: '2013-04-18T00:00:00Z'
+    downloads:
+      '2013-04-18': 50
+      '2013-04-19': 3
+      '2013-04-21': 1
+      '2013-04-22': 3
+      '2013-04-23': 1
+      '2013-04-24': 1
+      '2013-04-25': 2
+      '2013-04-26': 3
+      '2013-04-28': 1
+      '2013-04-29': 2
+      '2013-04-30': 8
+      '2013-05-01': 2
+      '2013-05-02': 4
+      '2013-05-03': 1
+      '2013-05-05': 3
+      '2013-05-06': 2
+      '2013-05-07': 1
+      '2013-05-09': 2
+      '2013-05-11': 1
+      '2013-05-15': 2
+      '2013-05-16': 2
+      '2013-05-19': 4
+      '2013-05-20': 2
+      '2013-05-22': 1
+      '2013-05-23': 1
+      '2013-05-24': 2
+      '2013-05-27': 3
+      '2013-05-28': 3
+      '2013-05-29': 4
+      '2013-05-30': 2
+      '2013-06-01': 3
+      '2013-06-02': 1
+      '2013-06-03': 2
+      '2013-06-04': 2
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-14': 1
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-20': 1
+      '2013-06-22': 1
+      '2013-06-25': 1
+      '2013-06-27': 2
+      '2013-07-02': 1
+      '2013-07-03': 5
+      '2013-07-04': 1
+      '2013-07-06': 3
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.1.0:
+    built_at: '2013-04-10T00:00:00Z'
+    downloads:
+      '2013-04-12': 5
+      '2013-04-13': 1
+      '2013-04-14': 4
+      '2013-04-15': 1
+      '2013-04-17': 4
+      '2013-04-18': 3
+      '2013-04-19': 1
+      '2013-04-21': 1
+      '2013-04-22': 2
+      '2013-04-23': 1
+      '2013-04-25': 1
+      '2013-04-26': 3
+      '2013-04-28': 1
+      '2013-04-29': 2
+      '2013-04-30': 6
+      '2013-05-01': 2
+      '2013-05-02': 3
+      '2013-05-03': 2
+      '2013-05-05': 1
+      '2013-05-06': 3
+      '2013-05-09': 4
+      '2013-05-11': 1
+      '2013-05-15': 2
+      '2013-05-16': 4
+      '2013-05-19': 4
+      '2013-05-20': 1
+      '2013-05-23': 1
+      '2013-05-24': 1
+      '2013-05-27': 3
+      '2013-05-28': 2
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-06-01': 4
+      '2013-06-02': 2
+      '2013-06-03': 2
+      '2013-06-04': 2
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-14': 2
+      '2013-06-16': 2
+      '2013-06-17': 3
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-27': 4
+      '2013-07-02': 1
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 4
+      '2013-07-08': 2
+      '2013-07-09': 1
+rib:
+  urls:
+  - https://github.com/godfat/rib
+  - 
+  - http://rubygems.org/gems/rib
+  authors: Lin Jen-Shin (godfat)
+  license:
+  - Apache License 2.0
+  1.1.3:
+    built_at: '2013-05-08T00:00:00Z'
+    downloads:
+      '2013-05-08': 27
+      '2013-05-09': 36
+      '2013-05-10': 2
+      '2013-05-11': 3
+      '2013-05-12': 1
+      '2013-05-13': 6
+      '2013-05-14': 1
+      '2013-05-15': 3
+      '2013-05-16': 2
+      '2013-05-17': 3
+      '2013-05-18': 1
+      '2013-05-20': 3
+      '2013-05-21': 2
+      '2013-05-22': 5
+      '2013-05-25': 3
+      '2013-05-26': 1
+      '2013-05-27': 4
+      '2013-05-28': 2
+      '2013-05-29': 5
+      '2013-05-30': 3
+      '2013-05-31': 2
+      '2013-06-01': 1
+      '2013-06-02': 3
+      '2013-06-03': 1
+      '2013-06-04': 3
+      '2013-06-07': 2
+      '2013-06-09': 1
+      '2013-06-10': 3
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-13': 1
+      '2013-06-14': 2
+      '2013-06-17': 1
+      '2013-06-18': 1
+      '2013-06-20': 3
+      '2013-06-22': 1
+      '2013-06-25': 2
+      '2013-06-27': 2
+      '2013-06-28': 4
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 1
+      '2013-07-03': 2
+      '2013-07-04': 2
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+  1.1.2:
+    built_at: '2013-04-02T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-14': 4
+      '2013-04-15': 2
+      '2013-04-16': 1
+      '2013-04-17': 6
+      '2013-04-18': 4
+      '2013-04-22': 6
+      '2013-04-23': 6
+      '2013-04-24': 2
+      '2013-04-25': 1
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-29': 1
+      '2013-04-30': 10
+      '2013-05-01': 3
+      '2013-05-02': 3
+      '2013-05-03': 2
+      '2013-05-05': 1
+      '2013-05-06': 2
+      '2013-05-08': 1
+      '2013-05-09': 2
+      '2013-05-10': 1
+      '2013-05-15': 2
+      '2013-05-17': 4
+      '2013-05-19': 1
+      '2013-05-20': 4
+      '2013-05-25': 2
+      '2013-05-26': 1
+      '2013-05-27': 3
+      '2013-05-28': 1
+      '2013-05-29': 3
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 2
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-14': 2
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-01': 1
+      '2013-07-02': 2
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+  1.1.1:
+    built_at: '2013-01-25T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 1
+      '2013-04-17': 3
+      '2013-04-22': 1
+      '2013-04-26': 1
+      '2013-04-28': 1
+      '2013-04-30': 3
+      '2013-05-01': 3
+      '2013-05-02': 2
+      '2013-05-03': 1
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-15': 2
+      '2013-05-17': 3
+      '2013-05-20': 1
+      '2013-05-25': 3
+      '2013-05-26': 1
+      '2013-05-27': 2
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-05-31': 2
+      '2013-06-02': 2
+      '2013-06-04': 3
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-25': 2
+      '2013-06-27': 2
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+  1.1.0:
+    built_at: '2012-07-18T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 1
+      '2013-04-17': 3
+      '2013-04-26': 1
+      '2013-04-28': 1
+      '2013-04-29': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 1
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-17': 3
+      '2013-05-20': 1
+      '2013-05-25': 4
+      '2013-05-26': 1
+      '2013-05-27': 1
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 4
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-18': 2
+      '2013-06-22': 1
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+  1.0.5:
+    built_at: '2012-05-15T00:00:00Z'
+    downloads:
+      '2013-04-12': 2
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-16': 2
+      '2013-04-17': 7
+      '2013-04-19': 2
+      '2013-04-24': 1
+      '2013-04-26': 1
+      '2013-04-28': 2
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 1
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-07': 1
+      '2013-05-17': 4
+      '2013-05-20': 2
+      '2013-05-24': 1
+      '2013-05-25': 4
+      '2013-05-26': 2
+      '2013-05-27': 3
+      '2013-05-28': 1
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 3
+      '2013-06-07': 3
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-17': 1
+      '2013-06-18': 3
+      '2013-06-22': 2
+      '2013-06-27': 1
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+  1.0.4:
+    built_at: '2012-03-20T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 1
+      '2013-04-17': 3
+      '2013-04-26': 1
+      '2013-04-28': 1
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 2
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 4
+      '2013-05-20': 2
+      '2013-05-25': 3
+      '2013-05-26': 1
+      '2013-05-27': 2
+      '2013-05-29': 1
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 3
+      '2013-06-04': 4
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-18': 2
+      '2013-06-22': 1
+      '2013-06-27': 2
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-07-03': 2
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+  1.0.3:
+    built_at: '2012-01-21T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-17': 4
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 2
+      '2013-05-05': 3
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 4
+      '2013-05-20': 1
+      '2013-05-25': 3
+      '2013-05-26': 2
+      '2013-05-27': 1
+      '2013-05-29': 1
+      '2013-05-30': 2
+      '2013-05-31': 2
+      '2013-06-02': 3
+      '2013-06-04': 4
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 3
+      '2013-06-12': 1
+      '2013-06-18': 2
+      '2013-06-22': 2
+      '2013-06-27': 1
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+  1.0.2:
+    built_at: '2011-12-24T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-17': 2
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 2
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 1
+      '2013-05-17': 3
+      '2013-05-20': 1
+      '2013-05-25': 2
+      '2013-05-26': 1
+      '2013-05-27': 1
+      '2013-05-29': 1
+      '2013-05-30': 1
+      '2013-05-31': 1
+      '2013-06-02': 4
+      '2013-06-04': 4
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-15': 1
+      '2013-06-18': 1
+      '2013-06-22': 1
+      '2013-06-27': 1
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+  1.0.1:
+    built_at: '2011-12-15T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-17': 3
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 1
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 3
+      '2013-05-20': 2
+      '2013-05-25': 3
+      '2013-05-26': 2
+      '2013-05-27': 1
+      '2013-05-29': 1
+      '2013-05-30': 1
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 3
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-15': 1
+      '2013-06-18': 1
+      '2013-06-22': 1
+      '2013-06-27': 1
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+  1.0.0:
+    built_at: '2011-11-05T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 1
+      '2013-04-17': 2
+      '2013-04-26': 2
+      '2013-04-28': 2
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 2
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 1
+      '2013-05-17': 3
+      '2013-05-20': 2
+      '2013-05-25': 4
+      '2013-05-26': 2
+      '2013-05-27': 2
+      '2013-05-29': 2
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 2
+      '2013-06-04': 4
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-27': 3
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-03': 2
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.9.9:
+    built_at: '2011-10-26T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-17': 4
+      '2013-04-26': 2
+      '2013-04-28': 2
+      '2013-04-30': 2
+      '2013-05-01': 2
+      '2013-05-02': 2
+      '2013-05-03': 1
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 1
+      '2013-05-17': 2
+      '2013-05-20': 1
+      '2013-05-25': 4
+      '2013-05-26': 2
+      '2013-05-27': 1
+      '2013-05-29': 2
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 3
+      '2013-06-04': 3
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-27': 1
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+  0.9.5:
+    built_at: '2011-09-03T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 1
+      '2013-04-17': 2
+      '2013-04-26': 1
+      '2013-04-28': 2
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 2
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 1
+      '2013-05-17': 2
+      '2013-05-20': 2
+      '2013-05-25': 3
+      '2013-05-26': 2
+      '2013-05-27': 2
+      '2013-05-29': 3
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 2
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-18': 2
+      '2013-06-22': 3
+      '2013-06-27': 1
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-07-03': 2
+      '2013-07-04': 1
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.9.5.pre.1:
+    built_at: '2011-09-02T00:00:00Z'
+    downloads:
+      '2013-04-30': 1
+      '2013-05-01': 1
+      '2013-05-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-28': 1
+      '2013-07-04': 1
+  0.9.5.pre.0:
+    built_at: '2011-09-01T00:00:00Z'
+    downloads:
+      '2013-04-30': 1
+      '2013-05-01': 1
+      '2013-05-06': 1
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-28': 1
+      '2013-07-04': 2
+  0.9.4:
+    built_at: '2011-09-01T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 1
+      '2013-04-17': 3
+      '2013-04-26': 1
+      '2013-04-28': 2
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 2
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 2
+      '2013-05-20': 2
+      '2013-05-25': 2
+      '2013-05-26': 1
+      '2013-05-27': 2
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 4
+      '2013-06-04': 2
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-18': 2
+      '2013-06-22': 1
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-03': 3
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 1
+  0.9.3:
+    built_at: '2011-08-28T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 1
+      '2013-04-17': 3
+      '2013-04-26': 1
+      '2013-04-28': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 2
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-16': 1
+      '2013-05-17': 4
+      '2013-05-20': 1
+      '2013-05-25': 3
+      '2013-05-26': 1
+      '2013-05-27': 1
+      '2013-05-29': 1
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 2
+      '2013-06-04': 2
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-18': 3
+      '2013-06-22': 1
+      '2013-06-27': 3
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 1
+  0.9.2:
+    built_at: '2011-08-25T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 2
+      '2013-04-17': 3
+      '2013-04-26': 2
+      '2013-04-28': 2
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 1
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 1
+      '2013-05-17': 3
+      '2013-05-20': 2
+      '2013-05-25': 2
+      '2013-05-26': 2
+      '2013-05-27': 2
+      '2013-05-29': 1
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 4
+      '2013-06-04': 3
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-27': 2
+      '2013-06-28': 1
+      '2013-06-29': 1
+      '2013-07-03': 2
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.9.1:
+    built_at: '2011-08-19T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-15': 1
+      '2013-04-17': 4
+      '2013-04-26': 1
+      '2013-04-28': 1
+      '2013-04-30': 3
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 2
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 3
+      '2013-05-20': 1
+      '2013-05-25': 4
+      '2013-05-26': 2
+      '2013-05-27': 1
+      '2013-05-29': 1
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 3
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-18': 1
+      '2013-06-22': 1
+      '2013-06-27': 3
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-07-03': 4
+      '2013-07-04': 1
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 2
+  0.9.0:
+    built_at: '2011-08-14T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-17': 3
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 1
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 3
+      '2013-05-20': 1
+      '2013-05-25': 4
+      '2013-05-26': 1
+      '2013-05-27': 2
+      '2013-05-29': 1
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 2
+      '2013-06-07': 2
+      '2013-06-10': 1
+      '2013-06-11': 2
+      '2013-06-12': 1
+      '2013-06-16': 1
+      '2013-06-18': 2
+      '2013-06-22': 2
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-03': 2
+      '2013-07-04': 1
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+  0.1.0:
+    built_at: '2011-08-06T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 1
+      '2013-04-17': 3
+      '2013-04-26': 2
+      '2013-04-28': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 1
+      '2013-05-03': 1
+      '2013-05-05': 2
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 3
+      '2013-05-20': 1
+      '2013-05-25': 2
+      '2013-05-26': 1
+      '2013-05-27': 1
+      '2013-05-29': 2
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 2
+      '2013-06-04': 2
+      '2013-06-07': 1
+      '2013-06-10': 2
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-27': 3
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+  0.0.1:
+    built_at: '2011-08-05T00:00:00Z'
+    downloads:
+      '2013-04-14': 2
+      '2013-04-15': 2
+      '2013-04-17': 3
+      '2013-04-26': 1
+      '2013-04-28': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-02': 2
+      '2013-05-03': 1
+      '2013-05-05': 1
+      '2013-05-06': 1
+      '2013-05-16': 2
+      '2013-05-17': 2
+      '2013-05-20': 2
+      '2013-05-25': 3
+      '2013-05-26': 1
+      '2013-05-27': 2
+      '2013-05-29': 1
+      '2013-05-30': 1
+      '2013-05-31': 2
+      '2013-06-02': 4
+      '2013-06-04': 4
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 4
+      '2013-06-12': 2
+      '2013-06-18': 2
+      '2013-06-22': 1
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 1
+tb_core:
+  urls:
+  - http://bitbucket.org/westlakedesign/tb_core
+  - 
+  - http://rubygems.org/gems/tb_core
+  authors: Greg Woods
+  license: []
+  1.1.0:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 7
+  1.0.2:
+    built_at: '2013-07-01T00:00:00Z'
+    downloads:
+      '2013-07-01': 28
+      '2013-07-02': 36
+      '2013-07-03': 4
+      '2013-07-04': 3
+      '2013-07-05': 1
+      '2013-07-06': 4
+      '2013-07-07': 3
+      '2013-07-08': 3
+      '2013-07-09': 1
+      '2013-07-10': 3
+  1.0.1:
+    built_at: '2013-06-20T00:00:00Z'
+    downloads:
+      '2013-06-20': 40
+      '2013-06-21': 14
+      '2013-06-22': 5
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 6
+      '2013-06-27': 6
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-06-30': 2
+      '2013-07-01': 5
+      '2013-07-02': 3
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 3
+  '1.0':
+    built_at: '2013-06-18T00:00:00Z'
+    downloads:
+      '2013-06-18': 22
+      '2013-06-19': 33
+      '2013-06-20': 3
+      '2013-06-22': 3
+      '2013-06-23': 2
+      '2013-06-25': 6
+      '2013-06-26': 3
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 1
+      '2013-06-30': 2
+      '2013-07-01': 1
+      '2013-07-02': 3
+      '2013-07-03': 2
+      '2013-07-04': 4
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-10': 3
+  0.9.19:
+    built_at: '2013-06-14T00:00:00Z'
+    downloads:
+      '2013-06-14': 28
+      '2013-06-15': 26
+      '2013-06-16': 1
+      '2013-06-17': 4
+      '2013-06-18': 5
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 4
+      '2013-06-25': 5
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-06-28': 1
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-02': 5
+      '2013-07-03': 3
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-10': 4
+  0.9.18:
+    built_at: '2013-06-13T00:00:00Z'
+    downloads:
+      '2013-06-13': 25
+      '2013-06-14': 24
+      '2013-06-15': 1
+      '2013-06-16': 1
+      '2013-06-17': 4
+      '2013-06-18': 3
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-22': 3
+      '2013-06-25': 6
+      '2013-06-26': 1
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-06-30': 1
+      '2013-07-02': 4
+      '2013-07-03': 2
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-10': 3
+  0.9.17:
+    built_at: '2013-05-24T00:00:00Z'
+    downloads:
+      '2013-05-24': 27
+      '2013-05-25': 27
+      '2013-05-26': 4
+      '2013-05-27': 6
+      '2013-05-28': 3
+      '2013-05-29': 4
+      '2013-05-30': 3
+      '2013-05-31': 3
+      '2013-06-02': 6
+      '2013-06-03': 1
+      '2013-06-04': 2
+      '2013-06-05': 1
+      '2013-06-06': 2
+      '2013-06-07': 1
+      '2013-06-10': 4
+      '2013-06-11': 3
+      '2013-06-12': 2
+      '2013-06-13': 3
+      '2013-06-14': 1
+      '2013-06-18': 2
+      '2013-06-20': 2
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-26': 2
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-02': 3
+      '2013-07-03': 4
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-10': 2
+smartcropper:
+  urls:
+  - http://berk.es/smartcropper
+  - https://github.com/berkes/smartcropper
+  - http://rubygems.org/gems/smartcropper
+  authors: Bèr Kessels
+  license:
+  - GPL
+  0.6.1:
+    built_at: '2012-11-28T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-16': 1
+      '2013-04-17': 3
+      '2013-04-18': 1
+      '2013-04-22': 1
+      '2013-04-26': 1
+      '2013-04-30': 2
+      '2013-05-01': 1
+      '2013-05-03': 3
+      '2013-05-06': 1
+      '2013-05-07': 1
+      '2013-05-13': 1
+      '2013-05-17': 3
+      '2013-05-20': 2
+      '2013-05-21': 1
+      '2013-05-25': 3
+      '2013-05-26': 2
+      '2013-05-27': 1
+      '2013-05-29': 1
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 3
+      '2013-06-07': 2
+      '2013-06-10': 2
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-18': 1
+      '2013-06-19': 15
+      '2013-06-20': 13
+      '2013-06-22': 1
+      '2013-06-24': 2
+      '2013-06-25': 3
+      '2013-06-26': 3
+      '2013-06-27': 36
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-02': 1
+      '2013-07-03': 23
+      '2013-07-04': 35
+      '2013-07-05': 16
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 11
+      '2013-07-10': 1
+  0.6.0:
+    built_at: '2012-11-20T00:00:00Z'
+    downloads:
+      '2013-04-14': 1
+      '2013-04-16': 1
+      '2013-04-17': 2
+      '2013-04-22': 1
+      '2013-04-26': 1
+      '2013-04-30': 1
+      '2013-05-01': 1
+      '2013-05-03': 3
+      '2013-05-06': 2
+      '2013-05-07': 1
+      '2013-05-17': 2
+      '2013-05-20': 2
+      '2013-05-25': 3
+      '2013-05-26': 1
+      '2013-05-27': 2
+      '2013-05-29': 2
+      '2013-05-30': 2
+      '2013-05-31': 1
+      '2013-06-02': 3
+      '2013-06-04': 4
+      '2013-06-07': 1
+      '2013-06-10': 1
+      '2013-06-11': 4
+      '2013-06-12': 1
+      '2013-06-18': 1
+      '2013-06-22': 2
+      '2013-06-25': 1
+      '2013-06-27': 2
+      '2013-06-28': 2
+      '2013-06-29': 2
+      '2013-07-03': 4
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-10': 3
+  0.7.0:
+    built_at: '2011-04-19T00:00:00Z'
+    downloads:
+      '2013-07-10': 6
+quandl_data:
+  urls:
+  - http://blake.hilscher.ca/
+  - 
+  - http://rubygems.org/gems/quandl_data
+  authors: Blkae Hilscher
+  license:
+  - MIT
+  0.0.8:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 10
+  0.0.5:
+    built_at: '2013-06-20T00:00:00Z'
+    downloads:
+      '2013-06-20': 17
+      '2013-06-21': 38
+      '2013-06-22': 7
+      '2013-06-23': 2
+      '2013-06-24': 5
+      '2013-06-25': 9
+      '2013-06-26': 7
+      '2013-06-27': 11
+      '2013-06-28': 8
+      '2013-06-29': 1
+      '2013-06-30': 1
+      '2013-07-01': 2
+      '2013-07-02': 11
+      '2013-07-03': 4
+      '2013-07-04': 7
+      '2013-07-05': 1
+      '2013-07-06': 2
+      '2013-07-07': 2
+      '2013-07-08': 3
+      '2013-07-09': 11
+      '2013-07-10': 15
+  0.0.4:
+    built_at: '2013-06-19T00:00:00Z'
+    downloads:
+      '2013-06-19': 24
+      '2013-06-20': 38
+      '2013-06-21': 2
+      '2013-06-22': 5
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-06-29': 1
+      '2013-07-01': 2
+      '2013-07-02': 3
+      '2013-07-03': 4
+      '2013-07-04': 2
+      '2013-07-06': 3
+      '2013-07-07': 3
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 1
+  0.0.3:
+    built_at: '2013-06-17T00:00:00Z'
+    downloads:
+      '2013-06-17': 22
+      '2013-06-18': 41
+      '2013-06-19': 5
+      '2013-06-20': 4
+      '2013-06-21': 1
+      '2013-06-22': 2
+      '2013-06-23': 1
+      '2013-06-25': 6
+      '2013-06-26': 1
+      '2013-06-27': 5
+      '2013-06-29': 2
+      '2013-07-01': 1
+      '2013-07-02': 5
+      '2013-07-03': 2
+      '2013-07-04': 2
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 1
+      '2013-07-09': 2
+      '2013-07-10': 2
+  0.0.2:
+    built_at: '2013-06-17T00:00:00Z'
+    downloads:
+      '2013-06-17': 19
+      '2013-06-18': 34
+      '2013-06-19': 3
+      '2013-06-20': 3
+      '2013-06-22': 3
+      '2013-06-23': 1
+      '2013-06-25': 7
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-06-29': 1
+      '2013-07-01': 1
+      '2013-07-02': 4
+      '2013-07-03': 4
+      '2013-07-04': 3
+      '2013-07-06': 2
+      '2013-07-07': 1
+      '2013-07-08': 1
+      '2013-07-09': 1
+      '2013-07-10': 2
+  0.0.1:
+    built_at: '2013-06-17T00:00:00Z'
+    downloads:
+      '2013-06-17': 18
+      '2013-06-18': 35
+      '2013-06-19': 1
+      '2013-06-20': 3
+      '2013-06-22': 2
+      '2013-06-23': 1
+      '2013-06-25': 4
+      '2013-06-26': 1
+      '2013-06-27': 3
+      '2013-06-29': 2
+      '2013-07-01': 2
+      '2013-07-02': 4
+      '2013-07-03': 3
+      '2013-07-04': 4
+      '2013-07-06': 1
+      '2013-07-07': 2
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
+boxafe:
+  urls:
+  - http://github.com/AlphaHydrae/boxafe
+  - 
+  - http://rubygems.org/gems/boxafe
+  authors: AlphaHydrae
+  license:
+  - MIT
+  0.1.4:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 8
+  0.1.3:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 18
+  0.1.2:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 37
+      '2013-07-10': 25
+  0.1.1:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 38
+      '2013-07-10': 21
+  0.1.0:
+    built_at: '2013-07-09T00:00:00Z'
+    downloads:
+      '2013-07-09': 35
+      '2013-07-10': 19
+  0.0.1:
+    built_at: '2013-04-11T00:00:00Z'
+    downloads:
+      '2013-04-12': 26
+      '2013-04-13': 3
+      '2013-04-14': 5
+      '2013-04-15': 1
+      '2013-04-16': 2
+      '2013-04-17': 2
+      '2013-04-18': 4
+      '2013-04-19': 1
+      '2013-04-21': 1
+      '2013-04-22': 3
+      '2013-04-24': 2
+      '2013-04-25': 4
+      '2013-04-26': 2
+      '2013-04-28': 2
+      '2013-04-29': 3
+      '2013-04-30': 6
+      '2013-05-01': 2
+      '2013-05-02': 7
+      '2013-05-03': 1
+      '2013-05-04': 2
+      '2013-05-06': 1
+      '2013-05-07': 1
+      '2013-05-08': 2
+      '2013-05-09': 2
+      '2013-05-11': 2
+      '2013-05-12': 3
+      '2013-05-13': 2
+      '2013-05-14': 2
+      '2013-05-15': 2
+      '2013-05-16': 3
+      '2013-05-17': 1
+      '2013-05-18': 2
+      '2013-05-20': 2
+      '2013-05-21': 4
+      '2013-05-22': 3
+      '2013-05-24': 3
+      '2013-05-25': 1
+      '2013-05-26': 1
+      '2013-05-28': 7
+      '2013-05-29': 3
+      '2013-05-30': 1
+      '2013-05-31': 1
+      '2013-06-01': 3
+      '2013-06-03': 6
+      '2013-06-04': 1
+      '2013-06-05': 1
+      '2013-06-06': 1
+      '2013-06-07': 1
+      '2013-06-10': 3
+      '2013-06-11': 2
+      '2013-06-12': 2
+      '2013-06-14': 2
+      '2013-06-15': 2
+      '2013-06-16': 1
+      '2013-06-17': 1
+      '2013-06-19': 1
+      '2013-06-20': 1
+      '2013-06-21': 2
+      '2013-06-25': 4
+      '2013-06-27': 2
+      '2013-07-02': 5
+      '2013-07-03': 2
+      '2013-07-05': 1
+      '2013-07-06': 1
+      '2013-07-07': 1
+      '2013-07-08': 2
+      '2013-07-09': 2
+      '2013-07-10': 1
