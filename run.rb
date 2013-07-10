@@ -4,7 +4,6 @@ require 'time'
 require 'logger'
 
 class GemDownloads
-  NoRange = Class.new
   def initialize(store = store)
     @logger = Logger.new('debugging.log')
     store = new_store('latest_downloads.yml')
@@ -26,9 +25,9 @@ class GemDownloads
   end
   #see Gems.search, yank, unyank, owners
   # .total_downlods, name, version
-  # Gems.downloads name, version, [daterange] # number of downloads by day
+  # Gems.downloads name, version, from, to # number of downloads by day
 
-  def downloads(gem_name, range=NoRange)
+  def downloads(gem_name, from=nil, to=Date.today)
     @result = {}
     puts
     print gem_name
@@ -38,8 +37,6 @@ class GemDownloads
        @result[version] ||= {}
        @result[version]['built_at'] = release['built_at']
 
-       from = range == NoRange ? nil : range
-       to   = Date.today
        downloads = Gems.downloads(gem_name, version, from, to)
        if downloads.respond_to?(:reject!)
          downloads.reject!{|d,c| c==0}
