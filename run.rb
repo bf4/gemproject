@@ -32,6 +32,8 @@ class GemDownloads
     puts
     print gem_name
      gem_releases(gem_name).map do |release|
+       # let's see which updated gems don't have licenses
+       @result['license'] ||= release['licenses']
        version = release['number']
        print " #{version}"
        @result[version] ||= {}
