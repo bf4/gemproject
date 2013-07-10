@@ -1,10 +1,18 @@
 require 'gems'
 require 'yaml/store'
 require 'time'
+require 'logger'
 
 class GemDownloads
+  NoRange = Class.new
   def initialize(store = store)
-    p store
+    @logger = Logger.new('debugging.log')
+    store = new_store('latest_downloads.yml')
+    @logger.info 'Getting downloads'
+    latest_downloads(store)
+
+    store = new_store('gem_metrics.yml')
+    @logger.info 'Updating gem metrics'
     update(store)
   end
   # gems = Gems.gems
@@ -20,13 +28,63 @@ class GemDownloads
   # .total_downlods, name, version
   # Gems.downloads name, version, [daterange] # number of downloads by day
 
+  def downloads(gem_name, range=NoRange)
+    @result = {}
+    puts
+    print gem_name
+     gem_releases(gem_name).map do |release|
+       version = release['number']
+       print " #{version}"
+       @result[version] ||= {}
+       @result[version]['built_at'] = release['built_at']
+
+       from = range == NoRange ? nil : range
+       to   = Date.today
+       downloads = Gems.downloads(gem_name, version, from, to)
+       if downloads.respond_to?(:reject!)
+         downloads.reject!{|d,c| c==0}
+       else
+         downloads = {'error' => downloads}
+       end
+
+       @result[version]['downloads'] ||= {}
+       downloads.each do |date, count|
+         @result[version]['downloads'][date] = count
+       end
+     end
+     @logger.info @result.inspect
+     @result
+  end
+  def latest
+    @latest ||= new_gems.map{|g|g['name']} | updated_gems.map{|g|g['name']}
+  end
+  def new_gems
+    Gems.latest
+  end
+  def updated_gems
+    Gems.just_updated
+  end
+  def latest_downloads(store)
+    latest.each do |gem_name|
+      @logger.info "Getting download info for #{gem_name}"
+      store.transaction do
+        store[gem_name] = downloads(gem_name)
+      end
+    end
+  end
   def gems
     my_gems.concat(extra_gems).
       reject {|gem| rejected_gems.include?(gem['name']) }
   end
   # ["authors", "built_at", "description", "downloads_count", "number", "summary", "platform", "prerelease", "licenses"]
   def gem_releases(gem_name)
-    Gems.versions(gem_name)
+    releases = Gems.versions(gem_name)
+    if releases.is_a?(String)
+      @logger.error "#{gem_name.inspect} returned releases #{releases}"
+      []
+    else
+      releases
+    end
   end
 
   def extra_gems
@@ -39,8 +97,12 @@ class GemDownloads
     @rejected_gems ||= %w(bf4-metrical bf4-metric_fu bf4-yui-rails bf4-browsercms bf4-bcms_news)
   end
 
-  def store(name = 'gem_metrics.yml')
-    @store ||= YAML::Store.new(name)
+  def new_store(name = 'gem_metrics.yml')
+    @store = YAML::Store.new(name)
+  end
+
+  def store
+    @store ||= new_store
   end
 
   def datetime
