@@ -199,40 +199,52 @@ quandl_logger:
     downloads:
       '2013-07-10': 7
 axlsx-rails2:
+  license:
+  - MIT
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 3
+      '2013-07-10': 14
 framingham:
+  license:
+  - MIT
   '0':
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 7
+      '2013-07-10': 16
 my_enginery:
+  license:
+  - MIT
   0.2.8:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 19
+      '2013-07-10': 20
 merging-queue:
+  license: []
   0.1.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 16
+      '2013-07-10': 17
 csv-machine:
+  license: []
   1.0.0:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
-      '2013-07-10': 17
+      '2013-07-10': 19
 treasuryio:
-  0.0.1:
-    built_at: '2013-07-10T00:00:00Z'
-    downloads:
-      '2013-07-10': 18
-title:
+  license:
+  - MIT
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
     downloads:
       '2013-07-10': 19
+title:
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 20
 flash_rails_messages:
   0.0.1:
     built_at: '2013-07-10T00:00:00Z'
@@ -33660,3 +33672,10 @@ comfortable_mexican_sofa:
       '2013-07-08': 1
       '2013-07-09': 2
       '2013-07-10': 1
+docxtor2-rails:
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-10T00:00:00Z'
+    downloads:
+      '2013-07-10': 15

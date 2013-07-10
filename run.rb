@@ -34,6 +34,7 @@ class GemDownloads
      gem_releases(gem_name).map do |release|
        # let's see which updated gems don't have licenses
        @result['license'] ||= release['licenses']
+       @result['authors'] ||= release['authors']
        version = release['number']
        print " #{version}"
        @result[version] ||= {}
