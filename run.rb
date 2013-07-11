@@ -6,11 +6,11 @@ require 'logger'
 class GemDownloads
   def initialize(store = store)
     @logger = Logger.new('debugging.log')
-    store = new_store('latest_downloads.yml')
+    store = new_store('zlatest_downloads.yml')
     @logger.info 'Getting downloads'
     latest_downloads(store)
 
-    store = new_store('gem_metrics.yml')
+    store = new_store('zgem_metrics.yml')
     @logger.info 'Updating gem metrics'
     update(store)
   end
@@ -99,7 +99,7 @@ class GemDownloads
     @rejected_gems ||= %w(bf4-metrical bf4-metric_fu bf4-yui-rails bf4-browsercms bf4-bcms_news)
   end
 
-  def new_store(name = 'gem_metrics.yml')
+  def new_store(name = 'zgem_metrics.yml')
     @store = YAML::Store.new(name)
   end
 

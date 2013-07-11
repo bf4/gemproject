@@ -1,5 +1,5 @@
 require 'yaml'
-@downloads_yaml = 'latest_downloads.yml'
+@downloads_yaml = 'zlatest_downloads.yml'
 gems = YAML.load(File.read(@downloads_yaml))
 
 def github_repos_for_gems_without_licenses(gems)
