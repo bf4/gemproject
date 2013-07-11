@@ -26,3 +26,9 @@ def create_issues_for_repos(needs_issue)
 end
 create_issues_for_repos(needs_issue)
 
+# Should probably add more info to the issue message about why.
+# When I follow up in repos, I am writing something like
+#
+# Some companies will only use gems with a certain license.  The canonical and easy way to check is via the gemspec.  e.g. see https://github.com/pivotal/LicenseFinder It's a good practice, in any case.
+#
+# I actually generated this issue from the command-line by checking recently released gems.  see https://gist.github.com/bf4/5952053/raw/0c66dc8b2031952088ceeea2c5b816d98d7c0395/license_issue.rb
