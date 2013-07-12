@@ -5,12 +5,18 @@ gems = YAML.load(File.read(@downloads_yaml))
 STDOUT.sync = true
 
 def github_repos_for_gems_without_licenses(gems)
-  gems.select{|_,v| v['license'] == []}.map{|_,v|v['urls'].detect{|u| u =~ /github/} }.compact.map{|u| p u; p u.split('/')[-2..-1].join('/') }
+  gems.
+    select{|_,v| v['license'] == []}.
+    map{|_,v|v['urls'].
+        detect{|u| u =~ /\/github[^\/]+\/\w+\/\w+/} }.
+    compact.map{|u| u.split('/')[3..4].join('/') }
 end
 repos = github_repos_for_gems_without_licenses(gems)
 
 @license_issues = 'license_issues.txt'
-already_processed = File.readlines("./#{@license_issues}").map(&:strip)
+made_an_issue = File.readlines("./#{@license_issues}").map(&:strip)
+unable_to_issue_issue = File.readlines("./failed_#{@license_issues}").map(&:strip)
+already_processed =  made_an_issue | unable_to_issue_issue
 
 def github_repos_without_license_issue(repos, already_processed)
   repos.reject{|repo| already_processed.include?(repo)}.select do |repo|
@@ -49,7 +55,7 @@ end
 def create_issues_for_repos(needs_issue)
   needs_issue.each do |repo|
     p "Creating issue for #{repo}"
-    `ghi create -m "#{issue_message}" -- #{repo} && echo "#{repo}" >> #{@license_issues}`
+    `ghi create -m "#{issue_message}" -- #{repo} && echo "#{repo}" >> #{@license_issues} || echo '#{repo}' >> failed_#{@license_issues}`
   end
 end
 create_issues_for_repos(needs_issue)
