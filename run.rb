@@ -4,7 +4,9 @@ require 'time'
 require 'logger'
 
 class GemDownloads
-  def initialize(store = store)
+  def initialize(speed = 'fast')
+    @speed =  %w(fast slow).include?(speed) ? speed : 'fast'
+    @range = (@speed == 'fast') ? 0..0 : 0..-1
     @logger = Logger.new('debugging.log')
     store = new_store('zlatest_downloads.yml')
     @logger.info 'Getting downloads'
@@ -125,7 +127,7 @@ class GemDownloads
       @logger.error "#{gem_name.inspect} returned releases #{releases}"
       []
     else
-      releases
+      releases[@range]
     end
   end
 
@@ -145,4 +147,4 @@ class GemDownloads
   end
 
 end
-GemDownloads.new
+GemDownloads.new(ARGV[0])
