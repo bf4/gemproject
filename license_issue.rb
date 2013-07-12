@@ -2,8 +2,10 @@ require 'yaml'
 @downloads_yaml = 'zlatest_downloads.yml'
 gems = YAML.load(File.read(@downloads_yaml))
 
+STDOUT.sync = true
+
 def github_repos_for_gems_without_licenses(gems)
-  gems.select{|_,v| v['license'] == []}.map{|_,v|v['urls'].detect{|u| u =~ /github/} }.compact.map{|u| u.split('/')[-2..-1].join('/') }
+  gems.select{|_,v| v['license'] == []}.map{|_,v|v['urls'].detect{|u| u =~ /github/} }.compact.map{|u| p u; p u.split('/')[-2..-1].join('/') }
 end
 repos = github_repos_for_gems_without_licenses(gems)
 
