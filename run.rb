@@ -17,6 +17,9 @@ class GemDownloads
     @logger.info 'Getting popular downloads'
     popular_gems(store)
 
+    # get dependencies of gems for license purposes
+    # Gems.dependencies ['rails', 'thor']
+
     store = new_store('zgem_metrics.yml')
     @logger.info 'Updating gem metrics'
     update(store)
