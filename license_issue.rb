@@ -19,16 +19,35 @@ def github_repos_without_license_issue(repos, already_processed)
 end
 needs_issue = github_repos_without_license_issue(repos, already_processed)
 
+def issue_message
+  @message ||= begin
+    subject = "License missing from gemspec"
+    body = <<-BODY
+Some companies [will only use gems with a certain license](https://github.com/rubygems/rubygems.org/issues/363#issuecomment-5079786).
+The canonical and easy way to check is [via the gemspec](http://docs.rubygems.org/read/chapter/20#license)
+via e.g. 
+
+    spec.license = 'MIT'
+    # or
+    spec.licenses = ['MIT', 'GPL-2']
+
+There is even a [License Finder](https://github.com/pivotal/LicenseFinder) to help companies ensure all gems they use
+meet their licensing needs. This tool depends on license information being available in the gemspec.
+Including a license in your gemspec is a good practice, in any case.
+
+How did I find you?
+
+I'm using a script to collect stats on gems, originally looking for download data, but decided to collect licenses too,
+and make issues for missing ones as a public service :)
+https://gist.github.com/bf4/5952053#file-license_issue-rb-L13 So far it's going pretty well
+BODY
+    [subject,body].join("\n\n")
+  end
+end
 def create_issues_for_repos(needs_issue)
   needs_issue.each do |repo|
-    `ghi create -m "License missing from gemspec" -- #{repo} && echo "#{repo}" >> #{@license_issues}`
+    p "Creating issue for #{repo}"
+    `ghi create -m "#{issue_message}" -- #{repo} && echo "#{repo}" >> #{@license_issues}`
   end
 end
 create_issues_for_repos(needs_issue)
-
-# Should probably add more info to the issue message about why.
-# When I follow up in repos, I am writing something like
-#
-# Some companies will only use gems with a certain license.  The canonical and easy way to check is via the gemspec.  e.g. see https://github.com/pivotal/LicenseFinder It's a good practice, in any case.
-#
-# I actually generated this issue from the command-line by checking recently released gems.  see https://gist.github.com/bf4/5952053/raw/0c66dc8b2031952088ceeea2c5b816d98d7c0395/license_issue.rb
