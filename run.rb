@@ -8,9 +8,14 @@ class GemDownloads
     @speed =  %w(fast slow).include?(speed) ? speed : 'fast'
     @range = (@speed == 'fast') ? 0..0 : 0..-1
     @logger = Logger.new('debugging.log')
+
     store = new_store('zlatest_downloads.yml')
     @logger.info 'Getting downloads'
     latest_downloads(store)
+
+    # store = new_store('zpopular_downloads.yml')
+    @logger.info 'Getting popular downloads'
+    popular_gems(store)
 
     store = new_store('zgem_metrics.yml')
     @logger.info 'Updating gem metrics'
@@ -33,8 +38,21 @@ class GemDownloads
   end
 
   def latest_downloads(store)
+    puts
+    puts "latest downloads"
     latest.each do |gem_name|
       @logger.info "Getting download info for #{gem_name}"
+      store.transaction do
+        store[gem_name] = downloads(gem_name)
+      end
+    end
+  end
+
+  def popular_gems(store)
+    puts
+    puts "popular gems"
+    (most_downloaded - latest).each do |gem_name|
+      @logger.info "Getting download info for popular gem #{gem_name}"
       store.transaction do
         store[gem_name] = downloads(gem_name)
       end
@@ -109,6 +127,14 @@ class GemDownloads
   end
   def latest
     @latest ||= new_gems.map{|g|g['name']} | updated_gems.map{|g|g['name']}
+  end
+  def most_downloaded
+    @most_downloaded ||= begin
+                           Gems.most_downloaded_today.
+                             map{|g| g = g[0] if g.is_a?(Array); g['full_name'].split("-#{g['number']}")[0] } |
+                           Gems.most_downloaded.
+                             map{|g| g = g[0] if g.is_a?(Array); g['full_name'].split("-#{g['number']}")[0] }
+                         end
   end
   def new_gems
     Gems.latest
