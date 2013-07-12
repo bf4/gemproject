@@ -1,3 +1,4 @@
+# see http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/
 require 'yaml'
 @downloads_yaml = 'zlatest_downloads.yml'
 gems = YAML.load(File.read(@downloads_yaml))
