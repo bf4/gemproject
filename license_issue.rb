@@ -19,11 +19,19 @@ made_an_issue = File.readlines("./#{@license_issues}").map(&:strip)
 unable_to_issue_issue = File.readlines("./failed_#{@license_issues}").map(&:strip)
 already_processed =  made_an_issue | unable_to_issue_issue
 
+def license_issues(repo, state = 'open')
+  `ghi list -s#{state} -- #{repo} | egrep -i 'licence|license' >> /dev/null && echo 'has_issue'`
+end
+def has_no_license_issues?(repo)
+  %w(open closed).all? do |state|
+    has_issue = license_issues(repo, state)
+    p [has_issue, repo, state]
+    has_issue == ''
+  end
+end
 def github_repos_without_license_issue(repos, already_processed)
   repos.reject{|repo| already_processed.include?(repo)}.select do |repo|
-    has_issue = `ghi list -- #{repo} | grep -i 'license' > /dev/null && echo 'has issue'`
-    p [has_issue, repo]
-    has_issue == ''
+    has_no_license_issues?(repo)
   end
 end
 needs_issue = github_repos_without_license_issue(repos, already_processed)
