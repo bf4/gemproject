@@ -34,7 +34,7 @@ def issue_message
     body = <<-BODY
 Some companies [will only use gems with a certain license](https://github.com/rubygems/rubygems.org/issues/363#issuecomment-5079786).
 The canonical and easy way to check is [via the gemspec](http://docs.rubygems.org/read/chapter/20#license)
-via e.g. 
+via e.g.
 
     spec.license = 'MIT'
     # or
@@ -44,11 +44,14 @@ There is even a [License Finder](https://github.com/pivotal/LicenseFinder) to he
 meet their licensing needs. This tool depends on license information being available in the gemspec.
 Including a license in your gemspec is a good practice, in any case.
 
+If you need help choosing a [license](http://opensource.org/licenses), github has created a [license picker tool](http://choosealicense.com/)
+
 How did I find you?
 
 I'm using a script to collect stats on gems, originally looking for download data, but decided to collect licenses too,
 and make issues for missing ones as a public service :)
-https://gist.github.com/bf4/5952053#file-license_issue-rb-L13 So far it's going pretty well
+https://gist.github.com/bf4/5952053#file-license_issue-rb-L13 So far it's going pretty well.
+I've written a [blog post about it](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
 BODY
     [subject,body].join("\n\n")
   end
