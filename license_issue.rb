@@ -13,7 +13,15 @@ def github_repos_for_gems_without_licenses(gems)
         detect{|u| u =~ /\/github[^\/]+\/\w+\/\w+/} }.
     compact.map{|u| u.split('/')[3..4].join('/').sub('.git','') }
 end
-repos = github_repos_for_gems_without_licenses(gems)
+username_blacklist = File.readlines('./user_blacklist.txt').map{|blacklist| /#{blacklist.strip}/io }
+repos = github_repos_for_gems_without_licenses(gems).
+          reject{|repo|
+             username_blacklist.any?{|blacklist|
+               blacklisted = repo.split('/')[0] =~ blacklist
+               puts "Rejecting #{repo} due to blacklist #{blacklist}" if blacklisted
+               blacklisted
+             }
+           }; nil
 
 @license_issues = 'license_issues.txt'
 made_an_issue = File.readlines("./#{@license_issues}").map(&:strip)
