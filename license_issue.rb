@@ -5,6 +5,7 @@ gems = YAML.load(File.read(@downloads_yaml))
 
 STDOUT.sync = true
 
+# @return Array<username/projectname>
 def github_repos_for_gems_without_licenses(gems)
   gems.
     select{|_,v| v['license'] == []}.
