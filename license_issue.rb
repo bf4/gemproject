@@ -66,7 +66,7 @@ If you need help choosing a [license](http://opensource.org/licenses), github ha
 How did I find you?
 
 I'm using a script to collect stats on gems, originally looking for download data, but decided to collect licenses too,
-and make issues for missing ones as a public service :)
+and make issues for gemspecs not specifying a license as a public service :)
 https://gist.github.com/bf4/5952053#file-license_issue-rb-L13 So far it's going pretty well.
 I've written a [blog post about it](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
 BODY
