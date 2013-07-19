@@ -50,25 +50,32 @@ def issue_message
     subject = "License missing from gemspec"
     body = <<-BODY
 Some companies will only use gems with a certain license.
-The canonical and easy way to check is [via the gemspec](http://docs.rubygems.org/read/chapter/20#license)
+The canonical and easy way to check is [via the gemspec](http://docs.rubygems.org/read/chapter/20#license),
+
 via e.g.
 
     spec.license = 'MIT'
     # or
     spec.licenses = ['MIT', 'GPL-2']
 
-Bundler now generates gems with a default 'MIT' license.  There is even a [License Finder](https://github.com/pivotal/LicenseFinder)
+Even for projects that already specify a license, including a license in your gemspec is a good practice, since
+it is easily discoverable there without having to check the readme or for a license file.
+
+For example, there is a [License Finder gem](https://github.com/pivotal/LicenseFinder)
 to help companies ensure all gems they use meet their licensing needs. This tool depends on license information being available in the gemspec.
-Including a license in your gemspec is a good practice, in any case.
+This is an important enough issue that even Bundler now generates gems with a default 'MIT' license.
 
-If you need help choosing a [license](http://opensource.org/licenses), github has created a [license picker tool](http://choosealicense.com/)
+If you need help choosing a [license](http://opensource.org/licenses) (sorry, I haven't checked your readme or
+looked for a license file), github has created a [license picker tool](http://choosealicense.com/).
 
-How did I find you?
+In case you're wondering how I found you and why I made this issue, it's because
+I'm collecting stats on gems (I was originally looking for download data) and decided to collect license metadata,too,
+and [make issues for gemspecs not specifying a license as a public service :)](https://github.com/bf4/gemproject/issues/1).
 
-I'm using a script to collect stats on gems, originally looking for download data, but decided to collect licenses too,
-and [make issues for gemspecs not specifying a license as a public service :)](https://github.com/bf4/gemproject/issues/1)
-So far it's going pretty well.
-I've written a [blog post about it](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
+I hope you'll consider specifying a license in your gemspec. If not, please just close the issue and let me know.
+In either case, I'll follow up. Thanks!
+
+p.s. I've written a [blog post about this project](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
 BODY
     [subject,body].join("\n\n")
   end
