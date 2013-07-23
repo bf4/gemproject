@@ -560,7 +560,7 @@ next:
   - ''
   - 
   - http://rubygems.org/gems/next
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -573,7 +573,7 @@ aero:
   - ''
   - 
   - http://rubygems.org/gems/aero
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -31480,7 +31480,7 @@ elite:
   - ''
   - 
   - http://rubygems.org/gems/elite
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -31891,7 +31891,7 @@ wires:
   - http://rubygems.org/gems/wires
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.2.8:
     built_at: '2013-07-11T00:00:00Z'
     downloads:
@@ -87364,7 +87364,7 @@ cardspring:
   - https://github.com/koombea/cardspring-ruby.git
   - 
   - http://rubygems.org/gems/cardspring
-  authors: ! '"Pedro, Fernandez", "Charly, Palencia", "Ivan, granados", "Edgar, Ortega",
+  authors: '"Pedro, Fernandez", "Charly, Palencia", "Ivan, granados", "Edgar, Ortega",
     "Jonathan, Cabas"'
   license:
   - MIT
@@ -99891,7 +99891,7 @@ ultra:
   - ''
   - 
   - http://rubygems.org/gems/ultra
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -100610,7 +100610,7 @@ wires-inotify:
   - http://rubygems.org/gems/wires-inotify
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.9.0:
     built_at: '2013-07-18T00:00:00Z'
     downloads:
@@ -100639,7 +100639,7 @@ studio:
   - ''
   - 
   - http://rubygems.org/gems/studio
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -106223,7 +106223,7 @@ method_struct:
   - https://github.com/basecrm/method_struct
   - 
   - http://rubygems.org/gems/method_struct
-  authors: ! "PaweÅ\x82 Obrok"
+  authors: "PaweÅ\x82 Obrok"
   license:
   - MIT
   0.0.5:
@@ -137878,7 +137878,7 @@ capybara-wheel:
   - http://github.com/hooroo/capybara-wheel
   - https://github.com/hooroo/capybara-wheel
   - http://rubygems.org/gems/capybara-wheel
-  authors: ! '@gabrielrotbart'
+  authors: '@gabrielrotbart'
   license:
   - MIT
   0.0.5:
@@ -150070,7 +150070,7 @@ wires-icalendar:
   - http://rubygems.org/gems/wires-icalendar
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.0.0:
     built_at: '2013-07-18T00:00:00Z'
     downloads:
@@ -151135,7 +151135,7 @@ just:
   - ''
   - 
   - http://rubygems.org/gems/just
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -153478,7 +153478,7 @@ tiger:
   - ''
   - 
   - http://rubygems.org/gems/tiger
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -154429,7 +154429,7 @@ starkfish:
   - http://rubygems.org/gems/starkfish
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.2.0:
     built_at: '2013-07-20T00:00:00Z'
     downloads:
@@ -156010,3 +156010,88 @@ manbook:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 17
+my_string_extend_zopa:
+  urls:
+  - http://rubylearning.org/
+  - 
+  - http://rubygems.org/gems/my_string_extend_zopa
+  authors: Satish Talim
+  license: []
+  0.0.1:
+    built_at: '2011-10-27T00:00:00Z'
+    downloads: {}
+uri_shortener:
+  urls:
+  - http://rubygems.org/gems/uri_shortener
+  - 
+  - http://rubygems.org/gems/uri_shortener
+  authors: Asakawa Ryu
+  license:
+  - GPLv3
+  0.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 13
+kitchen-all:
+  urls:
+  - https://github.com/sethvargo/kitchen-all
+  - https://github.com/sethvargo/kitchen-all
+  - http://rubygems.org/gems/kitchen-all
+  authors: Seth Vargo
+  license:
+  - Apache 2.0
+  0.1.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 16
+sax-machine-patched:
+  urls:
+  - http://github.com/pauldix/sax-machine
+  - 
+  - http://rubygems.org/gems/sax-machine-patched
+  authors: Paul Dix, Julien Kirch, Ezekiel Templin
+  license:
+  - MIT
+  0.2.0.rc2:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 12
+fuci-travis:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/fuci-travis
+  authors: Dave Jachimiak
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-22T00:00:00Z'
+    downloads:
+      '2013-07-22': 4
+      '2013-07-23': 17
+tagmatic:
+  urls:
+  - ''
+  - https://github.com/aalvarado/tagmatic
+  - http://rubygems.org/gems/tagmatic
+  authors: Adan Alvarado
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-22T00:00:00Z'
+    downloads:
+      '2013-07-22': 11
+      '2013-07-23': 12
+touch:
+  urls:
+  - http://github.com/fnando/touch
+  - 
+  - http://rubygems.org/gems/touch
+  authors: Nando Vieira
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-22T00:00:00Z'
+    downloads:
+      '2013-07-22': 17
+      '2013-07-23': 13
