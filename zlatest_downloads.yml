@@ -8,10 +8,10 @@ quandl_operation:
   authors: Blake Hilscher
   license:
   - MIT
-  0.1.2:
-    built_at: '2013-07-22T00:00:00Z'
+  0.1.4:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 17
+      '2013-07-23': 18
 quandl_logger:
   urls:
   - http://blake.hilscher.ca/
@@ -30266,10 +30266,10 @@ quandl_cassinatra:
   authors: Blake Hilscher
   license:
   - MIT
-  0.1.4:
-    built_at: '2013-07-22T00:00:00Z'
+  0.1.7:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 20
+      '2013-07-23': 10
 quandl_client:
   urls:
   - http://blake.hilscher.ca/
@@ -30278,10 +30278,10 @@ quandl_client:
   authors: Blake Hilscher
   license:
   - MIT
-  0.1.4:
-    built_at: '2013-07-22T00:00:00Z'
+  0.1.7:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 19
+      '2013-07-23': 10
 klepto:
   urls:
   - http://github.com/coryodaniel/klepto
@@ -31242,10 +31242,10 @@ quandl_data:
   authors: Blake Hilscher
   license:
   - MIT
-  0.1.4:
-    built_at: '2013-07-22T00:00:00Z'
+  0.1.7:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 5
+      '2013-07-23': 18
 boxafe:
   urls:
   - http://github.com/AlphaHydrae/boxafe
@@ -45252,10 +45252,10 @@ tail-cf-plugin:
   authors: Pivotal
   license:
   - Apache 2.0
-  0.0.12.pre:
+  0.0.13.pre:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 8
+      '2013-07-23': 10
 ar2gostruct:
   urls:
   - ''
@@ -78043,7 +78043,7 @@ multi_json:
       '2013-07-20': 18060
       '2013-07-21': 16722
       '2013-07-22': 35882
-      '2013-07-23': 29918
+      '2013-07-23': 37767
 mime-types:
   urls:
   - http://mime-types.rubyforge.org/
@@ -78146,7 +78146,7 @@ mime-types:
       '2013-07-20': 16875
       '2013-07-21': 16409
       '2013-07-22': 34440
-      '2013-07-23': 28111
+      '2013-07-23': 35521
 rake:
   urls:
   - http://rake.rubyforge.org
@@ -78191,7 +78191,7 @@ rake:
       '2013-07-20': 18416
       '2013-07-21': 17222
       '2013-07-22': 35579
-      '2013-07-23': 29319
+      '2013-07-23': 36768
 tzinfo:
   urls:
   - http://tzinfo.rubyforge.org
@@ -78234,7 +78234,7 @@ tzinfo:
       '2013-07-20': 746
       '2013-07-21': 691
       '2013-07-22': 1197
-      '2013-07-23': 985
+      '2013-07-23': 1256
 erubis:
   urls:
   - http://www.kuwata-lab.com/erubis/
@@ -78334,7 +78334,7 @@ erubis:
       '2013-07-20': 13683
       '2013-07-21': 12200
       '2013-07-22': 31086
-      '2013-07-23': 25205
+      '2013-07-23': 31776
 polyglot:
   urls:
   - http://github.com/cjheath/polyglot
@@ -78434,7 +78434,7 @@ polyglot:
       '2013-07-20': 13256
       '2013-07-21': 11773
       '2013-07-22': 29973
-      '2013-07-23': 24298
+      '2013-07-23': 30356
 json:
   urls:
   - http://json-jruby.rubyforge.org/
@@ -78517,7 +78517,7 @@ json:
       '2013-07-20': 13370
       '2013-07-21': 12368
       '2013-07-22': 26638
-      '2013-07-23': 21794
+      '2013-07-23': 27497
 rack-test:
   urls:
   - http://github.com/brynary/rack-test
@@ -78617,7 +78617,7 @@ rack-test:
       '2013-07-20': 12459
       '2013-07-21': 11315
       '2013-07-22': 27939
-      '2013-07-23': 22654
+      '2013-07-23': 28195
 thor:
   urls:
   - http://whatisthor.com/
@@ -78718,7 +78718,7 @@ thor:
       '2013-07-20': 12821
       '2013-07-21': 12248
       '2013-07-22': 27040
-      '2013-07-23': 21841
+      '2013-07-23': 27660
 tilt:
   urls:
   - http://github.com/rtomayko/tilt/
@@ -78737,7 +78737,7 @@ tilt:
       '2013-07-20': 28
       '2013-07-21': 15
       '2013-07-22': 14
-      '2013-07-23': 16
+      '2013-07-23': 18
 rdoc:
   urls:
   - http://docs.seattlerb.org/rdoc
@@ -78838,7 +78838,7 @@ rdoc:
       '2013-07-20': 1369
       '2013-07-21': 1228
       '2013-07-22': 2214
-      '2013-07-23': 1569
+      '2013-07-23': 1935
 treetop:
   urls:
   - https://github.com/cjheath/treetop
@@ -78899,7 +78899,7 @@ treetop:
       '2013-07-20': 10733
       '2013-07-21': 9710
       '2013-07-22': 21747
-      '2013-07-23': 17879
+      '2013-07-23': 22154
 builder:
   urls:
   - http://onestepback.org
@@ -78963,7 +78963,7 @@ builder:
       '2013-07-20': 3323
       '2013-07-21': 2660
       '2013-07-22': 7696
-      '2013-07-23': 6747
+      '2013-07-23': 9042
 execjs:
   urls:
   - https://github.com/sstephenson/execjs
@@ -79063,7 +79063,7 @@ execjs:
       '2013-07-20': 8978
       '2013-07-21': 8255
       '2013-07-22': 20681
-      '2013-07-23': 16842
+      '2013-07-23': 21082
 hike:
   urls:
   - http://github.com/sstephenson/hike
@@ -79124,7 +79124,7 @@ hike:
       '2013-07-20': 9974
       '2013-07-21': 9244
       '2013-07-22': 20702
-      '2013-07-23': 16510
+      '2013-07-23': 20377
 i18n:
   urls:
   - http://github.com/svenfuchs/i18n
@@ -79225,7 +79225,7 @@ i18n:
       '2013-07-20': 10074
       '2013-07-21': 10444
       '2013-07-22': 21465
-      '2013-07-23': 18694
+      '2013-07-23': 23507
 arel:
   urls:
   - http://github.com/rails/arel
@@ -79325,7 +79325,7 @@ arel:
       '2013-07-20': 4769
       '2013-07-21': 4612
       '2013-07-22': 7998
-      '2013-07-23': 6419
+      '2013-07-23': 8020
 rack-cache:
   urls:
   - http://tomayko.com/src/rack-cache/
@@ -79425,7 +79425,7 @@ rack-cache:
       '2013-07-20': 7453
       '2013-07-21': 6610
       '2013-07-22': 19828
-      '2013-07-23': 16230
+      '2013-07-23': 19962
 coffee-script:
   urls:
   - http://github.com/josh/ruby-coffee-script
@@ -79609,7 +79609,7 @@ bundler:
       '2013-07-20': 10940
       '2013-07-21': 10407
       '2013-07-22': 22293
-      '2013-07-23': 17463
+      '2013-07-23': 21974
 journey:
   urls:
   - http://github.com/rails/journey
@@ -79709,7 +79709,7 @@ journey:
       '2013-07-20': 6755
       '2013-07-21': 5865
       '2013-07-22': 18060
-      '2013-07-23': 14955
+      '2013-07-23': 18342
 sass:
   urls:
   - http://sass-lang.com/
@@ -79726,7 +79726,7 @@ sass:
       '2013-07-20': 48
       '2013-07-21': 77
       '2013-07-22': 81
-      '2013-07-23': 85
+      '2013-07-23': 101
 rack-ssl:
   urls:
   - https://github.com/josh/rack-ssl
@@ -79826,7 +79826,7 @@ rack-ssl:
       '2013-07-20': 6816
       '2013-07-21': 6036
       '2013-07-22': 18219
-      '2013-07-23': 14864
+      '2013-07-23': 18388
 mail:
   urls:
   - http://github.com/mikel/mail
@@ -79908,7 +79908,7 @@ mail:
       '2013-07-20': 9390
       '2013-07-21': 8556
       '2013-07-22': 18657
-      '2013-07-23': 15080
+      '2013-07-23': 18677
 rack:
   urls:
   - http://rack.github.com/
@@ -80009,7 +80009,7 @@ rack:
       '2013-07-20': 12130
       '2013-07-21': 11154
       '2013-07-22': 19694
-      '2013-07-23': 17000
+      '2013-07-23': 21231
 activesupport:
   urls:
   - http://www.rubyonrails.org
@@ -80022,7 +80022,7 @@ activesupport:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 1331
-      '2013-07-23': 2815
+      '2013-07-23': 3741
 sprockets:
   urls:
   - http://getsprockets.org/
@@ -80094,7 +80094,7 @@ sprockets:
       '2013-07-20': 4780
       '2013-07-21': 4553
       '2013-07-22': 8020
-      '2013-07-23': 6207
+      '2013-07-23': 7747
 rest-client:
   urls:
   - http://github.com/archiloque/rest-client
@@ -80194,7 +80194,7 @@ rest-client:
       '2013-07-20': 8030
       '2013-07-21': 6973
       '2013-07-22': 16614
-      '2013-07-23': 14059
+      '2013-07-23': 17980
 activemodel:
   urls:
   - http://www.rubyonrails.org
@@ -80207,7 +80207,7 @@ activemodel:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 523
-      '2013-07-23': 1007
+      '2013-07-23': 1422
 activerecord:
   urls:
   - http://www.rubyonrails.org
@@ -80216,17 +80216,10 @@ activerecord:
   authors: David Heinemeier Hansson
   license:
   - MIT
-  3.2.14.rc2:
-    built_at: '2013-07-16T03:00:00Z'
+  3.2.14:
+    built_at: '2013-07-22T03:00:00Z'
     downloads:
-      '2013-07-16': 80
-      '2013-07-17': 137
-      '2013-07-18': 73
-      '2013-07-19': 68
-      '2013-07-20': 63
-      '2013-07-21': 45
-      '2013-07-22': 111
-      '2013-07-23': 63
+      '2013-07-23': 225
 diff-lcs:
   urls:
   - http://diff-lcs.rubyforge.org/
@@ -80326,7 +80319,7 @@ diff-lcs:
       '2013-07-20': 6279
       '2013-07-21': 6113
       '2013-07-22': 15290
-      '2013-07-23': 12590
+      '2013-07-23': 16094
 coffee-rails:
   urls:
   - https://github.com/rails/coffee-rails
@@ -80427,7 +80420,7 @@ coffee-rails:
       '2013-07-20': 3206
       '2013-07-21': 3177
       '2013-07-22': 5371
-      '2013-07-23': 4247
+      '2013-07-23': 5383
 actionpack:
   urls:
   - http://www.rubyonrails.org
@@ -80440,7 +80433,7 @@ actionpack:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 262
-      '2013-07-23': 419
+      '2013-07-23': 725
 rubyzip:
   urls:
   - http://github.com/aussiegeek/rubyzip
@@ -80540,7 +80533,7 @@ rubyzip:
       '2013-07-20': 4917
       '2013-07-21': 4038
       '2013-07-22': 12327
-      '2013-07-23': 10802
+      '2013-07-23': 13400
 actionmailer:
   urls:
   - http://www.rubyonrails.org
@@ -80553,7 +80546,7 @@ actionmailer:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 195
-      '2013-07-23': 274
+      '2013-07-23': 516
 coffee-script-source:
   urls:
   - http://jashkenas.github.com/coffee-script/
@@ -80584,7 +80577,7 @@ coffee-script-source:
       '2013-07-20': 6457
       '2013-07-21': 5986
       '2013-07-22': 12414
-      '2013-07-23': 10064
+      '2013-07-23': 12428
 railties:
   urls:
   - http://www.rubyonrails.org
@@ -80597,7 +80590,7 @@ railties:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 200
-      '2013-07-23': 318
+      '2013-07-23': 597
 activeresource:
   urls:
   - http://www.rubyonrails.org
@@ -80610,7 +80603,7 @@ activeresource:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 137
-      '2013-07-23': 143
+      '2013-07-23': 357
 uglifier:
   urls:
   - http://github.com/lautis/uglifier
@@ -80660,7 +80653,7 @@ net-ssh:
       '2013-07-20': 4501
       '2013-07-21': 4186
       '2013-07-22': 12250
-      '2013-07-23': 10044
+      '2013-07-23': 12783
 rails:
   urls:
   - http://www.rubyonrails.org
@@ -80673,7 +80666,7 @@ rails:
     built_at: '2013-07-22T03:00:00Z'
     downloads:
       '2013-07-22': 112
-      '2013-07-23': 102
+      '2013-07-23': 302
 coderay:
   urls:
   - http://coderay.rubychan.de
@@ -80777,7 +80770,7 @@ highline:
       '2013-07-20': 5007
       '2013-07-21': 4041
       '2013-07-22': 11285
-      '2013-07-23': 9750
+      '2013-07-23': 12260
 minitest:
   urls:
   - https://github.com/seattlerb/minitest
@@ -80813,7 +80806,7 @@ minitest:
       '2013-07-20': 1252
       '2013-07-21': 1144
       '2013-07-22': 2065
-      '2013-07-23': 1616
+      '2013-07-23': 1992
 sass-rails:
   urls:
   - https://github.com/rails/sass-rails
@@ -80853,7 +80846,7 @@ sass-rails:
       '2013-07-20': 2968
       '2013-07-21': 2924
       '2013-07-22': 4778
-      '2013-07-23': 3979
+      '2013-07-23': 4911
 eventmachine:
   urls:
   - http://rubyeventmachine.com
@@ -80971,7 +80964,7 @@ mysql2:
       '2013-07-20': 2684
       '2013-07-21': 2328
       '2013-07-22': 6485
-      '2013-07-23': 5113
+      '2013-07-23': 6085
 atomic:
   urls:
   - http://github.com/headius/ruby-atomic
@@ -81010,7 +81003,7 @@ atomic:
       '2013-07-20': 6593
       '2013-07-21': 6202
       '2013-07-22': 11129
-      '2013-07-23': 9526
+      '2013-07-23': 11853
 bcrypt-ruby:
   urls:
   - http://bcrypt-ruby.rubyforge.org
@@ -81035,7 +81028,7 @@ bcrypt-ruby:
       '2013-07-20': 2379
       '2013-07-21': 2342
       '2013-07-22': 5584
-      '2013-07-23': 4157
+      '2013-07-23': 5291
 net-scp:
   urls:
   - https://github.com/net-ssh/net-scp
@@ -81064,7 +81057,7 @@ net-scp:
       '2013-07-20': 2283
       '2013-07-21': 2100
       '2013-07-22': 6841
-      '2013-07-23': 6019
+      '2013-07-23': 7515
 daemons:
   urls:
   - http://daemons.rubyforge.org
@@ -81164,7 +81157,7 @@ daemons:
       '2013-07-20': 4862
       '2013-07-21': 4364
       '2013-07-22': 11398
-      '2013-07-23': 9393
+      '2013-07-23': 11594
 net-ssh-gateway:
   urls:
   - https://github.com/net-ssh/net-scp
@@ -81265,7 +81258,7 @@ net-ssh-gateway:
       '2013-07-20': 3113
       '2013-07-21': 2839
       '2013-07-22': 9048
-      '2013-07-23': 7963
+      '2013-07-23': 10053
 yajl-ruby:
   urls:
   - http://github.com/brianmario/yajl-ruby
@@ -81365,7 +81358,7 @@ yajl-ruby:
       '2013-07-20': 4369
       '2013-07-21': 3707
       '2013-07-22': 10066
-      '2013-07-23': 8159
+      '2013-07-23': 10849
 google_translation:
   urls:
   - https://github.com/Opus1no2/Google-Translation-Gem
@@ -87021,10 +87014,10 @@ instance_selector:
   authors: Kevin McFadden
   license:
   - MIT
-  0.0.13:
-    built_at: '2013-07-19T00:00:00Z'
+  0.0.18:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-19': 8
+      '2013-07-23': 6
 smsify:
   urls:
   - https://rubygems.org/gems/smsify
@@ -87232,7 +87225,7 @@ formatador:
       '2013-07-20': 3872
       '2013-07-21': 3452
       '2013-07-22': 11167
-      '2013-07-23': 9357
+      '2013-07-23': 12191
 swathe:
   urls:
   - ''
@@ -98654,7 +98647,7 @@ ffi:
       '2013-07-20': 4482
       '2013-07-21': 4345
       '2013-07-22': 10664
-      '2013-07-23': 9133
+      '2013-07-23': 11725
 sqlite3:
   urls:
   - http://github.com/luislavena/sqlite3-ruby
@@ -112570,10 +112563,10 @@ flickr_airlift:
   authors: nodanaonlyzuul
   license:
   - MIT
-  0.4.1:
-    built_at: '2013-07-16T00:00:00Z'
+  0.4.3:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-16': 13
+      '2013-07-23': 13
 qui:
   urls:
   - ''
@@ -113960,11 +113953,10 @@ tttazures:
   - http://rubygems.org/gems/tttazures
   authors: Andrew Zures
   license: []
-  0.0.9:
+  0.0.18:
     built_at: '2013-07-17T00:00:00Z'
     downloads:
-      '2013-07-18': 8
-      '2013-07-19': 21
+      '2013-07-23': 19
 google_play_scraper:
   urls:
   - ''
@@ -131976,10 +131968,10 @@ dpl:
   authors: Konstantin Haase
   license:
   - MIT
-  1.3.3:
-    built_at: '2013-07-22T00:00:00Z'
+  1.3.4:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 36
+      '2013-07-23': 26
 gs2crmod:
   urls:
   - http://gs2crmod.sourceforge.net
@@ -138568,10 +138560,10 @@ usagewatch:
   authors: Phil Chen, Ruben Espinosa
   license:
   - MIT
-  0.0.6.beta2:
-    built_at: '2013-07-22T00:00:00Z'
+  0.0.6:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 6
+      '2013-07-23': 6
 middleman-deploy:
   urls:
   - http://tvaughan.github.com/middleman-deploy/
@@ -144895,10 +144887,10 @@ pretty_proxy:
   authors: Henrique Becker
   license:
   - Public domain
-  4.0.1:
-    built_at: '2013-07-17T00:00:00Z'
+  4.0.5:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-17': 16
+      '2013-07-23': 11
 constructor-pages:
   urls:
   - http://ivanzotov.github.com/constructor
@@ -148123,10 +148115,10 @@ angular-table:
   authors: Samuel Mueller
   license:
   - MIT
-  0.0.5:
-    built_at: '2013-07-18T00:00:00Z'
+  0.0.6:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-18': 16
+      '2013-07-23': 14
 compass_radix:
   urls:
   - http://arshad.github.com/
@@ -148190,10 +148182,10 @@ chef:
   - http://rubygems.org/gems/chef
   authors: Adam Jacob
   license: []
-  11.6.0.rc.4:
-    built_at: '2013-07-17T00:00:00Z'
+  11.6.0:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-18': 48
+      '2013-07-23': 414
 googleplay_dev_scraper:
   urls:
   - https://github.com/tmurakam/googleplay_dev_scraper
@@ -148971,10 +148963,10 @@ cb-api:
   authors: Jesse Retchko, Chris Little, Matthew Moldavan, Miriam Williams, David Posey,
     Kyle Bumpus, Ben Schmaltz
   license: []
-  0.1.18:
+  0.1.19:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 13
+      '2013-07-23': 20
 antsy:
   urls:
   - https://github.com/echohead/ansible-module
@@ -149074,10 +149066,10 @@ zurb-foundation:
   - http://rubygems.org/gems/zurb-foundation
   authors: ZURB
   license: []
-  4.3.0:
-    built_at: '2013-07-18T00:00:00Z'
+  4.3.1:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-18': 110
+      '2013-07-23': 49
 planify:
   urls:
   - http://github.com/kdayton-/planify
@@ -150217,10 +150209,10 @@ cloudstack-cli:
   - http://rubygems.org/gems/cloudstack-cli
   authors: Nik Wolfgramm
   license: []
-  0.0.4:
+  0.0.5:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 14
+      '2013-07-23': 17
 hiera-cloudformation:
   urls:
   - https://github.com/fanduel/hiera-cloudformation
@@ -150243,10 +150235,10 @@ ballonizer_proxy:
   authors: Henrique Becker
   license:
   - Public domain
-  0.0.3:
-    built_at: '2013-07-22T00:00:00Z'
+  0.0.4:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 13
+      '2013-07-23': 14
 vagrant-hostmanager:
   urls:
   - 
@@ -150862,10 +150854,10 @@ starting_blocks:
   authors: Darren Cauthon
   license:
   - MIT
-  0.0.27:
-    built_at: '2013-07-19T00:00:00Z'
+  0.0.28:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-19': 16
+      '2013-07-23': 18
 orchestrated:
   urls:
   - https://github.com/paydici/orchestrated
@@ -150898,10 +150890,10 @@ starting_blocks-blinky:
   authors: Darren Cauthon
   license:
   - MIT
-  0.0.7:
-    built_at: '2013-07-19T00:00:00Z'
+  0.0.8:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-19': 17
+      '2013-07-23': 18
 MINT-scxml:
   urls:
   - http://www.multi-access.de
@@ -151907,7 +151899,7 @@ mini_portile:
       '2013-07-20': 5037
       '2013-07-21': 5004
       '2013-07-22': 11053
-      '2013-07-23': 9498
+      '2013-07-23': 11844
 first_responder:
   urls:
   - https://github.com/clekstro/first_responder
@@ -154805,7 +154797,7 @@ perfect_reach:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 20
-      '2013-07-23': 31
+      '2013-07-23': 36
 tag_o_matic:
   urls:
   - 
@@ -154824,7 +154816,7 @@ delayed_job_sqs:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 16
-      '2013-07-23': 33
+      '2013-07-23': 38
 inception-server:
   urls:
   - ''
@@ -154849,7 +154841,7 @@ cheatr:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 16
-      '2013-07-23': 34
+      '2013-07-23': 39
 devise_ichain_authenticatable:
   urls:
   - https://github.com/openSUSE/devise_ichain_authenticatable
@@ -154874,7 +154866,7 @@ rockt:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 20
-      '2013-07-23': 33
+      '2013-07-23': 36
 brainfuck-rb:
   urls:
   - http://github.com/bbuck/brainfuck-rb
@@ -154983,14 +154975,14 @@ fembem-forem:
 listy:
   urls:
   - ''
-  - 
+  - https://github.com/caseyli/listy
   - http://rubygems.org/gems/listy
   authors: Casey Li
   license: []
-  0.0.2:
-    built_at: '2013-07-22T00:00:00Z'
+  0.0.6:
+    built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-22': 6
+      '2013-07-23': 15
 naas:
   urls:
   - ''
@@ -155104,7 +155096,7 @@ my_string_extend_zopa:
   0.0.1:
     built_at: '2011-10-27T00:00:00Z'
     downloads:
-      '2013-07-23': 30
+      '2013-07-23': 40
 uri_shortener:
   urls:
   - http://rubygems.org/gems/uri_shortener
@@ -155140,7 +155132,7 @@ sax-machine-patched:
   0.2.0.rc2:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 22
+      '2013-07-23': 25
 fuci-travis:
   urls:
   - ''
@@ -155153,7 +155145,7 @@ fuci-travis:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 4
-      '2013-07-23': 39
+      '2013-07-23': 47
 tagmatic:
   urls:
   - ''
@@ -155166,7 +155158,7 @@ tagmatic:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 11
-      '2013-07-23': 31
+      '2013-07-23': 38
 touch:
   urls:
   - http://github.com/fnando/touch
@@ -155179,7 +155171,7 @@ touch:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
       '2013-07-22': 17
-      '2013-07-23': 32
+      '2013-07-23': 37
 string_array_to_integer_array:
   urls:
   - ''
@@ -155191,7 +155183,7 @@ string_array_to_integer_array:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 23
+      '2013-07-23': 33
 stato:
   urls:
   - ''
@@ -155203,7 +155195,7 @@ stato:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 25
+      '2013-07-23': 35
 settlebox:
   urls:
   - https://github.com/popgiro/settlebox-rails
@@ -155214,7 +155206,7 @@ settlebox:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 26
+      '2013-07-23': 35
 nit:
   urls:
   - ''
@@ -155226,7 +155218,7 @@ nit:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 29
+      '2013-07-23': 39
 quantile:
   urls:
   - http://github.com/matttproud/ruby_quantile_estimation
@@ -155237,7 +155229,7 @@ quantile:
   0.0.1:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
-      '2013-07-23': 27
+      '2013-07-23': 35
 clowder:
   urls:
   - ''
@@ -155249,7 +155241,7 @@ clowder:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 30
+      '2013-07-23': 40
 hut:
   urls:
   - https://github.com/ryanlower/hut
@@ -155261,7 +155253,7 @@ hut:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 31
+      '2013-07-23': 38
 delayed_job_honeybadger:
   urls:
   - https://github.com/honeybadger-io/delayed_job_honeybadger
@@ -155272,7 +155264,7 @@ delayed_job_honeybadger:
   0.0.1:
     built_at: '2013-07-22T00:00:00Z'
     downloads:
-      '2013-07-23': 27
+      '2013-07-23': 36
 citibike:
   urls:
   - http://github.com/ejlangev/citibike
@@ -155284,7 +155276,7 @@ citibike:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 34
+      '2013-07-23': 43
 serenade:
   urls:
   - https://github.com/elabs/serenade.rb
@@ -155548,7 +155540,7 @@ motion-frank-screenshots:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 14
+      '2013-07-23': 29
 twist_capistrano:
   urls:
   - 
@@ -155559,7 +155551,7 @@ twist_capistrano:
   0.1.0:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 20
+      '2013-07-23': 28
 micro_spider:
   urls:
   - https://github.com/zires/micro-spider
@@ -155570,7 +155562,7 @@ micro_spider:
   0.1.16:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 13
+      '2013-07-23': 22
 arrays:
   urls:
   - http://daewon.github.com
@@ -155581,7 +155573,7 @@ arrays:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 20
+      '2013-07-23': 31
 seiten:
   urls:
   - http://danielpuglisi.com
@@ -155592,7 +155584,7 @@ seiten:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 16
+      '2013-07-23': 24
 test2:
   urls:
   - ''
@@ -155604,7 +155596,7 @@ test2:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 17
+      '2013-07-23': 25
 numberofdaysuntil:
   urls:
   - ''
@@ -155616,7 +155608,7 @@ numberofdaysuntil:
   '1.0':
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 15
+      '2013-07-23': 23
 spree_abandoned_cart_email:
   urls:
   - 
@@ -155627,7 +155619,7 @@ spree_abandoned_cart_email:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 18
+      '2013-07-23': 27
 sepafm:
   urls:
   - https://github.com/devlab-oy/sepa
@@ -155639,7 +155631,7 @@ sepafm:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 19
+      '2013-07-23': 29
 license_plate_validator:
   urls:
   - https://ariejan.github.io/license_plate_validator
@@ -155651,7 +155643,7 @@ license_plate_validator:
   1.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 22
+      '2013-07-23': 33
 LicensePlateValidator:
   urls:
   - 
@@ -155669,7 +155661,7 @@ concurrent-ruby:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 18
+      '2013-07-23': 27
 speedos:
   urls:
   - https://github.com/simplybusiness/speedos
@@ -155681,7 +155673,7 @@ speedos:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 19
+      '2013-07-23': 28
 pluggable_js:
   urls:
   - https://github.com/peresleguine/pluggable_js
@@ -155693,7 +155685,7 @@ pluggable_js:
   0.0.1.rc:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 10
+      '2013-07-23': 14
 phpmyadmin-backup:
   urls:
   - https://github.com/splattael/phpmyadmin-backup
@@ -155705,7 +155697,7 @@ phpmyadmin-backup:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 17
+      '2013-07-23': 27
 resque:
   urls:
   - http://github.com/defunkt/resque
@@ -155866,15 +155858,16 @@ pessimize:
       '2013-07-23': 13
 Reid:
   urls:
-  - 
+  - https://github.com/danpaul/reid
   - 
   - http://rubygems.org/gems/Reid
   authors: Dan Breczinski
-  license: []
-  0.0.7:
+  license:
+  - MIT (http://opensource.org/licenses/MIT)
+  0.1.0:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 123
+      '2013-07-23': 177
 date_select_separator:
   urls:
   - https://github.com/rono23/date_select_separator
@@ -155993,7 +155986,7 @@ magnum-payload:
   0.3.0:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 11
+      '2013-07-23': 22
 gugl:
   urls:
   - https://github.com/juliogarciag/gugl
@@ -156005,7 +155998,7 @@ gugl:
   '0.1':
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 13
+      '2013-07-23': 23
 agile_solo:
   urls:
   - https://github.com/azukiwasher/agile_solo
@@ -156017,7 +156010,7 @@ agile_solo:
   0.1.0:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 14
+      '2013-07-23': 21
 spieker:
   urls:
   - ''
@@ -156029,7 +156022,7 @@ spieker:
   0.0.1:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 18
+      '2013-07-23': 29
 ratis:
   urls:
   - 
@@ -156047,11 +156040,12 @@ capybara-screenshot:
   - 
   - http://rubygems.org/gems/capybara-screenshot
   authors: Matthew O'Riordan
-  license: []
-  0.3.12:
+  license:
+  - MIT
+  0.3.13:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
-      '2013-07-23': 19
+      '2013-07-23': 30
 cfndsl:
   urls:
   - https://github.com/howech/cfndsl
@@ -156220,3 +156214,380 @@ domp:
     built_at: '2013-07-23T00:00:00Z'
     downloads:
       '2013-07-23': 18
+reapmotion:
+  urls:
+  - http://github.com/enebo/reapmotion
+  - 
+  - http://rubygems.org/gems/reapmotion
+  authors: Thomas E. Enebo
+  license: []
+  '0.1':
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 1
+pubnub-publisher:
+  urls:
+  - ''
+  - https://github.com/mattetti/pubnub-publisher
+  - http://rubygems.org/gems/pubnub-publisher
+  authors: Matt Aimonetti
+  license:
+  - MIT
+  1.0.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 9
+TwentyFourTru:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/TwentyFourTru
+  authors: Cache Hamm
+  license: []
+  0.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 15
+log_runes:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/log_runes
+  authors: wlipa
+  license: []
+  1.1.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 14
+ensou:
+  urls:
+  - https://github.com/heroku/ensou
+  - 
+  - http://rubygems.org/gems/ensou
+  authors: Zeke Sikelianos
+  license: []
+  0.0.5:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 18
+hydra-derivatives:
+  urls:
+  - https://github.com/projecthydra/hydra-derivatives
+  - 
+  - http://rubygems.org/gems/hydra-derivatives
+  authors: Justin Coyne
+  license:
+  - APACHE2
+  0.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 23
+RailsRunSignUp:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/RailsRunSignUp
+  authors: David Slone
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 18
+active_admin_globalize3_locale_selector:
+  urls:
+  - http://github.com/rubennorte/activeadmin-globalize3-locale-selector
+  - 
+  - http://rubygems.org/gems/active_admin_globalize3_locale_selector
+  authors: Rubén Norte
+  license: []
+  0.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 12
+metacrunch-ubpb:
+  urls:
+  - http://github.com/ubpb/metacrunch-ubpb
+  - 
+  - http://rubygems.org/gems/metacrunch-ubpb
+  authors: René Sprotte, Marcel Otto
+  license:
+  - MIT
+  1.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 16
+pivotal-sass:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/pivotal-sass
+  authors: Robbie Clutton
+  license:
+  - MIT
+  0.0.1.7:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 23
+pollter_geist:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/pollter_geist
+  authors: kwando
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 19
+russian_central_bank:
+  urls:
+  - http://github.com/rmustafin/russian_central_bank
+  - 
+  - http://rubygems.org/gems/russian_central_bank
+  authors: Ramil Mustafin
+  license:
+  - MIT
+  0.1.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 20
+git-scripts:
+  urls:
+  - http://ifixit.github.com/git-scripts/
+  - https://github.com/ifixit/git-scripts
+  - http://rubygems.org/gems/git-scripts
+  authors: Daniel Beardsley, James Pearson, Tim Asp
+  license: []
+  0.2.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 5
+net-http-digest_auth:
+  urls:
+  - http://github.com/drbrain/net-http-digest_auth
+  - http://github.com/drbrain/net-http-digest_auth
+  - http://rubygems.org/gems/net-http-digest_auth
+  authors: Eric Hodel
+  license: []
+  '1.4':
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 116
+rails-timeago:
+  urls:
+  - https://github.com/jgraichen/rails-timeago
+  - https://github.com/jgraichen/rails-timeago
+  - http://rubygems.org/gems/rails-timeago
+  authors: Jan Graichen
+  license: []
+  2.5.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 13
+einhorn:
+  urls:
+  - https://github.com/stripe/einhorn
+  - 
+  - http://rubygems.org/gems/einhorn
+  authors: Greg Brockman
+  license: []
+  0.4.8:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 10
+messagebus-sdk:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/messagebus-sdk
+  authors: Message Bus
+  license:
+  - APACHE2
+  4.1.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 11
+steam-condenser:
+  urls:
+  - http://koraktor.de/steam-condenser
+  - http://github.com/koraktor/steam-condenser
+  - http://rubygems.org/gems/steam-condenser
+  authors: Sebastian Staudt
+  license:
+  - BSD
+  1.3.6:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 13
+checkcheckit:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/checkcheckit
+  authors: Chris Continanza
+  license: []
+  0.3.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 14
+compactor:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/compactor
+  authors: Julio Santos
+  license:
+  - MIT
+  0.4.5:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 7
+active_shipping:
+  urls:
+  - http://github.com/shopify/active_shipping
+  - ''
+  - http://rubygems.org/gems/active_shipping
+  authors: James MacAulay, Tobi Lutke, Cody Fauser, Jimmy Baker
+  license: []
+  0.10.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 12
+dandelion:
+  urls:
+  - http://github.com/scttnlsn/dandelion
+  - ''
+  - http://rubygems.org/gems/dandelion
+  authors: Scott Nelson
+  license: []
+  0.3.12:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 12
+twdeps:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/twdeps
+  authors: Nicholas E. Rabenau
+  license: []
+  0.0.4:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 13
+cocoapods:
+  urls:
+  - https://github.com/CocoaPods/CocoaPods
+  - https://github.com/CocoaPods/CocoaPods
+  - http://rubygems.org/gems/cocoapods
+  authors: Eloy Duran, Fabio Pelosin
+  license:
+  - MIT
+  0.22.3:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 102
+finance:
+  urls:
+  - https://rubygems.org/gems/finance
+  - https://github.com/wkranec/finance
+  - http://rubygems.org/gems/finance
+  authors: Bill Kranec
+  license: []
+  2.0.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 15
+flickr_authentication:
+  urls:
+  - https://github.com/nodanaonlyzuul/flickr_authentication
+  - 
+  - http://rubygems.org/gems/flickr_authentication
+  authors: Stephen Schor
+  license:
+  - MIT
+  0.0.2:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 13
+silent_worker:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/silent_worker
+  authors: uu59
+  license:
+  - MIT
+  0.1.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 18
+cocoapods-core:
+  urls:
+  - https://github.com/CocoaPods/CocoaPods
+  - 
+  - http://rubygems.org/gems/cocoapods-core
+  authors: Eloy Duran, Fabio Pelosin
+  license:
+  - MIT
+  0.22.3:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 106
+authpds-nyu:
+  urls:
+  - http://github.com/scotdalton/authpds-nyu
+  - 
+  - http://rubygems.org/gems/authpds-nyu
+  authors: Scot Dalton
+  license: []
+  0.2.13:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 25
+authpds:
+  urls:
+  - http://github.com/scotdalton/authpds
+  - 
+  - http://rubygems.org/gems/authpds
+  authors: Scot Dalton
+  license: []
+  0.2.9:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 29
+guard-minitest:
+  urls:
+  - https://github.com/guard/guard-minitest
+  - http://github.com/guard/guard-minitest
+  - http://rubygems.org/gems/guard-minitest
+  authors: Yann Lugrin, Rémy Coutable
+  license: []
+  1.0.1:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 35
+veronic:
+  urls:
+  - http://github.com/GabKlein/veronic
+  - 
+  - http://rubygems.org/gems/veronic
+  authors: Gabriel Klein
+  license: []
+  0.0.25:
+    built_at: '2013-04-05T00:00:00Z'
+    downloads:
+      '2013-07-23': 16
+colorbox-rails:
+  urls:
+  - http://www.selleo.com
+  - 
+  - http://rubygems.org/gems/colorbox-rails
+  authors: Błażej Kosmowski, Bartłomiej Danek, Alexander Maslov, Torsten Trautwein
+  license: []
+  0.1.0:
+    built_at: '2013-07-23T00:00:00Z'
+    downloads:
+      '2013-07-23': 15
