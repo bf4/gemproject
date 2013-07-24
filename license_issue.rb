@@ -11,7 +11,7 @@ def github_repos_for_gems_without_licenses(gems)
     select{|_,v| v['license'] == []}.
     map{|_,v|v['urls'].
         detect{|u| u =~ /\/github[^\/]+\/\w+\/\w+/} }.
-    compact.map{|u| u.split('/')[3..4].join('/').sub('.git','') }
+    compact.map{|u| u.split('/')[3..4].join('/').sub('.git','') }.uniq
 end
 username_blacklist = File.readlines('./user_blacklist.txt').map{|blacklist| /#{blacklist.strip}/io }
 repos = github_repos_for_gems_without_licenses(gems).
