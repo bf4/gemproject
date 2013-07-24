@@ -2,8 +2,19 @@
 require 'yaml'
 @downloads_yaml = 'zlatest_downloads.yml'
 gems = YAML.load(File.read(@downloads_yaml))
-
 STDOUT.sync = true
+
+def get_license_stats(gems)
+  @licenses = {}
+  gems.map{|_,v|v['license']}.reject{|l|l == [] || l.nil? || l == "" || l == ['']}.each do |license|
+    @licenses[license] ||= 0
+    @licenses[license] += 1
+  end
+  puts
+  puts "licenses with count"
+  puts @licenses.sort {|a,b| b[1] <=> a[1]}.map{|l,c| "#{c},#{l}\n"}
+end
+# get_license_stats(gems)
 
 # @return Array<username/projectname>
 def github_repos_for_gems_without_licenses(gems)
