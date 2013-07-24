@@ -26,7 +26,8 @@ repos = github_repos_for_gems_without_licenses(gems).
 @license_issues = 'license_issues.txt'
 made_an_issue = File.readlines("./#{@license_issues}").map(&:strip)
 unable_to_issue_issue = File.readlines("./failed_#{@license_issues}").map(&:strip)
-already_processed =  made_an_issue | unable_to_issue_issue
+existing_issue  = File.readlines("./existing_#{@license_issues}").map(&:strip)
+already_processed =  made_an_issue | unable_to_issue_issue | existing_issue
 
 def license_issues(repo, state = 'open')
   `ghi list -s#{state} -- #{repo} | egrep -i 'licence|license' >> /dev/null && echo 'has_issue'`
@@ -40,7 +41,7 @@ def has_no_license_issues?(repo)
 end
 def github_repos_without_license_issue(repos, already_processed)
   repos.reject{|repo| already_processed.include?(repo)}.select do |repo|
-    has_no_license_issues?(repo)
+    has_no_license_issues?(repo) || (`echo '#{repo}' >> existing_#{@license_issues}` && false)
   end
 end
 needs_issue = github_repos_without_license_issue(repos, already_processed)
