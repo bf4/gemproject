@@ -82,7 +82,7 @@ I hope you'll consider specifying a license in your gemspec. If not, please just
 
 Appendix:
 
-If you need help choosing a [license](http://opensource.org/licenses) (sorry, I haven't checked your readme or looked for a license file), github has created a [license picker tool](http://choosealicense.com/).
+If you need help choosing a [license](http://opensource.org/licenses) (sorry, I haven't checked your readme or looked for a license file), GitHub has created a [license picker tool](http://choosealicense.com/).  Code without a license specified defaults to 'All rights reserved'-- denying others all rights to use of the code.
 Here's a [list of the license names I've found and their frequencies](https://github.com/bf4/gemproject/blob/master/license_usage.csv)
 
 p.s. In case you're wondering how I found you and why I made this issue, it's because I'm collecting stats on gems (I was originally looking for download data) and decided to collect license metadata,too, and [make issues for gemspecs not specifying a license as a public service :)](https://github.com/bf4/gemproject/issues/1). See the previous link or my [blog post aobut this project for more information](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/).
