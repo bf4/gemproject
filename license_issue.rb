@@ -66,8 +66,7 @@ def issue_message
   @message ||= begin
     subject = "License missing from gemspec"
     body = <<-BODY
-Some companies will only use gems with a certain license.
-The canonical and easy way to check is [via the gemspec](http://docs.rubygems.org/read/chapter/20#license),
+RubyGems.org doesn't report a license for your gem.  This is because it is not specified in the [gemspec](http:t/docs.rubygems.org/read/chapter/20#license) of your last release.
 
 via e.g.
 
@@ -75,21 +74,18 @@ via e.g.
     # or
     spec.licenses = ['MIT', 'GPL-2']
 
-Even for projects that already specify a license, including a license in your gemspec is a good practice, since it is easily
-discoverable there without having to check the readme or for a license file. For example, it is the field that [rubygems.org uses to display a gem's license](https://rubygems.org/gems/rails).
+Including a license in your gemspec is an easy way for rubygems.org and other tools to check how your gem is licensed.  As you can image, scanning your repository for a LICENSE file or parsing the README, and then attempting to identify the license or licenses is much more difficult and more error prone. So, even for projects that already specify a license, including a license in your gemspec is a good practice. See, for example, how [rubygems.org uses the gemspec to  display the rails gem license](https://rubygems.org/gems/rails).
 
-For example, there is a [License Finder gem](https://github.com/pivotal/LicenseFinder) to help companies ensure all gems they use
-meet their licensing needs. This tool depends on license information being available in the gemspec.  This is an important enough
-issue that even Bundler now generates gems with a default 'MIT' license.
+There is even a [License Finder gem](https://github.com/pivotal/LicenseFinder) to help companies/individuals ensure all gems they use meet their licensing needs. This tool depends on license information being available in the gemspec.  This is an important enough issue that *even Bundler now generates gems with a default 'MIT' license*.
+
+I hope you'll consider specifying a license in your gemspec. If not, please just close the issue with a nice message. In either case, I'll follow up. Thanks for your time!
+
+Appendix:
 
 If you need help choosing a [license](http://opensource.org/licenses) (sorry, I haven't checked your readme or looked for a license file), github has created a [license picker tool](http://choosealicense.com/).
+Here's a [list of the license names I've found and their frequencies](https://github.com/bf4/gemproject/blob/master/license_usage.csv)
 
-In case you're wondering how I found you and why I made this issue, it's because I'm collecting stats on gems (I was originally looking for download data) and decided to collect license metadata,too, and [make issues for gemspecs not specifying a license as a public service :)](https://github.com/bf4/gemproject/issues/1).
-
-I hope you'll consider specifying a license in your gemspec. If not, please just close the issue and let me know. In either case, I'll follow up. Thanks!
-
-p.s. I've written a [blog post about this project](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
-p.p.s. Here's a [list of the license names I've found and their frequenceis](https://github.com/bf4/gemproject/blob/master/license_usage.csv)
+p.s. In case you're wondering how I found you and why I made this issue, it's because I'm collecting stats on gems (I was originally looking for download data) and decided to collect license metadata,too, and [make issues for gemspecs not specifying a license as a public service :)](https://github.com/bf4/gemproject/issues/1). See the previous link or my [blog post aobut this project for more information](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/).
 BODY
     [subject,body].join("\n\n")
   end
