@@ -7,15 +7,16 @@ STDOUT.sync = true
 def get_license_stats(gems)
   @licenses = {}
   gems.map{|_,v|v['license']}.reject{|l|l == [] || l.nil? || l == "" || l == ['']}.each do |license|
-    @licenses[license] ||= 0
-    @licenses[license] += 1
+    Array(license).each do |l|
+      @licenses[l] ||= 0
+      @licenses[l] += 1
+    end
   end
-  puts
-  puts "licenses with count"
-  puts @licenses.sort {|a,b| b[1] <=> a[1]}.map{|l,c| "#{c},#{l}\n"}
+  puts "count,license"
+  puts @licenses.sort {|a,b| b[0].downcase <=> a[0].downcase}.map{|l,c| "#{c},#{l}\n"}
 end
 # get_license_stats(gems)
-
+# exit
 # @return Array<username/projectname>
 def github_repos_for_gems_without_licenses(gems)
   gems.
