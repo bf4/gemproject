@@ -12,11 +12,15 @@ def get_license_stats(gems)
       @licenses[l] += 1
     end
   end
-  puts "count,license"
-  puts @licenses.sort {|a,b| b[0].downcase <=> a[0].downcase}.map{|l,c| "#{c},#{l}\n"}
+  "count,license\n" <<
+    @licenses.sort {|a,b| b[0].downcase <=> a[0].downcase}.map{|l,c| "#{c},#{l}\n"}.join
 end
-# get_license_stats(gems)
-# exit
+if ARGV[0] == 'license_stats'
+  File.open('license_usage.csv', 'w') do |file|
+    file.write(get_license_stats(gems))
+  end
+  exit
+end
 # @return Array<username/projectname>
 def github_repos_for_gems_without_licenses(gems)
   gems.
