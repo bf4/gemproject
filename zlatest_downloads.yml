@@ -561,7 +561,7 @@ next:
   - ''
   - 
   - http://rubygems.org/gems/next
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -574,7 +574,7 @@ aero:
   - ''
   - 
   - http://rubygems.org/gems/aero
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -31481,7 +31481,7 @@ elite:
   - ''
   - 
   - http://rubygems.org/gems/elite
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -31892,7 +31892,7 @@ wires:
   - http://rubygems.org/gems/wires
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.2.8:
     built_at: '2013-07-11T00:00:00Z'
     downloads:
@@ -81219,7 +81219,7 @@ cardspring:
   - https://github.com/koombea/cardspring-ruby.git
   - 
   - http://rubygems.org/gems/cardspring
-  authors: ! '"Pedro, Fernandez", "Charly, Palencia", "Ivan, granados", "Edgar, Ortega",
+  authors: '"Pedro, Fernandez", "Charly, Palencia", "Ivan, granados", "Edgar, Ortega",
     "Jonathan, Cabas"'
   license:
   - MIT
@@ -93644,7 +93644,7 @@ ultra:
   - ''
   - 
   - http://rubygems.org/gems/ultra
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -94386,7 +94386,7 @@ wires-inotify:
   - http://rubygems.org/gems/wires-inotify
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.9.0:
     built_at: '2013-07-18T00:00:00Z'
     downloads:
@@ -94408,7 +94408,7 @@ studio:
   - ''
   - 
   - http://rubygems.org/gems/studio
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -99624,7 +99624,7 @@ method_struct:
   - https://github.com/basecrm/method_struct
   - 
   - http://rubygems.org/gems/method_struct
-  authors: ! "PaweÅ\x82 Obrok"
+  authors: "PaweÅ\x82 Obrok"
   license:
   - MIT
   0.0.5:
@@ -131076,7 +131076,7 @@ capybara-wheel:
   - http://github.com/hooroo/capybara-wheel
   - https://github.com/hooroo/capybara-wheel
   - http://rubygems.org/gems/capybara-wheel
-  authors: ! '@gabrielrotbart'
+  authors: '@gabrielrotbart'
   license:
   - MIT
   0.0.5:
@@ -143096,7 +143096,7 @@ wires-icalendar:
   - http://rubygems.org/gems/wires-icalendar
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.0.0:
     built_at: '2013-07-18T00:00:00Z'
     downloads:
@@ -144161,7 +144161,7 @@ just:
   - ''
   - 
   - http://rubygems.org/gems/just
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -146506,7 +146506,7 @@ tiger:
   - ''
   - 
   - http://rubygems.org/gems/tiger
-  authors: ! '...'
+  authors: '...'
   license:
   - MIT
   0.0.0:
@@ -147465,7 +147465,7 @@ starkfish:
   - http://rubygems.org/gems/starkfish
   authors: Joe McIlvain
   license:
-  - ! 'Copyright (c) Joe McIlvain. All rights reserved '
+  - 'Copyright (c) Joe McIlvain. All rights reserved '
   0.2.0:
     built_at: '2013-07-20T00:00:00Z'
     downloads:
@@ -151791,7 +151791,8 @@ autolinks:
   0.1.0:
     built_at: '2013-07-24T00:00:00Z'
     downloads:
-      '2013-07-24': 10
+      '2013-07-24': 17
+      '2013-07-25': 2
 chupacabra:
   urls:
   - http://github.com/dawid-sklodowski/chupacabra
@@ -151814,7 +151815,8 @@ causality:
   0.0.1:
     built_at: '2013-07-24T00:00:00Z'
     downloads:
-      '2013-07-24': 12
+      '2013-07-24': 16
+      '2013-07-25': 2
 ink_ui_rails:
   urls:
   - https://github.com/mab879/ink_ui_rails
@@ -151844,7 +151846,8 @@ omniauth-opscode:
   0.0.1:
     built_at: '2013-07-24T00:00:00Z'
     downloads:
-      '2013-07-24': 15
+      '2013-07-24': 20
+      '2013-07-25': 4
 resque-smtp:
   urls:
   - https://github.com/restorando/resque-smtp
@@ -152181,3 +152184,105 @@ leaflet-zoomfs-rails:
     built_at: '2013-07-24T00:00:00Z'
     downloads:
       '2013-07-24': 15
+hyphy:
+  urls:
+  - http://github.com/3dna/hyphy
+  - 
+  - http://rubygems.org/gems/hyphy
+  authors: David Huie
+  license:
+  - MIT
+  0.0.0:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-25': 9
+architect:
+  urls:
+  - https://github.com/EtienneLem/architect
+  - 
+  - http://rubygems.org/gems/architect
+  authors: Etienne Lemay
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 5
+      '2013-07-25': 5
+sj-plist:
+  urls:
+  - http://github.com/sjmulder/plist
+  - 
+  - http://rubygems.org/gems/sj-plist
+  authors: Ben Bleything and Patrick May. Binary support merged by Sijmen Mulder.
+  license: []
+  '3.2':
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 5
+      '2013-07-25': 5
+beanstalk-worker:
+  urls:
+  - http://github.com/aia/beanstalk-worker
+  - 
+  - http://rubygems.org/gems/beanstalk-worker
+  authors: Artem Veremey
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 5
+      '2013-07-25': 5
+samantha:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/samantha
+  authors: Flip Stewart
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 13
+      '2013-07-25': 3
+cadre:
+  urls:
+  - http://nyarly.github.com/cadre
+  - 
+  - http://rubygems.org/gems/cadre
+  authors: Judson Lester
+  license:
+  - MIT
+  0.0.1:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 9
+      '2013-07-25': 2
+RubyInlineWithoutZenTest:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/RubyInlineWithoutZenTest
+  authors: Paul Kmiec
+  license:
+  - MIT
+  3.12.2:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 17
+      '2013-07-25': 4
+pyramid:
+  urls:
+  - ''
+  - 
+  - http://rubygems.org/gems/pyramid
+  authors: '...'
+  license:
+  - MIT
+  0.0.0:
+    built_at: '2013-07-24T00:00:00Z'
+    downloads:
+      '2013-07-24': 12
+      '2013-07-25': 2
