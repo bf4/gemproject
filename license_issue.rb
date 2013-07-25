@@ -85,6 +85,7 @@ In case you're wondering how I found you and why I made this issue, it's because
 I hope you'll consider specifying a license in your gemspec. If not, please just close the issue and let me know. In either case, I'll follow up. Thanks!
 
 p.s. I've written a [blog post about this project](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
+p.p.s. Here's a [list of the license names I've found and their frequenceis](https://github.com/bf4/gemproject/blob/master/license_usage.csv)
 BODY
     [subject,body].join("\n\n")
   end
