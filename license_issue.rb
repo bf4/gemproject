@@ -66,7 +66,7 @@ def issue_message
   @message ||= begin
     subject = "License missing from gemspec"
     body = <<-BODY
-RubyGems.org doesn't report a license for your gem.  This is because it is not specified in the [gemspec](http:t/docs.rubygems.org/read/chapter/20#license) of your last release.
+RubyGems.org doesn't report a license for your gem.  This is because it is not specified in the [gemspec](http://docs.rubygems.org/read/chapter/20#license) of your last release.
 
 via e.g.
 
