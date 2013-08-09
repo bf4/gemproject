@@ -79,6 +79,7 @@ code_metrics:
       170: '2013-08-07T19:53:58Z'
       171: '2013-08-08T17:13:11Z'
       172: '2013-08-08T20:15:10Z'
+      173: '2013-08-09T18:51:55Z'
 metric_fu-Saikuro:
   info: ! "When given Ruby\n  source code Saikuro will generate a report listing the
     cyclomatic\n  complexity of each method found.  In addition, Saikuro counts the\n
@@ -146,6 +147,7 @@ metric_fu-Saikuro:
       1071: '2013-08-07T19:53:58Z'
       1138: '2013-08-08T17:13:11Z'
       1151: '2013-08-08T20:15:10Z'
+      1216: '2013-08-09T18:51:55Z'
   dependencies:
     development: []
     runtime: []
@@ -180,6 +182,7 @@ yui-rails:
       211: '2013-08-02T22:32:50Z'
       212: '2013-08-06T18:42:00Z'
       213: '2013-08-08T20:15:10Z'
+      219: '2013-08-09T18:51:55Z'
   0.5.1:
     build_date: '2013-05-28T00:00:00Z'
     downloads:
@@ -803,6 +806,7 @@ metric_fu:
       240: '2013-08-07T19:53:58Z'
       282: '2013-08-08T17:13:11Z'
       292: '2013-08-08T20:15:10Z'
+      336: '2013-08-09T18:51:55Z'
 metric_fu-roodi:
   info: Roodi stands for Ruby Object Oriented Design Inferometer
   url: http://github.com/metricfu/roodi
@@ -934,6 +938,7 @@ metric_fu-roodi:
       434: '2013-08-07T19:53:58Z'
       510: '2013-08-08T17:13:11Z'
       526: '2013-08-08T20:15:10Z'
+      597: '2013-08-09T18:51:55Z'
 metric_fu-metrical:
   info: MetricFu is awesome! The only problem is that it's kinda obtrusive. Metrical
     provides a executable so you can run metric fu on any project without making changes
@@ -959,6 +964,7 @@ metric_fu-metrical:
       398: '2013-07-31T02:09:44Z'
       402: '2013-08-05T22:27:36Z'
       404: '2013-08-08T20:15:10Z'
+      406: '2013-08-09T18:51:55Z'
   dependencies:
     development:
     - name: rspec
@@ -1390,6 +1396,8 @@ reek:
       requirements: ~> 1.1
     - name: cucumber
       requirements: ! '>= 0'
+    - name: flay
+      requirements: ! '>= 0'
     - name: rake
       requirements: ! '>= 0'
     - name: rspec
@@ -1403,6 +1411,10 @@ reek:
       requirements: ~> 3.1.1
     - name: sexp_processor
       requirements: ! '>= 0'
+  1.3.2:
+    build_date: '2013-08-09T00:00:00Z'
+    downloads:
+      104: '2013-08-09T18:51:55Z'
 ruby_parser:
   info: ! "ruby_parser (RP) is a ruby parser written in pure ruby (utilizing\nracc--which
     does by default use a C extension). RP's output is\nthe same as ParseTree's output:
@@ -1886,6 +1898,7 @@ ruby_parser:
       15870: '2013-08-07T19:53:58Z'
       16589: '2013-08-08T17:13:11Z'
       16741: '2013-08-08T20:15:10Z'
+      17567: '2013-08-09T18:51:55Z'
 rails_best_practices:
   info: a code metric tool for rails codes, written in Ruby.
   url: http://rails-bestpractices.com
@@ -3073,6 +3086,7 @@ rails_best_practices:
       2977: '2013-08-07T19:53:58Z'
       3137: '2013-08-08T17:13:11Z'
       3154: '2013-08-08T20:15:10Z'
+      3343: '2013-08-09T18:51:55Z'
 flog:
   info: ! 'Flog reports the most tortured code in an easy to read pain
 
@@ -3509,6 +3523,7 @@ flog:
       6343: '2013-08-07T19:53:58Z'
       6538: '2013-08-08T17:13:11Z'
       6563: '2013-08-08T20:15:10Z'
+      6745: '2013-08-09T18:51:55Z'
 flay:
   info: ! 'Flay analyzes code for structural similarities. Differences in literal
 
@@ -3839,6 +3854,7 @@ flay:
       2493: '2013-08-07T19:53:58Z'
       2596: '2013-08-08T17:13:11Z'
       2616: '2013-08-08T20:15:10Z'
+      2707: '2013-08-09T18:51:55Z'
 cane:
   info: Fails your build if code quality thresholds are not met
   url: http://github.com/square/cane
@@ -3947,6 +3963,7 @@ cane:
       9665: '2013-08-07T19:53:58Z'
       9803: '2013-08-08T17:13:11Z'
       9811: '2013-08-08T20:15:10Z'
+      9971: '2013-08-09T18:51:55Z'
   2.5.2:
     build_date: '2013-01-26T00:00:00Z'
     downloads:
@@ -4260,6 +4277,7 @@ churn:
       1059: '2013-08-07T19:53:58Z'
       1124: '2013-08-08T17:13:11Z'
       1136: '2013-08-08T20:15:10Z'
+      1195: '2013-08-09T18:51:55Z'
   0.0.28:
     build_date: '2012-12-17T00:00:00Z'
     downloads:
@@ -4631,6 +4649,7 @@ turbulence:
       444: '2013-08-07T19:53:58Z'
       455: '2013-08-08T17:13:11Z'
       459: '2013-08-08T20:15:10Z'
+      472: '2013-08-09T18:51:55Z'
   1.0.0:
     build_date: '2011-10-06T00:00:00Z'
     downloads:
