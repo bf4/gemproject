@@ -74,7 +74,7 @@ via e.g.
     # or
     spec.licenses = ['MIT', 'GPL-2']
 
-Including a license in your gemspec is an easy way for rubygems.org and other tools to check how your gem is licensed.  As you can image, scanning your repository for a LICENSE file or parsing the README, and then attempting to identify the license or licenses is much more difficult and more error prone. So, even for projects that already specify a license, including a license in your gemspec is a good practice. See, for example, how [rubygems.org uses the gemspec to  display the rails gem license](https://rubygems.org/gems/rails).
+Including a license in your gemspec is an easy way for rubygems.org and other tools to check how your gem is licensed.  As you can imagine, scanning your repository for a LICENSE file or parsing the README, and then attempting to identify the license or licenses is much more difficult and more error prone. So, even for projects that already specify a license, including a license in your gemspec is a good practice. See, for example, how [rubygems.org uses the gemspec to  display the rails gem license](https://rubygems.org/gems/rails).
 
 There is even a [License Finder gem](https://github.com/pivotal/LicenseFinder) to help companies/individuals ensure all gems they use meet their licensing needs. This tool depends on license information being available in the gemspec.  This is an important enough issue that *even Bundler now generates gems with a default 'MIT' license*.
 
