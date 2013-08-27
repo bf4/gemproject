@@ -8,6 +8,7 @@ def get_license_stats(gems)
   @licenses = {}
   gems.map{|_,v|v['license']}.reject{|l|l == [] || l.nil? || l == "" || l == ['']}.each do |license|
     Array(license).each do |l|
+      l = %Q("#{l.gsub(/"/,"'")}")
       @licenses[l] ||= 0
       @licenses[l] += 1
     end
