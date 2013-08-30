@@ -173,6 +173,7 @@ code_metrics:
       1215: '2013-08-29T16:33:01Z'
       1237: '2013-08-29T19:06:19Z'
       1280: '2013-08-30T00:01:44Z'
+      1290: '2013-08-30T02:36:29Z'
 metric_fu-Saikuro:
   info: |-
     When given Ruby
@@ -338,6 +339,7 @@ metric_fu-Saikuro:
       3165: '2013-08-29T16:33:01Z'
       3187: '2013-08-29T19:06:19Z'
       3230: '2013-08-30T00:01:44Z'
+      3242: '2013-08-30T02:36:29Z'
   dependencies:
     development: []
     runtime: []
@@ -386,7 +388,7 @@ yui-rails:
       244: '2013-08-28T06:41:03Z'
       245: '2013-08-28T09:14:36Z'
       246: '2013-08-28T19:26:30Z'
-      247: '2013-08-30T00:01:44Z'
+      247: '2013-08-30T02:36:29Z'
   0.5.1:
     build_date: '2013-05-28T00:00:00Z'
     downloads:
@@ -962,7 +964,7 @@ metric_fu:
     - name: bluff
       requirements: '>= 0'
     - name: cane
-      requirements: ~> 2.5.2
+      requirements: '>= 2.5.2, ~> 2.5'
     - name: churn
       requirements: ~> 0.0.28
     - name: code_metrics
@@ -970,21 +972,21 @@ metric_fu:
     - name: coderay
       requirements: '>= 0'
     - name: flay
-      requirements: ~> 2.0.1
+      requirements: '>= 2.0.1, ~> 2.1'
     - name: flog
-      requirements: ~> 4.1.1
-    - name: metric_fu-roodi
-      requirements: '>= 2.2.1'
+      requirements: '>= 4.1.1, ~> 4.1'
     - name: metric_fu-Saikuro
       requirements: '>= 1.1.1.0'
     - name: multi_json
       requirements: '>= 0'
     - name: rails_best_practices
-      requirements: '>= 1.14.1, ~> 1.14'
+      requirements: '>= 1.14.3, ~> 1.14'
     - name: redcard
       requirements: '>= 0'
     - name: reek
-      requirements: ~> 1.3.1
+      requirements: '>= 1.3.3, ~> 1.3'
+    - name: roodi
+      requirements: ~> 3.1
   4.3.0:
     build_date: '2013-07-26T00:00:00Z'
     downloads:
@@ -1111,6 +1113,10 @@ metric_fu:
       870: '2013-08-29T16:33:01Z'
       893: '2013-08-29T19:06:19Z'
       933: '2013-08-30T00:01:44Z'
+  4.4.1:
+    build_date: '2013-08-30T00:00:00Z'
+    downloads:
+      1: '2013-08-30T02:36:29Z'
 metric_fu-roodi:
   info: Roodi stands for Ruby Object Oriented Design Inferometer
   url: http://github.com/metricfu/roodi
@@ -1341,6 +1347,7 @@ metric_fu-roodi:
       2653: '2013-08-29T16:33:01Z'
       2677: '2013-08-29T19:06:19Z'
       2721: '2013-08-30T00:01:44Z'
+      2730: '2013-08-30T02:36:29Z'
 metric_fu-metrical:
   info: MetricFu is awesome! The only problem is that it's kinda obtrusive. Metrical
     provides a executable so you can run metric fu on any project without making changes
@@ -1378,6 +1385,7 @@ metric_fu-metrical:
       424: '2013-08-27T11:12:30Z'
       425: '2013-08-29T02:41:35Z'
       427: '2013-08-30T00:01:44Z'
+      429: '2013-08-30T02:36:29Z'
   dependencies:
     development:
     - name: rspec
@@ -1932,6 +1940,7 @@ reek:
       408: '2013-08-29T16:33:01Z'
       434: '2013-08-29T19:06:19Z'
       469: '2013-08-30T00:01:44Z'
+      486: '2013-08-30T02:36:29Z'
 ruby_parser:
   info: |-
     ruby_parser (RP) is a ruby parser written in pure ruby (utilizing
@@ -2536,6 +2545,7 @@ ruby_parser:
       35023: '2013-08-29T16:33:01Z'
       35206: '2013-08-29T19:06:19Z'
       35563: '2013-08-30T00:01:44Z'
+      35655: '2013-08-30T02:36:29Z'
 rails_best_practices:
   info: a code metric tool for rails codes, written in Ruby.
   url: http://rails-bestpractices.com
@@ -3836,6 +3846,7 @@ rails_best_practices:
       1189: '2013-08-29T16:33:01Z'
       1231: '2013-08-29T19:06:19Z'
       1296: '2013-08-30T00:01:44Z'
+      1319: '2013-08-30T02:36:29Z'
 flog:
   info: |-
     Flog reports the most tortured code in an easy to read pain
@@ -4374,6 +4385,7 @@ flog:
       11722: '2013-08-29T16:33:01Z'
       11769: '2013-08-29T19:06:19Z'
       11869: '2013-08-30T00:01:44Z'
+      11898: '2013-08-30T02:36:29Z'
 flay:
   info: |-
     Flay analyzes code for structural similarities. Differences in literal
@@ -4802,6 +4814,7 @@ flay:
       4857: '2013-08-29T16:33:01Z'
       4870: '2013-08-29T19:06:19Z'
       4891: '2013-08-30T00:01:44Z'
+      4900: '2013-08-30T02:36:29Z'
 cane:
   info: Fails your build if code quality thresholds are not met
   url: http://github.com/square/cane
@@ -5009,6 +5022,7 @@ cane:
       13381: '2013-08-29T16:33:01Z'
       13407: '2013-08-29T19:06:19Z'
       13457: '2013-08-30T00:01:44Z'
+      13491: '2013-08-30T02:36:29Z'
   2.5.2:
     build_date: '2013-01-26T00:00:00Z'
     downloads:
@@ -5416,6 +5430,7 @@ churn:
       3288: '2013-08-29T16:33:01Z'
       3311: '2013-08-29T19:06:19Z'
       3357: '2013-08-30T00:01:44Z'
+      3367: '2013-08-30T02:36:29Z'
   0.0.28:
     build_date: '2012-12-17T00:00:00Z'
     downloads:
@@ -5816,6 +5831,7 @@ turbulence:
       570: '2013-08-29T13:58:23Z'
       572: '2013-08-29T19:06:19Z'
       573: '2013-08-30T00:01:44Z'
+      574: '2013-08-30T02:36:29Z'
   1.0.0:
     build_date: '2011-10-06T00:00:00Z'
     downloads:
@@ -7642,6 +7658,7 @@ roodi:
       183: '2013-08-29T16:33:01Z'
       186: '2013-08-29T19:06:19Z'
       190: '2013-08-30T00:01:44Z'
+      195: '2013-08-30T02:36:29Z'
 Saikuro:
   info: Saikuro is a Ruby cyclomatic complexity analyzer.  When given Ruby source
     code Saikuro will generate a report listing the cyclomatic complexity of each
@@ -7719,6 +7736,7 @@ Saikuro:
       192915: '2013-08-29T16:33:01Z'
       192925: '2013-08-29T19:06:19Z'
       192936: '2013-08-30T00:01:44Z'
+      192938: '2013-08-30T02:36:29Z'
   dependencies:
     development: []
     runtime: []
@@ -7768,6 +7786,7 @@ saikuro:
       4374: '2013-08-29T16:33:01Z'
       4385: '2013-08-29T19:06:19Z'
       4386: '2013-08-30T00:01:44Z'
+      4389: '2013-08-30T02:36:29Z'
   dependencies:
     development: []
     runtime: []
@@ -7882,6 +7901,7 @@ code_analyzer:
       1540: '2013-08-29T16:33:01Z'
       1589: '2013-08-29T19:06:19Z'
       1659: '2013-08-30T00:01:44Z'
+      1685: '2013-08-30T02:36:29Z'
 brakeman:
   info: Brakeman detects security vulnerabilities in Ruby on Rails applications via
     static analysis.
@@ -8000,6 +8020,7 @@ brakeman:
       2246: '2013-08-29T16:33:01Z'
       2309: '2013-08-29T19:06:19Z'
       2394: '2013-08-30T00:01:44Z'
+      2403: '2013-08-30T02:36:29Z'
 rubocop:
   info: |2
         Automatic Ruby code style checking tool.
@@ -8116,6 +8137,7 @@ rubocop:
       1710: '2013-08-29T16:33:01Z'
       1787: '2013-08-29T19:06:19Z'
       1930: '2013-08-30T00:01:44Z'
+      1953: '2013-08-30T02:36:29Z'
 mutant:
   info: Mutation testing for ruby
   url: https://github.com/mbj/mutant
@@ -8145,7 +8167,7 @@ mutant:
       122: '2013-08-28T11:48:55Z'
       124: '2013-08-29T13:58:23Z'
       125: '2013-08-29T19:06:19Z'
-      126: '2013-08-30T00:01:44Z'
+      126: '2013-08-30T02:36:29Z'
   dependencies:
     development: []
     runtime:
@@ -8183,7 +8205,7 @@ heckle:
       339: '2013-08-25T17:44:57Z'
       340: '2013-08-28T09:14:36Z'
       342: '2013-08-28T11:48:55Z'
-      344: '2013-08-30T00:01:44Z'
+      344: '2013-08-30T02:36:29Z'
   dependencies:
     development:
     - name: hoe
@@ -8288,6 +8310,7 @@ parser:
       7327: '2013-08-29T16:33:01Z'
       7415: '2013-08-29T19:06:19Z'
       7589: '2013-08-30T00:01:44Z'
+      7614: '2013-08-30T02:36:29Z'
   dependencies:
     development:
     - name: bundler
