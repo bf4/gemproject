@@ -223,6 +223,7 @@ code_metrics:
       3093: '2013-09-15T21:22:21Z'
       3112: '2013-09-15T23:58:40Z'
       3117: '2013-09-16T02:33:09Z'
+      3284: '2013-09-17T04:58:35Z'
 metric_fu-Saikuro:
   info: |-
     When given Ruby
@@ -435,6 +436,7 @@ metric_fu-Saikuro:
       5015: '2013-09-15T21:22:21Z'
       5034: '2013-09-15T23:58:40Z'
       5040: '2013-09-16T02:33:09Z'
+      5221: '2013-09-17T04:58:35Z'
   dependencies:
     development: []
     runtime: []
@@ -501,6 +503,7 @@ yui-rails:
       288: '2013-09-15T15:51:12Z'
       289: '2013-09-15T18:42:00Z'
       290: '2013-09-16T02:33:09Z'
+      292: '2013-09-17T04:58:35Z'
   0.5.1:
     build_date: '2013-05-28T00:00:00Z'
     downloads:
@@ -1312,6 +1315,7 @@ metric_fu:
       665: '2013-09-15T21:22:21Z'
       666: '2013-09-15T23:58:40Z'
       672: '2013-09-16T02:33:09Z'
+      743: '2013-09-17T04:58:35Z'
 metric_fu-roodi:
   info: Roodi stands for Ruby Object Oriented Design Inferometer
   url: http://github.com/metricfu/roodi
@@ -1425,9 +1429,7 @@ metric_fu-roodi:
       2559: '2013-09-13T04:24:27Z'
   dependencies:
     development: []
-    runtime:
-    - name: ruby_parser
-      requirements: '>= 0'
+    runtime: []
   2.2.2:
     build_date: '2013-08-02T00:00:00Z'
     downloads:
@@ -1590,11 +1592,13 @@ metric_fu-roodi:
       4091: '2013-09-15T21:22:21Z'
       4094: '2013-09-15T23:58:40Z'
       4096: '2013-09-16T02:33:09Z'
+  3.0.0:
+    build_date: '2013-09-17T00:00:00Z'
+    downloads:
+      17: '2013-09-17T04:58:35Z'
 metric_fu-metrical:
-  info: MetricFu is awesome! The only problem is that it's kinda obtrusive. Metrical
-    provides a executable so you can run metric fu on any project without making changes
-    to the project.
-  url: https://github.com/iain/metrical
+  info: MetricFu no longer need metrical. It runs on the commandline all by itself
+  url: https://github.com/metricfu/metrical
   0.1.1:
     build_date: '2013-01-08T00:00:00Z'
     downloads:
@@ -1638,14 +1642,12 @@ metric_fu-metrical:
       443: '2013-09-12T23:04:28Z'
       445: '2013-09-16T02:33:09Z'
   dependencies:
-    development:
-    - name: rspec
-      requirements: ~> 2.8
-    runtime:
-    - name: metric_fu
-      requirements: '> 2.1.3.6'
-    - name: rcov
-      requirements: ~> 0.9
+    development: []
+    runtime: []
+  1.0.1:
+    build_date: '2013-09-17T00:00:00Z'
+    downloads:
+      10: '2013-09-17T04:58:35Z'
 reek:
   info: |
     Reek is a tool that examines Ruby classes, modules and methods
@@ -2270,6 +2272,7 @@ reek:
       4871: '2013-09-15T21:22:21Z'
       4922: '2013-09-15T23:58:40Z'
       4949: '2013-09-16T02:33:09Z'
+      5399: '2013-09-17T04:58:35Z'
 ruby_parser:
   info: |-
     ruby_parser (RP) is a ruby parser written in pure ruby (utilizing
@@ -2955,6 +2958,7 @@ ruby_parser:
       55874: '2013-09-15T21:22:21Z'
       55972: '2013-09-15T23:58:40Z'
       56041: '2013-09-16T02:33:09Z'
+      57970: '2013-09-17T04:58:35Z'
 rails_best_practices:
   info: a code metric tool for rails codes, written in Ruby.
   url: http://rails-bestpractices.com
@@ -4411,6 +4415,7 @@ rails_best_practices:
       5066: '2013-09-15T21:22:21Z'
       5088: '2013-09-15T23:58:40Z'
       5102: '2013-09-16T02:33:09Z'
+      5535: '2013-09-17T04:58:35Z'
 flog:
   info: |-
     Flog reports the most tortured code in an easy to read pain
@@ -5028,6 +5033,7 @@ flog:
       2423: '2013-09-15T21:22:21Z'
       2468: '2013-09-15T23:58:40Z'
       2486: '2013-09-16T02:33:09Z'
+      2767: '2013-09-17T04:58:35Z'
 flay:
   info: |-
     Flay analyzes code for structural similarities. Differences in literal
@@ -5520,6 +5526,7 @@ flay:
       8242: '2013-09-15T21:22:21Z'
       8287: '2013-09-15T23:58:40Z'
       8303: '2013-09-16T02:33:09Z'
+      8625: '2013-09-17T04:58:35Z'
 cane:
   info: Fails your build if code quality thresholds are not met
   url: http://github.com/square/cane
@@ -5775,6 +5782,7 @@ cane:
       16881: '2013-09-15T21:22:21Z'
       16912: '2013-09-15T23:58:40Z'
       16926: '2013-09-16T02:33:09Z'
+      17195: '2013-09-17T04:58:35Z'
   2.5.2:
     build_date: '2013-01-26T00:00:00Z'
     downloads:
@@ -6614,6 +6622,7 @@ churn:
       793: '2013-09-15T21:22:21Z'
       812: '2013-09-15T23:58:40Z'
       817: '2013-09-16T02:33:09Z'
+      918: '2013-09-17T04:58:35Z'
   0.0.31:
     build_date: '2012-12-17T00:00:00Z'
     downloads:
@@ -6793,6 +6802,7 @@ turbulence:
       71: '2013-09-13T04:24:27Z'
       77: '2013-09-15T23:58:40Z'
       78: '2013-09-16T02:33:09Z'
+      85: '2013-09-17T04:58:35Z'
 perforated:
   urls:
   - https://github.com/sorentwo/perforated
@@ -8601,6 +8611,7 @@ roodi:
       1119: '2013-09-15T21:22:21Z'
       1137: '2013-09-15T23:58:40Z'
       1143: '2013-09-16T02:33:09Z'
+      1231: '2013-09-17T04:58:35Z'
   2.2.0:
     build_date: '2013-01-25T00:00:00Z'
     downloads:
@@ -8790,6 +8801,7 @@ Saikuro:
       193886: '2013-09-15T15:51:12Z'
       193887: '2013-09-15T23:58:40Z'
       193888: '2013-09-16T02:33:09Z'
+      193965: '2013-09-17T04:58:35Z'
   dependencies:
     development: []
     runtime: []
@@ -8868,6 +8880,7 @@ saikuro:
       4832: '2013-09-15T15:51:12Z'
       4834: '2013-09-15T23:58:40Z'
       4841: '2013-09-16T02:33:09Z'
+      4877: '2013-09-17T04:58:35Z'
   dependencies:
     development: []
     runtime: []
@@ -9040,6 +9053,7 @@ code_analyzer:
       5896: '2013-09-15T21:22:21Z'
       5920: '2013-09-15T23:58:40Z'
       5933: '2013-09-16T02:33:09Z'
+      6399: '2013-09-17T04:58:35Z'
   0.3.2:
     build_date: '2013-06-14T00:00:00Z'
     downloads:
@@ -9231,6 +9245,7 @@ brakeman:
       6849: '2013-09-15T21:22:21Z'
       6877: '2013-09-15T23:58:40Z'
       6896: '2013-09-16T02:33:09Z'
+      7401: '2013-09-17T04:58:35Z'
   2.0.0:
     build_date: '2013-05-20T00:00:00Z'
     downloads:
@@ -9755,6 +9770,7 @@ rubocop:
       670: '2013-09-15T21:22:21Z'
       684: '2013-09-15T23:58:40Z'
       692: '2013-09-16T02:33:09Z'
+      1043: '2013-09-17T04:58:35Z'
 mutant:
   info: Mutation testing for ruby
   url: https://github.com/mbj/mutant
@@ -10000,6 +10016,7 @@ mutant:
       11: '2013-09-15T18:42:00Z'
       14: '2013-09-15T23:58:40Z'
       17: '2013-09-16T02:33:09Z'
+      44: '2013-09-17T04:58:35Z'
 heckle:
   info: |-
     Heckle is unit test sadism(tm) at it's core. Heckle is a mutation tester. It modifies your code and runs your tests to make sure they fail. The idea is that if code can be changed and your tests don't notice, either that code isn't being covered or it doesn't do anything.
@@ -10021,7 +10038,7 @@ heckle:
       350: '2013-09-03T12:38:45Z'
       351: '2013-09-04T12:13:38Z'
       353: '2013-09-08T01:30:41Z'
-      354: '2013-09-16T02:33:09Z'
+      354: '2013-09-17T04:58:35Z'
   dependencies:
     development:
     - name: hoe
@@ -10372,3 +10389,4 @@ parser:
       348: '2013-09-15T21:22:21Z'
       388: '2013-09-15T23:58:40Z'
       404: '2013-09-16T02:33:09Z'
+      1033: '2013-09-17T04:58:35Z'
