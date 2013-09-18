@@ -46,7 +46,9 @@ class GemDownloads
     latest.each do |gem_name|
       @logger.info "Getting download info for #{gem_name}"
       store.transaction do
-        store[gem_name] = downloads(gem_name)
+        existing_records = store[gem_name] ||= {}
+        new_records      = downloads(gem_name)
+        store[gem_name] =  existing_records.merge(new_records)
       end
     end
   end
@@ -57,7 +59,9 @@ class GemDownloads
     (most_downloaded - latest).each do |gem_name|
       @logger.info "Getting download info for popular gem #{gem_name}"
       store.transaction do
-        store[gem_name] = downloads(gem_name)
+        existing_records = store[gem_name] ||= {}
+        new_records      = downloads(gem_name)
+        store[gem_name] =  existing_records.merge(new_records)
       end
     end
   end
