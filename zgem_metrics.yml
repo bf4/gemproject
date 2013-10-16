@@ -334,6 +334,7 @@ code_metrics:
       879: '2013-10-05T21:21:29Z'
       884: '2013-10-06T02:40:03Z'
       887: '2013-10-06T05:19:39Z'
+      1989: '2013-10-16T01:31:02Z'
 metric_fu-Saikuro:
   info: |-
     When given Ruby
@@ -654,6 +655,7 @@ metric_fu-Saikuro:
       8445: '2013-10-05T23:56:43Z'
       8446: '2013-10-06T02:40:03Z'
       8453: '2013-10-06T05:19:39Z'
+      10162: '2013-10-16T01:31:02Z'
   dependencies:
     development: []
     runtime: []
@@ -747,6 +749,7 @@ yui-rails:
       326: '2013-10-05T03:02:48Z'
       327: '2013-10-05T13:24:09Z'
       328: '2013-10-06T05:19:39Z'
+      342: '2013-10-16T01:31:02Z'
   0.5.1:
     build_date: '2013-05-28T00:00:00Z'
     downloads:
@@ -1674,6 +1677,7 @@ metric_fu:
       632: '2013-10-05T21:21:29Z'
       636: '2013-10-06T02:40:03Z'
       639: '2013-10-06T05:19:39Z'
+      1636: '2013-10-16T01:31:02Z'
 metric_fu-roodi:
   info: Roodi stands for Ruby Object Oriented Design Inferometer
   url: http://github.com/metricfu/roodi
@@ -2039,6 +2043,7 @@ metric_fu-roodi:
       716: '2013-10-05T10:49:03Z'
       717: '2013-10-05T16:05:15Z'
       718: '2013-10-06T05:19:39Z'
+      987: '2013-10-16T01:31:02Z'
 metric_fu-metrical:
   info: MetricFu no longer need metrical. It runs on the commandline all by itself
   url: https://github.com/metricfu/metrical
@@ -2116,6 +2121,7 @@ metric_fu-metrical:
       88: '2013-10-04T05:06:28Z'
       89: '2013-10-05T00:26:18Z'
       91: '2013-10-06T05:19:39Z'
+      113: '2013-10-16T01:31:02Z'
 reek:
   info: |
     Reek is a tool that examines Ruby classes, modules and methods
@@ -2578,7 +2584,7 @@ reek:
     - name: ruby2ruby
       requirements: ~> 2.0.2
     - name: ruby_parser
-      requirements: '>= 3.1.1, ~> 3.1'
+      requirements: ~> 3.2
     - name: sexp_processor
       requirements: '>= 0'
   1.3.2:
@@ -2850,6 +2856,10 @@ reek:
       12837: '2013-10-05T23:56:43Z'
       12851: '2013-10-06T02:40:03Z'
       12869: '2013-10-06T05:19:39Z'
+  1.3.4:
+    build_date: '2013-10-14T00:00:00Z'
+    downloads:
+      529: '2013-10-16T01:31:02Z'
 ruby_parser:
   info: |-
     ruby_parser (RP) is a ruby parser written in pure ruby (utilizing
@@ -3645,6 +3655,7 @@ ruby_parser:
       83635: '2013-10-05T23:56:43Z'
       83673: '2013-10-06T02:40:03Z'
       83718: '2013-10-06T05:19:39Z'
+      98951: '2013-10-16T01:31:02Z'
 rails_best_practices:
   info: a code metric tool for rails codes, written in Ruby.
   url: http://rails-bestpractices.com
@@ -5214,6 +5225,7 @@ rails_best_practices:
       2516: '2013-10-05T23:56:43Z'
       2522: '2013-10-06T02:40:03Z'
       2530: '2013-10-06T05:19:39Z'
+      5730: '2013-10-16T01:31:02Z'
 flog:
   info: |-
     Flog reports the most tortured code in an easy to read pain
@@ -5941,6 +5953,7 @@ flog:
       8433: '2013-10-05T23:56:43Z'
       8446: '2013-10-06T02:40:03Z'
       8461: '2013-10-06T05:19:39Z'
+      12072: '2013-10-16T01:31:02Z'
 flay:
   info: |-
     Flay analyzes code for structural similarities. Differences in literal
@@ -6543,6 +6556,7 @@ flay:
       14171: '2013-10-05T23:56:43Z'
       14184: '2013-10-06T02:40:03Z'
       14198: '2013-10-06T05:19:39Z'
+      17694: '2013-10-16T01:31:02Z'
 cane:
   info: Fails your build if code quality thresholds are not met
   url: http://github.com/square/cane
@@ -6908,6 +6922,7 @@ cane:
       23745: '2013-10-05T23:56:43Z'
       23749: '2013-10-06T02:40:03Z'
       23760: '2013-10-06T05:19:39Z'
+      27861: '2013-10-16T01:31:02Z'
   2.5.2:
     build_date: '2013-01-26T00:00:00Z'
     downloads:
@@ -7868,6 +7883,7 @@ churn:
       1236: '2013-10-05T21:21:29Z'
       1241: '2013-10-06T02:40:03Z'
       1244: '2013-10-06T05:19:39Z'
+      2408: '2013-10-16T01:31:02Z'
 turbulence:
   info: Based on this http://www.stickyminds.com/sitewide.asp?Function=edetail&ObjectType=COL&ObjectId=16679&tth=DYN&tt=siteemail&iDyn=2
   url: http://chadfowler.com
@@ -8070,6 +8086,7 @@ turbulence:
       151: '2013-10-05T03:02:48Z'
       153: '2013-10-05T21:21:29Z'
       154: '2013-10-06T05:19:39Z'
+      209: '2013-10-16T01:31:02Z'
 perforated:
   urls:
   - https://github.com/sorentwo/perforated
@@ -9988,6 +10005,7 @@ roodi:
       3447: '2013-10-05T23:56:43Z'
       3448: '2013-10-06T02:40:03Z'
       3451: '2013-10-06T05:19:39Z'
+      4849: '2013-10-16T01:31:02Z'
   2.2.0:
     build_date: '2013-01-25T00:00:00Z'
     downloads:
@@ -10276,6 +10294,7 @@ Saikuro:
       195179: '2013-10-05T23:56:43Z'
       195180: '2013-10-06T02:40:03Z'
       195184: '2013-10-06T05:19:39Z'
+      195950: '2013-10-16T01:31:02Z'
   dependencies:
     development: []
     runtime: []
@@ -10418,6 +10437,7 @@ saikuro:
       5395: '2013-10-04T19:13:21Z'
       5407: '2013-10-05T03:02:48Z'
       5409: '2013-10-06T05:19:39Z'
+      5573: '2013-10-16T01:31:02Z'
   dependencies:
     development: []
     runtime: []
@@ -10727,6 +10747,7 @@ code_analyzer:
       3010: '2013-10-05T23:56:43Z'
       3016: '2013-10-06T02:40:03Z'
       3024: '2013-10-06T05:19:39Z'
+      7098: '2013-10-16T01:31:02Z'
 brakeman:
   info: Brakeman detects security vulnerabilities in Ruby on Rails applications via
     static analysis.
@@ -11251,6 +11272,7 @@ brakeman:
       4210: '2013-10-05T23:56:43Z'
       4218: '2013-10-06T02:40:03Z'
       4221: '2013-10-06T05:19:39Z'
+      6985: '2013-10-16T01:31:02Z'
 rubocop:
   info: |2
         Automatic Ruby code style checking tool.
@@ -11312,7 +11334,7 @@ rubocop:
       requirements: ~> 0.8
     runtime:
     - name: parser
-      requirements: ~> 2.0.0.pre6
+      requirements: ~> 2.0
     - name: powerpack
       requirements: ~> 0.0.6
     - name: rainbow
@@ -11651,6 +11673,10 @@ rubocop:
       7250: '2013-10-05T23:56:43Z'
       7255: '2013-10-06T02:40:03Z'
       7262: '2013-10-06T05:19:39Z'
+  0.14.1:
+    build_date: '2013-10-10T00:00:00Z'
+    downloads:
+      2489: '2013-10-16T01:31:02Z'
 mutant:
   info: Mutation testing for ruby
   url: https://github.com/mbj/mutant
@@ -11946,6 +11972,7 @@ mutant:
       275: '2013-10-05T16:05:15Z'
       279: '2013-10-05T18:44:24Z'
       280: '2013-10-06T05:19:39Z'
+      381: '2013-10-16T01:31:02Z'
 heckle:
   info: |-
     Heckle is unit test sadism(tm) at it's core. Heckle is a mutation tester. It modifies your code and runs your tests to make sure they fail. The idea is that if code can be changed and your tests don't notice, either that code isn't being covered or it doesn't do anything.
@@ -11975,6 +12002,7 @@ heckle:
       360: '2013-09-27T03:27:09Z'
       362: '2013-10-02T01:03:11Z'
       363: '2013-10-06T05:19:39Z'
+      367: '2013-10-16T01:31:02Z'
   dependencies:
     development:
     - name: hoe
@@ -12442,6 +12470,7 @@ parser:
       27: '2013-10-05T23:56:43Z'
       44: '2013-10-06T02:40:03Z'
       62: '2013-10-06T05:19:39Z'
+      6783: '2013-10-16T01:31:02Z'
 devtools:
   info: Devtools is a Rails engine for doing useful things in development & testing.
   url: https://github.com/wojtekmach/devtools
@@ -12468,6 +12497,7 @@ devtools:
       766: '2013-10-04T05:06:28Z'
       768: '2013-10-05T10:49:03Z'
       770: '2013-10-06T05:19:39Z'
+      790: '2013-10-16T01:31:02Z'
   dependencies:
     development:
     - name: sqlite3
@@ -12501,6 +12531,7 @@ bugspots:
       1213: '2013-10-03T16:21:19Z'
       1215: '2013-10-04T05:06:28Z'
       1217: '2013-10-06T05:19:39Z'
+      1238: '2013-10-16T01:31:02Z'
   dependencies:
     development: []
     runtime:
@@ -12570,6 +12601,8 @@ ruby-lint:
     development:
     - name: coveralls
       requirements: '>= 0'
+    - name: gnuplot
+      requirements: '>= 0'
     - name: json
       requirements: '>= 0'
     - name: kramdown
@@ -12590,9 +12623,13 @@ ruby-lint:
       requirements: '>= 0'
     runtime:
     - name: parser
-      requirements: '>= 2.0.0.pre6'
+      requirements: '>= 2.0.0'
     - name: slop
       requirements: '>= 0'
+  0.9.0:
+    build_date: '2013-10-13T00:00:00Z'
+    downloads:
+      78: '2013-10-16T01:31:02Z'
 tailor:
   info: |
     tailor parses Ruby files and measures them with some style and static analysis
@@ -12718,6 +12755,7 @@ tailor:
       332: '2013-10-05T21:21:29Z'
       333: '2013-10-05T23:56:43Z'
       334: '2013-10-06T05:19:39Z'
+      730: '2013-10-16T01:31:02Z'
 sandi_meter:
   info: Sandi Metz rules checker
   url: https://github.com/makaroni4/sandi_meter
@@ -12819,6 +12857,10 @@ sandi_meter:
       441: '2013-10-05T18:44:24Z'
       442: '2013-10-06T02:40:03Z'
       443: '2013-10-06T05:19:39Z'
+  1.0.2:
+    build_date: '2013-10-10T00:00:00Z'
+    downloads:
+      156: '2013-10-16T01:31:02Z'
 perftools.rb:
   info: A sampling profiler for ruby code based on patches to gperftools
   url: http://github.com/tmm1/perftools.rb
@@ -12908,6 +12950,7 @@ perftools.rb:
       15030: '2013-10-05T23:56:43Z'
       15045: '2013-10-06T02:40:03Z'
       15051: '2013-10-06T05:19:39Z'
+      17851: '2013-10-16T01:31:02Z'
   dependencies:
     development: []
     runtime: []
