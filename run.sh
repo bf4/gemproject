@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 \
-    # ./update_stats.sh && \
+    ./update_stats.sh && \
     ruby license_issue.rb && \
     git commit -am 'Update license issues' &&\
     git push &&\
