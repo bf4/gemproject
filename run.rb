@@ -165,7 +165,7 @@ class GemDownloads
   end
 
   def extra_gems
-    %w(reek ruby_parser roodi Saikuro saikuro saikuro-treemap code_analyzer brakeman rubocop mutant heckle parser rails_best_practices flog flay cane churn turbulence devtools bugspots rubocop ruby-lint tailor sandi_meter perftools.rb).map do |gem_name|
+    %w(reek ruby_parser roodi Saikuro saikuro saikuro-treemap code_analyzer brakeman rubocop mutant heckle parser rails_best_practices flog flay cane churn turbulence devtools bugspots rubocop ruby-lint tailor sandi_meter perftools.rb simplecov simplecov-rcov-text).map do |gem_name|
       Gems.info(gem_name)
     end
   end
