@@ -379,13 +379,12 @@ code_metrics:
       292: '2013-11-01T00:40:16Z'
       306: '2013-11-01T03:23:52Z'
       310: '2013-11-01T04:51:29Z'
+      390: '2013-11-01T19:43:53Z'
 metric_fu-Saikuro:
-  info: |-
-    When given Ruby
-      source code Saikuro will generate a report listing the cyclomatic
-      complexity of each method found.  In addition, Saikuro counts the
-      number of lines per method and can generate a listing of the number of
-      tokens on each line of code.
+  info: ! "When given Ruby\n  source code Saikuro will generate a report listing the
+    cyclomatic\n  complexity of each method found.  In addition, Saikuro counts the\n
+    \ number of lines per method and can generate a listing of the number of\n  tokens
+    on each line of code."
   url: https://github.com/metricfu/Saikuro
   1.1.1.0:
     build_date: '2013-06-04T00:00:00Z'
@@ -741,11 +740,13 @@ metric_fu-Saikuro:
       13068: '2013-11-01T00:40:16Z'
       13085: '2013-11-01T03:23:52Z'
       13101: '2013-11-01T04:51:29Z'
+      13233: '2013-11-01T19:43:53Z'
   dependencies:
     development: []
     runtime: []
 yui-rails:
-  info: 'Easy integration of YUI #{YUI::Rails::YUI_VERSION} with the Rails asset pipeline.'
+  info: ! 'Easy integration of YUI #{YUI::Rails::YUI_VERSION} with the Rails asset
+    pipeline.'
   url: https://github.com/nextmat/yui-rails
   0.5.2:
     build_date: '2013-06-07T00:00:00Z'
@@ -843,7 +844,7 @@ yui-rails:
       373: '2013-10-30T05:44:29Z'
       374: '2013-10-31T13:59:43Z'
       375: '2013-11-01T00:40:16Z'
-      376: '2013-11-01T04:51:29Z'
+      376: '2013-11-01T19:43:53Z'
   0.5.1:
     build_date: '2013-05-28T00:00:00Z'
     downloads:
@@ -896,7 +897,7 @@ yui-rails:
     development: []
     runtime:
     - name: rails
-      requirements: '>= 3.1'
+      requirements: ! '>= 3.1'
 bf4-yui-rails:
   info: Easy integration of YUI with the Rails asset pipeline.
   url: https://github.com/nextmat/yui-rails
@@ -956,26 +957,26 @@ bf4-metric_fu:
   dependencies:
     development:
     - name: googlecharts
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
       requirements: = 1.3.0
     - name: test-construct
-      requirements: '>= 1.2.0'
+      requirements: ! '>= 1.2.0'
     runtime:
     - name: activesupport
-      requirements: '>= 2.0.0'
+      requirements: ! '>= 2.0.0'
     - name: arrayfields
       requirements: = 4.7.4
     - name: bluff
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: chronic
       requirements: = 0.2.3
     - name: churn
       requirements: = 0.0.7
     - name: coderay
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: fattr
       requirements: = 2.2.1
     - name: flay
@@ -983,7 +984,7 @@ bf4-metric_fu:
     - name: flog
       requirements: = 2.3.0
     - name: googlecharts
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: main
       requirements: = 4.7.1
     - name: map
@@ -1452,29 +1453,29 @@ metric_fu:
     development: []
     runtime:
     - name: bluff
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: cane
-      requirements: '>= 2.5.2, ~> 2.5'
+      requirements: ! '>= 2.5.2, ~> 2.5'
     - name: churn
       requirements: ~> 0.0.28
     - name: code_metrics
       requirements: ~> 0.1
     - name: coderay
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: flay
-      requirements: '>= 2.0.1, ~> 2.1'
+      requirements: ! '>= 2.0.1, ~> 2.1'
     - name: flog
-      requirements: '>= 4.1.1, ~> 4.1'
+      requirements: ! '>= 4.1.1, ~> 4.1'
     - name: metric_fu-Saikuro
-      requirements: '>= 1.1.1.0'
+      requirements: ! '>= 1.1.1.0'
     - name: multi_json
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rails_best_practices
-      requirements: '>= 1.14.3, ~> 1.14'
+      requirements: ! '>= 1.14.3, ~> 1.14'
     - name: redcard
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: reek
-      requirements: '>= 1.3.3, ~> 1.3'
+      requirements: ! '>= 1.3.3, ~> 1.3'
     - name: roodi
       requirements: ~> 3.1
   4.3.0:
@@ -1813,6 +1814,7 @@ metric_fu:
       3669: '2013-11-01T00:40:16Z'
       3685: '2013-11-01T03:23:52Z'
       3698: '2013-11-01T04:51:29Z'
+      3802: '2013-11-01T19:43:53Z'
 metric_fu-roodi:
   info: Roodi stands for Ruby Object Oriented Design Inferometer
   url: http://github.com/metricfu/roodi
@@ -2217,6 +2219,7 @@ metric_fu-roodi:
       1362: '2013-10-31T21:57:56Z'
       1364: '2013-11-01T00:40:16Z'
       1366: '2013-11-01T04:51:29Z'
+      1386: '2013-11-01T19:43:53Z'
 metric_fu-metrical:
   info: MetricFu no longer need metrical. It runs on the commandline all by itself
   url: https://github.com/metricfu/metrical
@@ -2304,10 +2307,13 @@ metric_fu-metrical:
       138: '2013-10-28T21:43:42Z'
       142: '2013-10-30T05:44:29Z'
       143: '2013-11-01T04:51:29Z'
+      145: '2013-11-01T19:43:53Z'
 reek:
-  info: |
-    Reek is a tool that examines Ruby classes, modules and methods
+  info: ! 'Reek is a tool that examines Ruby classes, modules and methods
+
     and reports any code smells it finds.
+
+'
   url: http://wiki.github.com/troessner/reek
   1.3.1:
     build_date: '2013-02-02T00:00:00Z'
@@ -2753,22 +2759,22 @@ reek:
     - name: bundler
       requirements: ~> 1.1
     - name: cucumber
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: flay
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
       requirements: ~> 2.12
     - name: yard
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: ruby2ruby
       requirements: ~> 2.0.2
     - name: ruby_parser
       requirements: ~> 3.2
     - name: sexp_processor
-      requirements: '>= 0'
+      requirements: ! '>= 0'
   1.3.2:
     build_date: '2013-08-09T00:00:00Z'
     downloads:
@@ -3083,34 +3089,18 @@ reek:
       5622: '2013-11-01T00:40:16Z'
       5653: '2013-11-01T03:23:52Z'
       5669: '2013-11-01T04:51:29Z'
+      5861: '2013-11-01T19:43:53Z'
 ruby_parser:
-  info: |-
-    ruby_parser (RP) is a ruby parser written in pure ruby (utilizing
-    racc--which does by default use a C extension). RP's output is
-    the same as ParseTree's output: s-expressions using ruby's arrays and
-    base types.
-
-    As an example:
-
-        def conditional1 arg1
-          return 1 if arg1 == 0
-          return 0
-        end
-
-    becomes:
-
-        s(:defn, :conditional1, s(:args, :arg1),
-          s(:if,
-            s(:call, s(:lvar, :arg1), :==, s(:lit, 0)),
-            s(:return, s(:lit, 1)),
-            nil),
-          s(:return, s(:lit, 0)))
-
-    Tested against 801,039 files from the latest of all rubygems (as of 2013-05):
-
-    * 1.8 parser is at 99.9739% accuracy, 3.651 sigma
-    * 1.9 parser is at 99.9940% accuracy, 4.013 sigma
-    * 2.0 parser is at 99.9939% accuracy, 4.008 sigma
+  info: ! "ruby_parser (RP) is a ruby parser written in pure ruby (utilizing\nracc--which
+    does by default use a C extension). RP's output is\nthe same as ParseTree's output:
+    s-expressions using ruby's arrays and\nbase types.\n\nAs an example:\n\n    def
+    conditional1 arg1\n      return 1 if arg1 == 0\n      return 0\n    end\n\nbecomes:\n\n
+    \   s(:defn, :conditional1, s(:args, :arg1),\n      s(:if,\n        s(:call, s(:lvar,
+    :arg1), :==, s(:lit, 0)),\n        s(:return, s(:lit, 1)),\n        nil),\n      s(:return,
+    s(:lit, 0)))\n\nTested against 801,039 files from the latest of all rubygems (as
+    of 2013-05):\n\n* 1.8 parser is at 99.9739% accuracy, 3.651 sigma\n* 1.9 parser
+    is at 99.9940% accuracy, 4.013 sigma\n* 2.0 parser is at 99.9939% accuracy, 4.008
+    sigma"
   url: https://github.com/seattlerb/ruby_parser
   3.2.1:
     build_date: '2013-07-03T00:00:00Z'
@@ -3920,6 +3910,7 @@ ruby_parser:
       128740: '2013-11-01T00:40:16Z'
       128877: '2013-11-01T03:23:52Z'
       128940: '2013-11-01T04:51:29Z'
+      130022: '2013-11-01T19:43:53Z'
 rails_best_practices:
   info: a code metric tool for rails codes, written in Ruby.
   url: http://rails-bestpractices.com
@@ -5135,32 +5126,32 @@ rails_best_practices:
   dependencies:
     development:
     - name: bundler
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: haml
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: slim
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: activesupport
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: awesome_print
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: code_analyzer
-      requirements: '>= 0.4.3'
+      requirements: ! '>= 0.4.3'
     - name: colored
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: erubis
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: i18n
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: require_all
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: ruby-progressbar
-      requirements: '>= 0'
+      requirements: ! '>= 0'
   1.14.0:
     build_date: '2013-07-21T00:00:00Z'
     downloads:
@@ -5531,10 +5522,11 @@ rails_best_practices:
       11564: '2013-11-01T00:40:16Z'
       11596: '2013-11-01T03:23:52Z'
       11619: '2013-11-01T04:51:29Z'
+      11869: '2013-11-01T19:43:53Z'
 flog:
-  info: |-
-    Flog reports the most tortured code in an easy to read pain
-    report. The higher the score, the more pain the code is in.
+  info: ! 'Flog reports the most tortured code in an easy to read pain
+
+    report. The higher the score, the more pain the code is in.'
   url: http://ruby.sadi.st/
   4.1.0:
     build_date: '2013-05-10T00:00:00Z'
@@ -5894,7 +5886,7 @@ flog:
       requirements: ~> 4.0
     runtime:
     - name: ruby_parser
-      requirements: '> 3.1.0, ~> 3.1'
+      requirements: ! '> 3.1.0, ~> 3.1'
     - name: sexp_processor
       requirements: ~> 4.4
   4.1.1:
@@ -6303,11 +6295,13 @@ flog:
       2799: '2013-11-01T00:40:16Z'
       2841: '2013-11-01T03:23:52Z'
       2856: '2013-11-01T04:51:29Z'
+      3091: '2013-11-01T19:43:53Z'
 flay:
-  info: |-
-    Flay analyzes code for structural similarities. Differences in literal
+  info: ! 'Flay analyzes code for structural similarities. Differences in literal
+
     values, variable, class, method names, whitespace, programming style,
-    braces vs do/end, etc are all ignored. Making this totally rad.
+
+    braces vs do/end, etc are all ignored. Making this totally rad.'
   url: http://ruby.sadi.st/
   2.3.0:
     build_date: '2013-05-10T00:00:00Z'
@@ -6947,6 +6941,7 @@ flay:
       23652: '2013-11-01T00:40:16Z'
       23686: '2013-11-01T03:23:52Z'
       23711: '2013-11-01T04:51:29Z'
+      23940: '2013-11-01T19:43:53Z'
 cane:
   info: Fails your build if code quality thresholds are not met
   url: http://github.com/square/cane
@@ -7588,16 +7583,16 @@ cane:
   dependencies:
     development:
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
       requirements: ~> 2.0
     - name: rspec-fire
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: simplecov
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: parallel
-      requirements: '>= 0'
+      requirements: ! '>= 0'
   2.6.1:
     build_date: '2013-10-31T00:00:00Z'
     downloads:
@@ -7611,8 +7606,9 @@ cane:
       473: '2013-11-01T00:40:16Z'
       512: '2013-11-01T03:23:52Z'
       534: '2013-11-01T04:51:29Z'
+      683: '2013-11-01T19:43:53Z'
 churn:
-  info: 'High method and class churn has been shown to have increased bug and error
+  info: ! 'High method and class churn has been shown to have increased bug and error
     rates. This gem helps you know what is changing a lot so you can do additional
     testing, code review, or refactoring to try to tame the volatile code. '
   url: http://github.com/danmayer/churn
@@ -8130,26 +8126,26 @@ churn:
   dependencies:
     development:
     - name: jeweler
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: mocha
       requirements: ~> 0.9.5
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: shoulda
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: simplecov
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: test-construct
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: chronic
-      requirements: '>= 0.2.3'
+      requirements: ! '>= 0.2.3'
     - name: hirb
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: json_pure
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: main
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: ruby_parser
       requirements: ~> 3.0
     - name: sexp_processor
@@ -8359,6 +8355,7 @@ churn:
       4921: '2013-11-01T00:40:16Z'
       4938: '2013-11-01T03:23:52Z'
       4951: '2013-11-01T04:51:29Z'
+      5066: '2013-11-01T19:43:53Z'
 turbulence:
   info: Based on this http://www.stickyminds.com/sitewide.asp?Function=edetail&ObjectType=COL&ObjectId=16679&tth=DYN&tt=siteemail&iDyn=2
   url: http://chadfowler.com
@@ -8500,16 +8497,16 @@ turbulence:
   dependencies:
     development:
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
       requirements: ~> 2.6.0
     runtime:
     - name: flog
       requirements: ~> 4.1
     - name: json
-      requirements: '>= 1.4.6'
+      requirements: ! '>= 1.4.6'
     - name: launchy
-      requirements: '>= 2.0.0'
+      requirements: ! '>= 2.0.0'
   1.2.0:
     build_date: '2013-09-07T00:00:00Z'
     downloads:
@@ -8579,6 +8576,7 @@ turbulence:
       268: '2013-10-31T11:18:04Z'
       269: '2013-10-31T13:59:43Z'
       275: '2013-11-01T04:51:29Z'
+      276: '2013-11-01T19:43:53Z'
 perforated:
   urls:
   - https://github.com/sorentwo/perforated
@@ -10270,7 +10268,7 @@ roodi:
     development: []
     runtime:
     - name: ruby_parser
-      requirements: '>= 3.2.2, ~> 3.2'
+      requirements: ! '>= 3.2.2, ~> 3.2'
   3.0.1:
     build_date: '2013-08-16T00:00:00Z'
     downloads:
@@ -10539,6 +10537,7 @@ roodi:
       7476: '2013-11-01T00:40:16Z'
       7495: '2013-11-01T03:23:52Z'
       7510: '2013-11-01T04:51:29Z'
+      7631: '2013-11-01T19:43:53Z'
   2.2.0:
     build_date: '2013-01-25T00:00:00Z'
     downloads:
@@ -10868,6 +10867,7 @@ Saikuro:
       196860: '2013-11-01T00:40:16Z'
       196872: '2013-11-01T03:23:52Z'
       196874: '2013-11-01T04:51:29Z'
+      197029: '2013-11-01T19:43:53Z'
   dependencies:
     development: []
     runtime: []
@@ -11032,6 +11032,7 @@ saikuro:
       5735: '2013-10-31T13:59:43Z'
       5746: '2013-10-31T19:18:27Z'
       5752: '2013-11-01T04:51:29Z'
+      5774: '2013-11-01T19:43:53Z'
   dependencies:
     development: []
     runtime: []
@@ -11114,12 +11115,12 @@ code_analyzer:
   dependencies:
     development:
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: sexp_processor
-      requirements: '>= 0'
+      requirements: ! '>= 0'
   0.4.1:
     build_date: '2013-08-25T00:00:00Z'
     downloads:
@@ -11383,6 +11384,7 @@ code_analyzer:
       15815: '2013-11-01T00:40:16Z'
       15855: '2013-11-01T03:23:52Z'
       15877: '2013-11-01T04:51:29Z'
+      16156: '2013-11-01T19:43:53Z'
 brakeman:
   info: Brakeman detects security vulnerabilities in Ruby on Rails applications via
     static analysis.
@@ -11952,10 +11954,10 @@ brakeman:
       1850: '2013-11-01T00:40:16Z'
       1869: '2013-11-01T03:23:52Z'
       1879: '2013-11-01T04:51:29Z'
+      2044: '2013-11-01T19:43:53Z'
 rubocop:
-  info: |2
-        Automatic Ruby code style checking tool.
-        Aims to enforce the community-driven Ruby Style Guide.
+  info: ! "    Automatic Ruby code style checking tool.\n    Aims to enforce the community-driven
+    Ruby Style Guide.\n"
   url: http://github.com/bbatsov/rubocop
   0.11.1:
     build_date: '2013-08-12T00:00:00Z'
@@ -12017,7 +12019,7 @@ rubocop:
     - name: powerpack
       requirements: ~> 0.0.6
     - name: rainbow
-      requirements: '>= 1.1.4'
+      requirements: ! '>= 1.1.4'
   0.12.0:
     build_date: '2013-08-23T00:00:00Z'
     downloads:
@@ -12401,6 +12403,8 @@ rubocop:
       9822: '2013-11-01T00:40:16Z'
       9882: '2013-11-01T03:23:52Z'
       9920: '2013-11-01T04:51:29Z'
+      10304: '2013-11-01T19:43:53Z'
+      10305: '2013-11-01T19:43:53Z'
 mutant:
   info: Mutation testing for ruby
   url: https://github.com/mbj/mutant
@@ -12456,7 +12460,7 @@ mutant:
     - name: adamantium
       requirements: ~> 0.0.7
     - name: backports
-      requirements: '>= 3.0.3, ~> 3.0'
+      requirements: ! '>= 3.0.3, ~> 3.0'
     - name: descendants_tracker
       requirements: ~> 0.0.1
     - name: diff-lcs
@@ -12711,11 +12715,17 @@ mutant:
       481: '2013-10-31T13:59:43Z'
       493: '2013-10-31T19:18:27Z'
       494: '2013-11-01T04:51:29Z'
+      495: '2013-11-01T19:43:53Z'
 heckle:
-  info: |-
-    Heckle is unit test sadism(tm) at it's core. Heckle is a mutation tester. It modifies your code and runs your tests to make sure they fail. The idea is that if code can be changed and your tests don't notice, either that code isn't being covered or it doesn't do anything.
+  info: ! 'Heckle is unit test sadism(tm) at it''s core. Heckle is a mutation tester.
+    It modifies your code and runs your tests to make sure they fail. The idea is
+    that if code can be changed and your tests don''t notice, either that code isn''t
+    being covered or it doesn''t do anything.
 
-    It's like hiring a white-hat hacker to try to break into your server and making sure you detect it. You learn the most by trying to break things and watching the outcome in an act of unit test sadism.
+
+    It''s like hiring a white-hat hacker to try to break into your server and making
+    sure you detect it. You learn the most by trying to break things and watching
+    the outcome in an act of unit test sadism.'
   url: http://ruby.sadi.st/Heckle.html
   2.0.0.b1:
     build_date: '2012-10-03T00:00:00Z'
@@ -12744,20 +12754,20 @@ heckle:
       368: '2013-10-25T19:20:19Z'
       369: '2013-10-28T21:43:42Z'
       371: '2013-10-31T00:30:33Z'
-      372: '2013-11-01T04:51:29Z'
+      372: '2013-11-01T19:43:53Z'
   dependencies:
     development:
     - name: hoe
-      requirements: '>= 2.3.0'
+      requirements: ! '>= 2.3.0'
     runtime:
     - name: hoe
-      requirements: '>= 2.3.0'
+      requirements: ! '>= 2.3.0'
     - name: ParseTree
-      requirements: '>= 2.0.0'
+      requirements: ! '>= 2.0.0'
     - name: ruby2ruby
-      requirements: '>= 1.1.6'
+      requirements: ! '>= 1.1.6'
     - name: ZenTest
-      requirements: '>= 3.5.2'
+      requirements: ! '>= 3.5.2'
   1.4.3:
     build_date: '2009-06-23T07:00:00Z'
     downloads:
@@ -12926,30 +12936,30 @@ parser:
     - name: cliver
       requirements: ~> 0.2.2
     - name: coveralls
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: gauntlet
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: json_pure
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: kramdown
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: minitest
       requirements: ~> 5.0
     - name: racc
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rake
       requirements: ~> 0.9
     - name: simplecov
       requirements: ~> 0.7
     - name: simplecov-sublime-ruby-coverage
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: yard
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: ast
       requirements: ~> 1.1
     - name: slop
-      requirements: '>= 3.4.5, ~> 3.4'
+      requirements: ! '>= 3.4.5, ~> 3.4'
   2.0.0.pre7:
     build_date: '2013-09-09T00:00:00Z'
     downloads:
@@ -13254,6 +13264,7 @@ parser:
       16450: '2013-11-01T00:40:16Z'
       16518: '2013-11-01T03:23:52Z'
       16560: '2013-11-01T04:51:29Z'
+      17019: '2013-11-01T19:43:53Z'
 devtools:
   info: Devtools is a Rails engine for doing useful things in development & testing.
   url: https://github.com/wojtekmach/devtools
@@ -13293,10 +13304,11 @@ devtools:
       815: '2013-10-31T13:59:43Z'
       817: '2013-11-01T00:40:16Z'
       818: '2013-11-01T04:51:29Z'
+      820: '2013-11-01T19:43:53Z'
   dependencies:
     development:
     - name: sqlite3
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: rails
       requirements: ~> 3.2.6
@@ -13341,13 +13353,14 @@ bugspots:
       1276: '2013-10-31T05:57:22Z'
       1277: '2013-10-31T08:37:47Z'
       1281: '2013-11-01T04:51:29Z'
+      1283: '2013-11-01T19:43:53Z'
   dependencies:
     development: []
     runtime:
     - name: grit
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rainbow
-      requirements: '>= 0'
+      requirements: ! '>= 0'
 ruby-lint:
   info: A linter and static code analysis tool for Ruby.
   url: https://github.com/yorickpeterse/ruby-lint/
@@ -13409,34 +13422,34 @@ ruby-lint:
   dependencies:
     development:
     - name: coveralls
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: gnuplot
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: json
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: kramdown
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: pry-rescue
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: redcard
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
-      requirements: '>= 2.14'
+      requirements: ! '>= 2.14'
     - name: rubygems-openpgp
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: simplecov
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: yard
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: parser
-      requirements: '>= 2.0.0'
+      requirements: ! '>= 2.0.0'
     - name: racc
-      requirements: '>= 1.4.10'
+      requirements: ! '>= 1.4.10'
     - name: slop
-      requirements: '>= 0'
+      requirements: ! '>= 0'
   0.9.0:
     build_date: '2013-10-13T00:00:00Z'
     downloads:
@@ -13477,15 +13490,22 @@ ruby-lint:
       184: '2013-11-01T00:40:16Z'
       187: '2013-11-01T03:23:52Z'
       188: '2013-11-01T04:51:29Z'
+      194: '2013-11-01T19:43:53Z'
 tailor:
-  info: |
-    tailor parses Ruby files and measures them with some style and static analysis
+  info: ! 'tailor parses Ruby files and measures them with some style and static analysis
+
     "rulers".  Default values for the Rulers are based on a number of style guides
+
     in the Ruby community as well as what seems to be common.  More on this here
+
     http://wiki.github.com/turboladen/tailor.
 
-    tailor's goal is to help you be consistent with your code, throughout your
+
+    tailor''s goal is to help you be consistent with your code, throughout your
+
     project, whatever style that may be.
+
+'
   url: http://github.com/turboladen/tailor
   1.2.1:
     build_date: '2013-03-12T00:00:00Z'
@@ -13521,28 +13541,28 @@ tailor:
   dependencies:
     development:
     - name: aruba
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: bundler
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: cucumber
-      requirements: '>= 1.0.2'
+      requirements: ! '>= 1.0.2'
     - name: fakefs
-      requirements: '>= 0.4.2'
+      requirements: ! '>= 0.4.2'
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
-      requirements: '>= 2.5.0'
+      requirements: ! '>= 2.5.0'
     - name: simplecov
-      requirements: '>= 0.4.0'
+      requirements: ! '>= 0.4.0'
     - name: yard
-      requirements: '>= 0.7.0'
+      requirements: ! '>= 0.7.0'
     runtime:
     - name: log_switch
-      requirements: '>= 0.3.0'
+      requirements: ! '>= 0.3.0'
     - name: term-ansicolor
-      requirements: '>= 1.0.5'
+      requirements: ! '>= 1.0.5'
     - name: text-table
-      requirements: '>= 1.2.2'
+      requirements: ! '>= 1.2.2'
   1.3.0:
     build_date: '2013-09-28T00:00:00Z'
     downloads:
@@ -13640,6 +13660,7 @@ tailor:
       1559: '2013-11-01T00:40:16Z'
       1573: '2013-11-01T03:23:52Z'
       1574: '2013-11-01T04:51:29Z'
+      1614: '2013-11-01T19:43:53Z'
 sandi_meter:
   info: Sandi Metz rules checker
   url: https://github.com/makaroni4/sandi_meter
@@ -13654,10 +13675,10 @@ sandi_meter:
     - name: bundler
       requirements: ~> 1.3
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: mixlib-cli
-      requirements: '>= 0'
+      requirements: ! '>= 0'
   0.0.4:
     build_date: '2013-09-24T00:00:00Z'
     downloads:
@@ -13777,6 +13798,7 @@ sandi_meter:
       204: '2013-11-01T00:40:16Z'
       206: '2013-11-01T03:23:52Z'
       208: '2013-11-01T04:51:29Z'
+      215: '2013-11-01T19:43:53Z'
 perftools.rb:
   info: A sampling profiler for ruby code based on patches to gperftools
   url: http://github.com/tmm1/perftools.rb
@@ -13908,6 +13930,7 @@ perftools.rb:
       21488: '2013-11-01T00:40:16Z'
       21502: '2013-11-01T03:23:52Z'
       21507: '2013-11-01T04:51:29Z'
+      21648: '2013-11-01T19:43:53Z'
   dependencies:
     development: []
     runtime: []
@@ -13930,6 +13953,7 @@ code_notes:
       54: '2013-10-31T11:18:04Z'
       55: '2013-10-31T13:59:43Z'
       58: '2013-11-01T04:51:29Z'
+      61: '2013-11-01T19:43:53Z'
   dependencies:
     development:
     - name: bundler
@@ -13937,9 +13961,9 @@ code_notes:
     - name: rails
       requirements: ~> 3.2.13
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: sqlite3
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime: []
 simplecov:
   info: Code coverage for Ruby 1.9 with a powerful configuration library and automatic
@@ -13949,36 +13973,37 @@ simplecov:
     build_date: '2013-09-11T00:00:00Z'
     downloads:
       1257: '2013-11-01T04:51:29Z'
+      1303: '2013-11-01T19:43:53Z'
   dependencies:
     development:
     - name: appraisal
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: aruba
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: capybara
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: cucumber
-      requirements: '>= 1.1.4'
+      requirements: ! '>= 1.1.4'
     - name: rake
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: rspec
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     - name: shoulda
-      requirements: '>= 0'
+      requirements: ! '>= 0'
     runtime:
     - name: multi_json
       requirements: ~> 1.0
     - name: simplecov-html
       requirements: ~> 0.7.1
 simplecov-rcov-text:
-  info: |-
-    Just a Simplecov Formatter to cheat metric_fu.
-        Generate a rcov.txt file.
+  info: ! "Just a Simplecov Formatter to cheat metric_fu.\n    Generate a rcov.txt
+    file."
   url: https://github.com/kina/simplecov-rcov-text
   0.0.2:
     build_date: '2011-04-28T03:00:00Z'
     downloads:
       15812: '2013-11-01T04:51:29Z'
+      15873: '2013-11-01T19:43:53Z'
   dependencies:
     development: []
     runtime: []
