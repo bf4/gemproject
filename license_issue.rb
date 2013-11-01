@@ -30,7 +30,7 @@ def github_repos_for_gems_without_licenses(gems)
         detect{|u| u =~ /\/github[^\/]+\/\w+\/\w+/} }.
     compact.map{|u| u.split('/')[3..4].join('/').sub('.git','') }.uniq
 end
-username_blacklist = File.readlines('./user_blacklist.txt').map{|blacklist| /#{blacklist.strip}/io }
+username_blacklist = File.readlines('./user_blacklist.txt').map{|blacklist| /#{blacklist.strip}/i }
 repos = github_repos_for_gems_without_licenses(gems).
           reject{|repo|
              username_blacklist.any?{|blacklist|
