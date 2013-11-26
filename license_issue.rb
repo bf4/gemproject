@@ -118,7 +118,7 @@ class LicenseIssue
     @message ||= begin
       subject = "License missing from gemspec"
       body = <<-BODY
-  RubyGems.org doesn't report a license for your gem.  This is because it is not specified in the [gemspec](http://docs.rubygems.org/read/chapter/20#license) of your last release.
+  RubyGems.org doesn't report a license for your gem.  This is because it is not specified in the [gemspec](https://github.com/rubygems/rubygems/pull/713) of your last release.
 
   via e.g.
 
