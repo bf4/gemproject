@@ -620,6 +620,7 @@ code_metrics:
       4309: '2014-01-23T23:10:13Z'
       4368: '2014-01-24T02:28:58Z'
       8147: '2014-02-10T21:00:23Z'
+      8204: '2014-02-11T01:12:45Z'
 metric_fu-Saikuro:
   info: ! "When given Ruby\n  source code Saikuro will generate a report listing the
     cyclomatic\n  complexity of each method found.  In addition, Saikuro counts the\n
@@ -1226,6 +1227,7 @@ metric_fu-Saikuro:
       537: '2014-01-23T23:10:13Z'
       550: '2014-01-24T02:28:58Z'
       2664: '2014-02-10T21:00:23Z'
+      2695: '2014-02-11T01:12:45Z'
 yui-rails:
   info: ! 'Easy integration of YUI #{YUI::Rails::YUI_VERSION} with the Rails asset
     pipeline.'
@@ -1450,7 +1452,7 @@ yui-rails:
       212: '2014-01-20T20:01:15Z'
       218: '2014-01-23T00:43:55Z'
       219: '2014-01-24T02:28:58Z'
-      254: '2014-02-10T21:00:23Z'
+      254: '2014-02-11T01:12:45Z'
 bf4-yui-rails:
   info: Easy integration of YUI with the Rails asset pipeline.
   url: https://github.com/nextmat/yui-rails
@@ -2630,6 +2632,7 @@ metric_fu:
     build_date: '2014-02-09T00:00:00Z'
     downloads:
       135: '2014-02-10T21:00:23Z'
+      159: '2014-02-11T01:12:45Z'
 metric_fu-roodi:
   info: Roodi stands for Ruby Object Oriented Design Inferometer
   url: http://github.com/metricfu/roodi
@@ -3216,6 +3219,7 @@ metric_fu-roodi:
       2511: '2014-01-23T23:10:13Z'
       2514: '2014-01-24T02:28:58Z'
       2697: '2014-02-10T21:00:23Z'
+      2698: '2014-02-11T01:12:45Z'
 metric_fu-metrical:
   info: MetricFu no longer need metrical. It runs on the commandline all by itself
   url: https://github.com/metricfu/metrical
@@ -3348,7 +3352,7 @@ metric_fu-metrical:
       260: '2014-01-22T18:17:07Z'
       262: '2014-01-23T23:10:13Z'
       263: '2014-01-24T02:28:58Z'
-      282: '2014-02-10T21:00:23Z'
+      282: '2014-02-11T01:12:45Z'
 reek:
   info: ! 'Reek is a tool that examines Ruby classes, modules and methods
 
@@ -4377,6 +4381,7 @@ reek:
       10769: '2014-01-23T23:10:13Z'
       10852: '2014-01-24T02:28:58Z'
       17450: '2014-02-10T21:00:23Z'
+      17549: '2014-02-11T01:12:45Z'
 ruby_parser:
   info: ! "ruby_parser (RP) is a ruby parser written in pure ruby (utilizing\nracc--which
     does by default use a C extension). RP's output is\nthe same as ParseTree's output:
@@ -5450,6 +5455,7 @@ ruby_parser:
     build_date: '2014-02-05T00:00:00Z'
     downloads:
       4587: '2014-02-10T21:00:23Z'
+      4801: '2014-02-11T01:12:45Z'
 rails_best_practices:
   info: a code metric tool for rails codes, written in Ruby.
   url: http://rails-bestpractices.com
@@ -7309,6 +7315,7 @@ rails_best_practices:
     build_date: '2014-02-05T00:00:00Z'
     downloads:
       1913: '2014-02-10T21:00:23Z'
+      1991: '2014-02-11T01:12:45Z'
 flog:
   info: ! 'Flog reports the most tortured code in an easy to read pain
 
@@ -8326,6 +8333,7 @@ flog:
       34917: '2014-01-23T23:10:13Z'
       35041: '2014-01-24T02:28:58Z'
       41758: '2014-02-10T21:00:23Z'
+      41855: '2014-02-11T01:12:45Z'
 flay:
   info: ! 'Flay analyzes code for structural similarities. Differences in literal
 
@@ -9216,6 +9224,7 @@ flay:
       59073: '2014-01-23T23:10:13Z'
       59206: '2014-01-24T02:28:58Z'
       66449: '2014-02-10T21:00:23Z'
+      66547: '2014-02-11T01:12:45Z'
 cane:
   info: Fails your build if code quality thresholds are not met
   url: http://github.com/square/cane
@@ -10125,6 +10134,7 @@ cane:
       28534: '2014-01-23T23:10:13Z'
       28641: '2014-01-24T02:28:58Z'
       35806: '2014-02-10T21:00:23Z'
+      35910: '2014-02-11T01:12:45Z'
 churn:
   info: ! 'High method and class churn has been shown to have increased bug and error
     rates. This gem helps you know what is changing a lot so you can do additional
@@ -11119,6 +11129,7 @@ churn:
       2848: '2014-01-23T23:10:13Z'
       2875: '2014-01-24T02:28:58Z'
       6517: '2014-02-10T21:00:23Z'
+      6577: '2014-02-11T01:12:45Z'
 turbulence:
   info: Based on this http://www.stickyminds.com/sitewide.asp?Function=edetail&ObjectType=COL&ObjectId=16679&tth=DYN&tt=siteemail&iDyn=2
   url: http://chadfowler.com
@@ -11447,7 +11458,7 @@ turbulence:
       1198: '2014-01-23T19:52:06Z'
       1208: '2014-01-23T23:10:13Z'
       1214: '2014-01-24T02:28:58Z'
-      1456: '2014-02-10T21:00:23Z'
+      1456: '2014-02-11T01:12:45Z'
 perforated:
   urls:
   - https://github.com/sorentwo/perforated
@@ -13722,6 +13733,7 @@ roodi:
       13492: '2014-01-23T23:10:13Z'
       13556: '2014-01-24T02:28:58Z'
       17639: '2014-02-10T21:00:23Z'
+      17706: '2014-02-11T01:12:45Z'
 Saikuro:
   info: Saikuro is a Ruby cyclomatic complexity analyzer.  When given Ruby source
     code Saikuro will generate a report listing the cyclomatic complexity of each
@@ -14177,6 +14189,7 @@ Saikuro:
       199431: '2014-01-23T23:10:13Z'
       199432: '2014-01-24T02:28:58Z'
       199786: '2014-02-10T21:00:23Z'
+      199790: '2014-02-11T01:12:45Z'
   dependencies:
     development: []
     runtime: []
@@ -14435,6 +14448,7 @@ saikuro:
       6396: '2014-01-23T19:52:06Z'
       6401: '2014-01-24T02:28:58Z'
       6432: '2014-02-10T21:00:23Z'
+      6433: '2014-02-11T01:12:45Z'
   dependencies:
     development: []
     runtime: []
@@ -15034,6 +15048,7 @@ code_analyzer:
       6919: '2014-01-23T23:10:13Z'
       6993: '2014-01-24T02:28:58Z'
       14270: '2014-02-10T21:00:23Z'
+      14371: '2014-02-11T01:12:45Z'
 brakeman:
   info: Brakeman detects security vulnerabilities in Ruby on Rails applications via
     static analysis.
@@ -15857,6 +15872,7 @@ brakeman:
     build_date: '2014-02-05T00:00:00Z'
     downloads:
       1521: '2014-02-10T21:00:23Z'
+      1611: '2014-02-11T01:12:45Z'
 rubocop:
   info: ! "    Automatic Ruby code style checking tool.\n    Aims to enforce the community-driven
     Ruby Style Guide.\n"
@@ -16599,6 +16615,7 @@ rubocop:
     downloads:
       7246: '2014-02-10T21:00:23Z'
       7247: '2014-02-10T21:00:23Z'
+      7530: '2014-02-11T01:12:45Z'
 mutant:
   info: Mutation testing for ruby
   url: https://github.com/mbj/mutant
@@ -17018,6 +17035,7 @@ mutant:
       677: '2014-01-23T23:10:13Z'
       678: '2014-01-24T02:28:58Z'
       1021: '2014-02-10T21:00:23Z'
+      1032: '2014-02-11T01:12:45Z'
 heckle:
   info: ! 'Heckle is unit test sadism(tm) at it''s core. Heckle is a mutation tester.
     It modifies your code and runs your tests to make sure they fail. The idea is
@@ -17071,7 +17089,7 @@ heckle:
       390: '2014-01-05T21:02:05Z'
       395: '2014-01-22T18:17:07Z'
       396: '2014-01-24T02:28:58Z'
-      408: '2014-02-10T21:00:23Z'
+      408: '2014-02-11T01:12:45Z'
   dependencies:
     development:
     - name: hoe
@@ -17773,6 +17791,7 @@ parser:
       10670: '2014-01-23T23:10:13Z'
       10858: '2014-01-24T02:28:58Z'
       27659: '2014-02-10T21:00:23Z'
+      27992: '2014-02-11T01:12:45Z'
 devtools:
   info: Devtools is a Rails engine for doing useful things in development & testing.
   url: https://github.com/wojtekmach/devtools
@@ -17865,7 +17884,7 @@ devtools:
       947: '2014-01-20T20:01:15Z'
       949: '2014-01-23T16:43:06Z'
       951: '2014-01-24T02:28:58Z'
-      980: '2014-02-10T21:00:23Z'
+      980: '2014-02-11T01:12:45Z'
   dependencies:
     development:
     - name: sqlite3
@@ -17971,7 +17990,7 @@ bugspots:
       1424: '2014-01-20T20:01:15Z'
       1425: '2014-01-23T16:43:06Z'
       1427: '2014-01-24T02:28:58Z'
-      1459: '2014-02-10T21:00:23Z'
+      1459: '2014-02-11T01:12:45Z'
   dependencies:
     development: []
     runtime:
@@ -18279,6 +18298,7 @@ ruby-lint:
     build_date: '2014-02-02T00:00:00Z'
     downloads:
       210: '2014-02-10T21:00:23Z'
+      214: '2014-02-11T01:12:45Z'
 tailor:
   info: ! 'tailor parses Ruby files and measures them with some style and static analysis
 
@@ -18643,7 +18663,7 @@ tailor:
   1.4.0:
     build_date: '2014-01-24T00:00:00Z'
     downloads:
-      517: '2014-02-10T21:00:23Z'
+      517: '2014-02-11T01:12:45Z'
 sandi_meter:
   info: Sandi Metz rules checker
   url: https://github.com/makaroni4/sandi_meter
@@ -18941,7 +18961,7 @@ sandi_meter:
   1.1.5:
     build_date: '2014-02-06T00:00:00Z'
     downloads:
-      153: '2014-02-10T21:00:23Z'
+      153: '2014-02-11T01:12:45Z'
 perftools.rb:
   info: A sampling profiler for ruby code based on patches to gperftools
   url: http://github.com/tmm1/perftools.rb
@@ -19293,6 +19313,7 @@ perftools.rb:
       30284: '2014-01-23T23:10:13Z'
       30319: '2014-01-24T02:28:58Z'
       31898: '2014-02-10T21:00:23Z'
+      31912: '2014-02-11T01:12:45Z'
   dependencies:
     development: []
     runtime: []
@@ -19369,7 +19390,7 @@ code_notes:
       214: '2014-01-20T20:01:15Z'
       215: '2014-01-23T16:43:06Z'
       216: '2014-01-24T02:28:58Z'
-      243: '2014-02-10T21:00:23Z'
+      243: '2014-02-11T01:12:45Z'
   dependencies:
     development:
     - name: bundler
@@ -19652,6 +19673,7 @@ simplecov:
       316950: '2014-01-23T23:10:13Z'
       318099: '2014-01-24T02:28:58Z'
       430657: '2014-02-10T21:00:23Z'
+      432174: '2014-02-11T01:12:45Z'
 simplecov-rcov-text:
   info: ! "Just a Simplecov Formatter to cheat metric_fu.\n    Generate a rcov.txt
     file."
@@ -19874,6 +19896,7 @@ simplecov-rcov-text:
       21278: '2014-01-23T23:10:13Z'
       21285: '2014-01-24T02:28:58Z'
       23016: '2014-02-10T21:00:23Z'
+      23026: '2014-02-11T01:12:45Z'
   dependencies:
     development: []
     runtime: []
@@ -19904,7 +19927,7 @@ gem-checksum:
       133: '2014-01-20T20:01:15Z'
       134: '2014-01-23T19:52:06Z'
       136: '2014-01-24T02:28:58Z'
-      164: '2014-02-10T21:00:23Z'
+      164: '2014-02-11T01:12:45Z'
   dependencies:
     development:
     - name: bundler
@@ -20003,6 +20026,7 @@ acts-as-taggable-on:
       5518: '2014-01-23T23:10:13Z'
       5554: '2014-01-24T02:28:58Z'
       11659: '2014-02-10T21:00:23Z'
+      11762: '2014-02-11T01:12:45Z'
 acts_as_taggable_on:
   info: With ActsAsTaggableOn, you can tag a single model on several contexts, such
     as skills, interests, and awards. It also provides other advanced functionality.
@@ -20036,9 +20060,14 @@ acts_as_taggable_on:
       145: '2014-01-23T00:43:55Z'
       150: '2014-01-24T02:28:58Z'
       218: '2014-02-10T21:00:23Z'
+      219: '2014-02-11T01:12:45Z'
   dependencies:
     development:
     - name: ammeter
+      requirements: ! '>= 0'
+    - name: guard
+      requirements: ! '>= 0'
+    - name: guard-rspec
       requirements: ! '>= 0'
     - name: mysql2
       requirements: ~> 0.3.7
