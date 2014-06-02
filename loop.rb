@@ -4,6 +4,8 @@ loop {
   p "script memory usage #{mem_usage}"
   p "Beginning run #{Time.now}"
   system('./update_stats.sh')
+  p "Publishing license usage"
+  system('./update_license_usage.sh')
   p "Ending Running #{Time.now}. Sleeping #{@minutes} minutes"
   sleep 60*@minutes
   p "Done sleeping at #{Time.now}"
