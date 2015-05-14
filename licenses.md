@@ -14,3 +14,8 @@
 * [Open Source Attribution and Contribution, with reference to Berne convention](https://aprescott.com/posts/open-source-copyright)
 * [JSON.org License Literally Says it "shall be used for Good, not Evil"](http://java.dzone.com/articles/jsonorg-license-literally-says)
 * [License your gems!](http://ruby5.envylabs.com/episodes/424-episode-388-july-23rd-2013/stories/3437-license-your-gems), [blog post](http://www.benjaminfleischer.com/2013/07/12/make-the-world-a-better-place-put-a-license-in-your-gemspec/)
+
+
+Tools
+
+- [Ninka: a license identification tool for Source Code](http://ninka.turingmachine.org/) [source](https://github.com/dmgerman/ninka)
